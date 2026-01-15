@@ -15,13 +15,26 @@
     .question-card {
       margin-bottom: 1.5rem;
     }
+
+  .correct-answer {
+    background-color: #d1e7dd;
+    border-left: 5px solid #198754;
+  }
+
+  .wrong-answer {
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545;
+  }
+</style>
+
   </style>
 </head>
 <body>
 
   <div class="container my-5">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-12 col-xl-12">
+
 
         <h1 class="mb-4 text-center">Multiple Choice Tests</h1>
 
@@ -41,60 +54,33 @@
 
         <div class="tab-content">
 
+            <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label">Number of questions</label>
+                <select id="questionCount" class="form-select">
+                
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                </select>
+            </div>
+            </div>
+
           <!-- Take Test Tab -->
           <div class="tab-pane fade show active" id="take-test" role="tabpanel">
-
-            <!-- Question 1 -->
-            <div class="card question-card">
-              <div class="card-body">
-                <h5 class="card-title">1. What is the capital of France?</h5>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q1" id="q1a">
-                  <label class="form-check-label" for="q1a">Berlin</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q1" id="q1b">
-                  <label class="form-check-label" for="q1b">Madrid</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q1" id="q1c">
-                  <label class="form-check-label" for="q1c">Paris</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q1" id="q1d">
-                  <label class="form-check-label" for="q1d">Rome</label>
-                </div>
-              </div>
-            </div>
-
-            <!-- Question 2 -->
-            <div class="card question-card">
-              <div class="card-body">
-                <h5 class="card-title">2. Which language runs in the browser?</h5>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q2" id="q2a">
-                  <label class="form-check-label" for="q2a">Python</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q2" id="q2b">
-                  <label class="form-check-label" for="q2b">Java</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q2" id="q2c">
-                  <label class="form-check-label" for="q2c">C++</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q2" id="q2d">
-                  <label class="form-check-label" for="q2d">JavaScript</label>
-                </div>
-              </div>
-            </div>
 
             <div class="d-grid mt-4">
               <button class="btn btn-primary btn-lg">Submit Test</button>
             </div>
 
           </div>
+
+          <div class="mt-5">
+            <h4>Past Results</h4>
+            <ul id="resultsList" class="list-group"></ul>
+          </div>
+
 
           <!-- Create Test Tab -->
           <div class="tab-pane fade" id="create-test" role="tabpanel">
@@ -182,13 +168,25 @@
     );
     return questions;
   }
+function retakeTest() {
+  const allQuestions = getAllQuestions(TEST_DATA);
+  selected = shuffle(allQuestions).slice(0, questionCount);
+
+  renderQuestions(selected);
+}
+
 
   // 3. The render function must exist BEFORE calling it
   function renderQuestions(questions) {
     const container = document.getElementById('take-test');
     container.innerHTML = '';
 
+    const row = document.createElement('div');
+    row.className = 'row';
     questions.forEach((q, index) => {
+      const col = document.createElement('div');
+      col.className = 'col-md-6';
+
       const card = document.createElement('div');
       card.className = 'card question-card';
 
@@ -221,49 +219,99 @@
       });
 
       card.appendChild(body);
-      container.appendChild(card);
+      col.appendChild(card);
+      row.appendChild(col);
+      
     });
+container.appendChild(row);
 
     container.innerHTML += `
-      <div class="d-grid mt-4">
-        <button class="btn btn-primary btn-lg">Submit Test</button>
-      </div>
-    `;
+  <div class="d-flex gap-2 mt-4">
+    <button id="submitTest" class="btn btn-primary btn-lg">Submit Test</button>
+    <button id="retakeTest" class="btn btn-outline-secondary btn-lg">Retake Test</button>
+  </div>
+`;
+
+document.getElementById('submitTest').onclick = gradeTest;
+document.getElementById('retakeTest').onclick = retakeTest;
+
   }
 
+
   let selected = [];
+  let questionCount = 10;
+    document.getElementById('questionCount').addEventListener('change', (e) => {
+    questionCount = parseInt(e.target.value, 10);
+    });
+
   // 4. Initialize after DOM loads
   document.addEventListener('DOMContentLoaded', () => {
     const allQuestions = getAllQuestions(TEST_DATA);
     selected = shuffle(allQuestions).slice(0, 10); // number of questions
     renderQuestions(selected);
+    showResults();
+
   });
 </script>
 <script>
   // Submit button handler
- function gradeTest() {
+function gradeTest() {
   let correct = 0;
 
-  for (let i = 0; i < 10; i++) {
-    const selected = document.querySelector(`input[name="q${i}"]:checked`);
-    if (selected && selected.value === "true") {
-      correct++;
-    }
-  }
+  selected.forEach((q, index) => {
+    const inputs = document.querySelectorAll(`input[name="q${index}"]`);
+    const checked = document.querySelector(`input[name="q${index}"]:checked`);
 
-  alert(`You got ${correct} out of 10 correct`);
+    // Remove old styles
+    inputs.forEach(i => {
+      i.closest('.card').classList.remove('correct-answer', 'wrong-answer');
+    });
+
+    if (!checked) return; // unanswered → do nothing
+
+    if (checked.value === "true") {
+      correct++;
+      checked.closest('.card').classList.add('correct-answer');
+    } else {
+      checked.closest('.card').classList.add('wrong-answer');
+
+      // Also highlight the correct one
+      inputs.forEach(i => {
+        if (i.value === "true") {
+          i.closest('.card').classList.add('correct-answer');
+        }
+      });
+    }
+  });
+
+  saveResult(correct, selected.length);
+  showResults();
 }
 
+function saveResult(score, total) {
+  const results = JSON.parse(localStorage.getItem('testResults')) || [];
 
-  // Add event listener to the dynamically created submit button
-  document.addEventListener('DOMContentLoaded', () => {
-    const allQuestions = getAllQuestions(TEST_DATA);
-    const selected = shuffle(allQuestions).slice(0, 10);
-    renderQuestions(selected);
-
-    const submitBtn = document.querySelector('#take-test .btn-primary');
-    submitBtn.addEventListener('click', gradeTest);
+  results.push({
+    date: new Date().toLocaleString(),
+    score,
+    total
   });
+
+  localStorage.setItem('testResults', JSON.stringify(results));
+}
+function showResults() {
+  const results = JSON.parse(localStorage.getItem('testResults')) || [];
+  const list = document.getElementById('resultsList');
+  list.innerHTML = '';
+
+  results.forEach(r => {
+    const li = document.createElement('li');
+    li.className = 'list-group-item';
+    li.textContent = `${r.date} — ${r.score}/${r.total}`;
+    list.appendChild(li);
+  });
+}
+
 </script>
 
 

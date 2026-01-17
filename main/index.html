@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multiple Choice Test</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .question-card {
+      margin-bottom: 1.5rem;
+    }
+
+  .correct-answer {
+    background-color: #d1e7dd;
+    border-left: 5px solid #198754;
+  }
+
+  .wrong-answer {
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545;
+  }
+</style>
+
+  </style>
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-12">
+
+
+        <h1 class="mb-4 text-center">Multiple Choice Tests</h1>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-4" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#take-test" type="button" role="tab">
+              Take Test
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#create-test" type="button" role="tab">
+              Create Test
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+
+            <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label">Number of questions</label>
+                <select id="questionCount" class="form-select">
+                
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                </select>
+            </div>
+               <div class="col-md-4">
+                <label class="form-label">Subject</label>
+                <select id="subjectChosen" class="form-select">
+                <option value="lgm" selected>Lenguaje de Marcas</option>
+                <option value="prog">Programacion</option>
+                <option value="bd">Base de datos</option>
+                <option value="sosten">Sostenibilidad</option>
+                <option value="si">sistemas informaticos</option>
+                <option value="ed">Entornos de desarrollo</option>
+                <option value="emplea">Empleabilidad</option>
+                </select>
+            </div>
+            </div>
+
+          <!-- Take Test Tab -->
+          <div class="tab-pane fade show active" id="take-test" role="tabpanel">
+
+            <div class="d-grid mt-4">
+              <button class="btn btn-primary btn-lg">Submit Test</button>
+            </div>
+
+          </div>
+
+          <div class="mt-5">
+            <h4>Past Results</h4>
+            <ul id="resultsList" class="list-group"></ul>
+          </div>
+
+
+          <!-- Create Test Tab -->
+          <div class="tab-pane fade" id="create-test" role="tabpanel">
+
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">New Question</h5>
+                <div class="mb-3">
+                  <label class="form-label">Question Text</label>
+                  <input type="text" class="form-control" placeholder="Enter question">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Answers</label>
+
+                  <div class="input-group mb-2">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="correctAnswer">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Answer 1">
+                  </div>
+
+                  <div class="input-group mb-2">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="correctAnswer">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Answer 2">
+                  </div>
+
+                  <div class="input-group mb-2">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="correctAnswer">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Answer 3">
+                  </div>
+
+                  <div class="input-group mb-2">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="correctAnswer">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Answer 4">
+                  </div>
+
+                  <div class="form-text">Select the radio button to mark the correct answer</div>
+                </div>
+
+                <button class="btn btn-outline-secondary">Add Question</button>
+              </div>
+            </div>
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-success btn-lg">Save Test</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Results Modal -->
+<div class="modal fade" id="resultsModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Test Results</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+        <h4 id="modalScore"></h4>
+        <p class="mb-0">
+          Correct: <strong id="modalCorrect"></strong><br>
+          Wrong: <strong id="modalWrong"></strong>
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  </body>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../resources/tests.js"></script>
+
+<!-- Load helper functions and main script next -->
+<script>
+  // 1. Helper function to shuffle
+  function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+  }
+
+  // 2. Helper to flatten all questions
+ function getAllQuestions(data, subjectId) {
+  const subject = data.subjects.find(s => s.id === subjectId);
+  if (!subject) return [];
+
+  return subject.units.flatMap(unit =>
+    unit.tests.flatMap(test => test.questions)
+  );
+}
+function retakeTest() {
+  const allQuestions = getAllQuestions(TEST_DATA, select.value);
+  selected = shuffle(allQuestions).slice(0, questionCount);
+
+  renderQuestions(selected);
+}
+
+  // 3. The render function must exist BEFORE calling it
+  function renderQuestions(questions) {
+    const container = document.getElementById('take-test');
+    container.innerHTML = '';
+
+    const row = document.createElement('div');
+    row.className = 'row';
+    questions.forEach((q, index) => {
+      const col = document.createElement('div');
+      col.className = 'col-md-6';
+
+      const card = document.createElement('div');
+      card.className = 'card question-card';
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+
+      const title = document.createElement('h5');
+      title.className = 'card-title';
+      title.textContent = `${index + 1}. ${q.text}`;
+
+      body.appendChild(title);
+
+    q.answers.forEach((a, i) => {
+  const div = document.createElement('div');
+  div.className = 'form-check';
+
+  const input = document.createElement('input');
+  input.className = 'form-check-input';
+  input.type = 'radio';
+  input.name = `q${index}`;
+  input.value = a.correct;
+
+  const inputId = `q${index}-a${i}`;
+  input.id = inputId;
+
+  const label = document.createElement('label');
+  label.className = 'form-check-label';
+  label.htmlFor = inputId;
+  label.textContent = a.text;
+
+  div.appendChild(input);
+  div.appendChild(label);
+  body.appendChild(div);
+});
+
+
+      card.appendChild(body);
+      col.appendChild(card);
+      row.appendChild(col);
+      
+    });
+container.appendChild(row);
+
+    container.innerHTML += `
+  <div class="d-flex gap-2 mt-4">
+    <button id="submitTest" class="btn btn-primary btn-lg">Submit Test</button>
+    <button id="retakeTest" class="btn btn-outline-secondary btn-lg">Retake Test</button>
+  </div>
+`;
+
+document.getElementById('submitTest').onclick = gradeTest;
+document.getElementById('retakeTest').onclick = retakeTest;
+
+  }
+
+
+  let selected = [];
+  let questionCount = 10;
+  let select;
+    document.getElementById('questionCount').addEventListener('change', (e) => {
+    questionCount = parseInt(e.target.value, 10);
+    });
+
+  // 4. Initialize after DOM loads
+  document.addEventListener('DOMContentLoaded', () => {
+    select = document.getElementById("subjectChosen");
+    select.addEventListener("change", () => {
+    const allQuestions = getAllQuestions(TEST_DATA, select.value);
+      selected = shuffle(allQuestions).slice(0, questionCount);
+
+      renderQuestions(selected);
+    });
+    selectQuestions = document.getElementById("questionCount");
+    selectQuestions.addEventListener("change", () => {
+    const allQuestions = getAllQuestions(TEST_DATA, select.value);
+      selected = shuffle(allQuestions).slice(0, questionCount);
+
+      renderQuestions(selected);
+    });
+    
+    const allQuestions = getAllQuestions(TEST_DATA, select.value);
+    selected = shuffle(allQuestions).slice(0, 10); // number of questions
+    renderQuestions(selected);
+    showResults();
+
+  });
+</script>
+<script>
+  // Submit button handler
+function gradeTest() {
+  let correct = 0;
+
+  selected.forEach((q, index) => {
+    const inputs = document.querySelectorAll(`input[name="q${index}"]`);
+    const checked = document.querySelector(`input[name="q${index}"]:checked`);
+
+    inputs.forEach(i => {
+      i.closest('.card').classList.remove('correct-answer', 'wrong-answer');
+    });
+
+    if (!checked) return;
+
+    if (checked.value === "true") {
+      correct++;
+      checked.closest('.card').classList.add('correct-answer');
+    } else {
+      checked.closest('.card').classList.add('wrong-answer');
+
+      inputs.forEach(i => {
+        if (i.value === "true") {
+          i.closest('.card').classList.add('correct-answer');
+        }
+      });
+    }
+  });
+
+  const total = selected.length;
+  const wrong = total - correct;
+
+  saveResult(correct, total);
+  showResults();
+
+  // Populate modal
+  document.getElementById('modalScore').textContent = `${correct} / ${total}`;
+  document.getElementById('modalCorrect').textContent = correct;
+  document.getElementById('modalWrong').textContent = wrong;
+
+  // Show modal
+  const modal = new bootstrap.Modal(
+    document.getElementById('resultsModal')
+  );
+  modal.show();
+}
+
+
+function saveResult(score, total) {
+  const results = JSON.parse(localStorage.getItem('testResults')) || [];
+
+  results.push({
+    date: new Date().toLocaleString(),
+    score,
+    total
+  });
+
+  localStorage.setItem('testResults', JSON.stringify(results));
+}
+function showResults() {
+  const results = JSON.parse(localStorage.getItem('testResults')) || [];
+  const list = document.getElementById('resultsList');
+  list.innerHTML = '';
+
+  results.forEach(r => {
+    const li = document.createElement('li');
+    li.className = 'list-group-item';
+    li.textContent = `${r.date} — ${r.score}/${r.total}`;
+    list.appendChild(li);
+  });
+}
+
+</script>
+
+
+
+</html>

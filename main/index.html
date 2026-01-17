@@ -234,24 +234,29 @@ function retakeTest() {
 
       body.appendChild(title);
 
-      q.answers.forEach(a => {
-        const div = document.createElement('div');
-        div.className = 'form-check';
+    q.answers.forEach((a, i) => {
+  const div = document.createElement('div');
+  div.className = 'form-check';
 
-        const input = document.createElement('input');
-        input.className = 'form-check-input';
-        input.type = 'radio';
-        input.name = `q${index}`;
-        input.value = a.correct;
+  const input = document.createElement('input');
+  input.className = 'form-check-input';
+  input.type = 'radio';
+  input.name = `q${index}`;
+  input.value = a.correct;
 
-        const label = document.createElement('label');
-        label.className = 'form-check-label';
-        label.textContent = a.text;
+  const inputId = `q${index}-a${i}`;
+  input.id = inputId;
 
-        div.appendChild(input);
-        div.appendChild(label);
-        body.appendChild(div);
-      });
+  const label = document.createElement('label');
+  label.className = 'form-check-label';
+  label.htmlFor = inputId;
+  label.textContent = a.text;
+
+  div.appendChild(input);
+  div.appendChild(label);
+  body.appendChild(div);
+});
+
 
       card.appendChild(body);
       col.appendChild(card);

@@ -1583,8 +1583,6 @@
       "name": "BD",
       "units": [
         {
-
-          
           "id": "tema1",
           "name": "1 Questions from tema1",
           "tests": [
@@ -3688,6 +3686,2218 @@
                     { "text": "Unique", "correct": false },
                     { "text": "Test", "correct": false }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sostenibilidad",
+      "name": "sostenibilidad",
+      "units": [
+        {
+          "id": "tema1",
+          "name": "1 Questions from tema1",
+          "tests": [
+            {
+              "id": "q1",
+              "text": "¿En qué década surgió el concepto de desarrollo sostenible?",
+              "answers": [
+                {
+                  "text": "Años 70",
+                  "correct": true
+                },
+                {
+                  "text": "Años 40",
+                  "correct": false
+                },
+                {
+                  "text": "Años 30",
+                  "correct": false
+                },
+                {
+                  "text": "Años 90",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "text": "¿Qué informe fue encargado por el Club de Roma?",
+              "answers": [
+                {
+                  "text": "Informe Meadows",
+                  "correct": true
+                },
+                {
+                  "text": "Informe Brundtland",
+                  "correct": false
+                },
+                {
+                  "text": "Informe IPCC",
+                  "correct": false
+                },
+                {
+                  "text": "Informe ONU",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "text": "¿Qué significan las siglas ONU?",
+              "answers": [
+                {
+                  "text": "Organización de las Naciones Unidas",
+                  "correct": true
+                },
+                {
+                  "text": "Organización Nacional Unificada",
+                  "correct": false
+                },
+                {
+                  "text": "Organigrama de las Naciones Unidas",
+                  "correct": false
+                },
+                {
+                  "text": "Organización de las Naciones Unificadas",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "text": "¿Dónde se definió el desarrollo sostenible como satisfacer las necesidades actuales sin comprometer las futuras?",
+              "answers": [
+                {
+                  "text": "Informe Brundtland",
+                  "correct": true
+                },
+                {
+                  "text": "Informe Meadows",
+                  "correct": false
+                },
+                {
+                  "text": "Informe Río",
+                  "correct": false
+                },
+                {
+                  "text": "Informe IPCC",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q5",
+              "text": "¿Hasta qué año estuvieron vigentes los Objetivos de Desarrollo del Milenio (ODM)?",
+              "answers": [
+                {
+                  "text": "2015",
+                  "correct": true
+                },
+                {
+                  "text": "2000",
+                  "correct": false
+                },
+                {
+                  "text": "2020",
+                  "correct": false
+                },
+                {
+                  "text": "2030",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q6",
+              "text": "¿Hasta qué año tienen vigencia los Objetivos de Desarrollo Sostenible (ODS)?",
+              "answers": [
+                {
+                  "text": "2030",
+                  "correct": true
+                },
+                {
+                  "text": "2015",
+                  "correct": false
+                },
+                {
+                  "text": "2020",
+                  "correct": false
+                },
+                {
+                  "text": "2050",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "text": "¿Qué órgano de la ONU resuelve disputas entre países?",
+              "answers": [
+                {
+                  "text": "Corte Internacional de Justicia",
+                  "correct": true
+                },
+                {
+                  "text": "Asamblea General",
+                  "correct": false
+                },
+                {
+                  "text": "Consejo de Seguridad",
+                  "correct": false
+                },
+                {
+                  "text": "Secretaría",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q8",
+              "text": "¿El Global Compact es una iniciativa enfocada principalmente a…?",
+              "answers": [
+                {
+                  "text": "La colaboración empresarial",
+                  "correct": true
+                },
+                {
+                  "text": "La colaboración ciudadana",
+                  "correct": false
+                },
+                {
+                  "text": "La intermediación entre países",
+                  "correct": false
+                },
+                {
+                  "text": "La colaboración administrativa",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q9",
+              "text": "¿Qué órgano de la ONU mantiene la paz y seguridad internacionales?",
+              "answers": [
+                {
+                  "text": "Consejo de Seguridad",
+                  "correct": true
+                },
+                {
+                  "text": "Asamblea General",
+                  "correct": false
+                },
+                {
+                  "text": "Corte Internacional de Justicia",
+                  "correct": false
+                },
+                {
+                  "text": "Secretaría",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q10",
+              "text": "¿Cuál es el primer paso de la sostenibilidad empresarial?",
+              "answers": [
+                {
+                  "text": "Global Compact",
+                  "correct": true
+                },
+                {
+                  "text": "ODS",
+                  "correct": false
+                },
+                {
+                  "text": "ODM",
+                  "correct": false
+                },
+                {
+                  "text": "Agenda 2030",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q11",
+              "text": "ODS 1 propone poner fin a la…",
+              "answers": [
+                {
+                  "text": "Pobreza",
+                  "correct": true
+                },
+                {
+                  "text": "Educación de mala calidad",
+                  "correct": false
+                },
+                {
+                  "text": "Desigualdad de género",
+                  "correct": false
+                },
+                {
+                  "text": "Guerra",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q12",
+              "text": "¿A qué dimensión de las 5P pertenece el ODS 3?",
+              "answers": [
+                {
+                  "text": "Personas",
+                  "correct": true
+                },
+                {
+                  "text": "Prosperidad",
+                  "correct": false
+                },
+                {
+                  "text": "Planeta",
+                  "correct": false
+                },
+                {
+                  "text": "Paz",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q13",
+              "text": "¿A qué dimensión de las 5P pertenece el ODS 10?",
+              "answers": [
+                {
+                  "text": "Prosperidad",
+                  "correct": true
+                },
+                {
+                  "text": "Personas",
+                  "correct": false
+                },
+                {
+                  "text": "Planeta",
+                  "correct": false
+                },
+                {
+                  "text": "Paz",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q14",
+              "text": "¿En qué ODS se incluye la meta de duplicar la productividad agrícola?",
+              "answers": [
+                {
+                  "text": "ODS 2 Hambre cero",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 1",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 3",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 15",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q15",
+              "text": "¿En qué ODS se encuentra la meta de acceso universal al saneamiento e higiene?",
+              "answers": [
+                {
+                  "text": "ODS 6 Agua limpia y saneamiento",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 2",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 3",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 15",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q16",
+              "text": "¿A qué ODS pertenece asegurar la educación primaria y secundaria?",
+              "answers": [
+                {
+                  "text": "ODS 4 Educación de calidad",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 1",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 5",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 17",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q17",
+              "text": "¿La producción y consumo eficientes de recursos pertenece a…?",
+              "answers": [
+                {
+                  "text": "ODS 8 Trabajo decente y crecimiento económico",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 7",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 9",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 10",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q18",
+              "text": "¿Minimizar muertes por desastres naturales pertenece a…?",
+              "answers": [
+                {
+                  "text": "ODS 11 Ciudades y comunidades sostenibles",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 13",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 14",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 15",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q19",
+              "text": "¿Qué meta pertenece al ODS 13 Acción por el clima?",
+              "answers": [
+                {
+                  "text": "Mejorar la educación respecto a la mitigación del cambio climático",
+                  "correct": true
+                },
+                {
+                  "text": "Reducir desechos",
+                  "correct": false
+                },
+                {
+                  "text": "Producción alimentaria sostenible",
+                  "correct": false
+                },
+                {
+                  "text": "Reducción de pobreza",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q20",
+              "text": "¿Fomentar la investigación científica e innovación pertenece a…?",
+              "answers": [
+                {
+                  "text": "ODS 9 Industria, innovación e infraestructuras",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 3",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 7",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 10",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q21",
+              "text": "A corto plazo, el principal riesgo global identificado en 2024 fue…",
+              "answers": [
+                {
+                  "text": "Falta de información y desinformación",
+                  "correct": true
+                },
+                {
+                  "text": "Eventos climáticos extremos",
+                  "correct": false
+                },
+                {
+                  "text": "Inflación",
+                  "correct": false
+                },
+                {
+                  "text": "Falta de oportunidades económicas",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q22",
+              "text": "El paquete Objetivo 55 se enmarca dentro de…",
+              "answers": [
+                {
+                  "text": "El Pacto Verde Europeo",
+                  "correct": true
+                },
+                {
+                  "text": "Agenda 2030",
+                  "correct": false
+                },
+                {
+                  "text": "PNIEC",
+                  "correct": false
+                },
+                {
+                  "text": "Ley de Cambio Climático",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q23",
+              "text": "A largo plazo, el principal riesgo global identificado en 2022 fue…",
+              "answers": [
+                {
+                  "text": "Fracaso de la acción climática",
+                  "correct": true
+                },
+                {
+                  "text": "Clima extremo",
+                  "correct": false
+                },
+                {
+                  "text": "Pérdida de biodiversidad",
+                  "correct": false
+                },
+                {
+                  "text": "Crisis de recursos naturales",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q24",
+              "text": "¿Con qué elementos cuenta la ONU para afrontar los grandes retos globales?",
+              "answers": [
+                {
+                  "text": "Paneles científicos, convenciones y Conferencia de las Partes",
+                  "correct": true
+                },
+                {
+                  "text": "Planes nacionales",
+                  "correct": false
+                },
+                {
+                  "text": "Leyes climáticas",
+                  "correct": false
+                },
+                {
+                  "text": "Estrategias regionales",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q25",
+              "text": "La Ley de Cambio Climático y Transición Energética da cumplimiento al…",
+              "answers": [
+                {
+                  "text": "ODS 13",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 4",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 8",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 10",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q26",
+              "text": "Cuando las presiones ambientales crecen más lento que la economía se denomina…",
+              "answers": [
+                {
+                  "text": "Desvinculación relativa",
+                  "correct": true
+                },
+                {
+                  "text": "Desvinculación absoluta",
+                  "correct": false
+                },
+                {
+                  "text": "Regresión",
+                  "correct": false
+                },
+                {
+                  "text": "Inversión",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q27",
+              "text": "¿En qué año pretende la UE alcanzar la neutralidad climática?",
+              "answers": [
+                {
+                  "text": "2050",
+                  "correct": true
+                },
+                {
+                  "text": "2030",
+                  "correct": false
+                },
+                {
+                  "text": "2075",
+                  "correct": false
+                },
+                {
+                  "text": "2100",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q28",
+              "text": "El Pacto Verde Europeo es el camino hacia la…",
+              "answers": [
+                {
+                  "text": "Transición ecológica",
+                  "correct": true
+                },
+                {
+                  "text": "Colaboración ciudadana",
+                  "correct": false
+                },
+                {
+                  "text": "Intermediación política",
+                  "correct": false
+                },
+                {
+                  "text": "Gestión administrativa",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q29",
+              "text": "A largo plazo, el principal riesgo global identificado en 2024 fue…",
+              "answers": [
+                {
+                  "text": "Eventos climáticos extremos",
+                  "correct": true
+                },
+                {
+                  "text": "Escasez de recursos",
+                  "correct": false
+                },
+                {
+                  "text": "Contaminación",
+                  "correct": false
+                },
+                {
+                  "text": "Polarización social",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q30",
+              "text": "La iniciativa 'De la granja a la mesa' pertenece a…",
+              "answers": [
+                {
+                  "text": "El Pacto Verde Europeo",
+                  "correct": true
+                },
+                {
+                  "text": "Agenda 2030",
+                  "correct": false
+                },
+                {
+                  "text": "PNIEC",
+                  "correct": false
+                },
+                {
+                  "text": "Ley Climática",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q31",
+              "text": "Las condiciones meteorológicas de un momento concreto se llaman…",
+              "answers": [
+                {
+                  "text": "Tiempo meteorológico",
+                  "correct": true
+                },
+                {
+                  "text": "Clima",
+                  "correct": false
+                },
+                {
+                  "text": "Eventos extremos",
+                  "correct": false
+                },
+                {
+                  "text": "Episodios climáticos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q32",
+              "text": "Las condiciones climatológicas frecuentes de un lugar se llaman…",
+              "answers": [
+                {
+                  "text": "Clima",
+                  "correct": true
+                },
+                {
+                  "text": "Tiempo",
+                  "correct": false
+                },
+                {
+                  "text": "Eventos extremos",
+                  "correct": false
+                },
+                {
+                  "text": "Episodios",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q33",
+              "text": "¿Qué es el IPCC?",
+              "answers": [
+                {
+                  "text": "Grupo Intergubernamental de Expertos sobre el Cambio Climático",
+                  "correct": true
+                },
+                {
+                  "text": "CMNUCC",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q34",
+              "text": "Los cambios actuales del clima se producen…",
+              "answers": [
+                {
+                  "text": "Muy rápidamente por la actividad humana",
+                  "correct": true
+                },
+                {
+                  "text": "De forma lenta",
+                  "correct": false
+                },
+                {
+                  "text": "No existen cambios",
+                  "correct": false
+                },
+                {
+                  "text": "De forma natural",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q35",
+              "text": "¿Qué es la CMNUCC?",
+              "answers": [
+                {
+                  "text": "Convención Marco de las Naciones Unidas sobre el Cambio Climático",
+                  "correct": true
+                },
+                {
+                  "text": "IPCC",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q36",
+              "text": "¿Qué acuerdo se alcanzó en la COP 3?",
+              "answers": [
+                {
+                  "text": "Protocolo de Kyoto",
+                  "correct": true
+                },
+                {
+                  "text": "Acuerdo de París",
+                  "correct": false
+                },
+                {
+                  "text": "Cumbre de Doha",
+                  "correct": false
+                },
+                {
+                  "text": "Conferencia de Glasgow",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q37",
+              "text": "Las políticas climáticas deben plantear estrategias de…",
+              "answers": [
+                {
+                  "text": "Respuesta, adaptación y mitigación",
+                  "correct": true
+                },
+                {
+                  "text": "Alarma",
+                  "correct": false
+                },
+                {
+                  "text": "Transformación",
+                  "correct": false
+                },
+                {
+                  "text": "Inversión",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q38",
+              "text": "El Acuerdo de París limita el aumento de temperatura a…",
+              "answers": [
+                {
+                  "text": "Por debajo de 2ºC y preferiblemente 1,5ºC",
+                  "correct": true
+                },
+                {
+                  "text": "1ºC",
+                  "correct": false
+                },
+                {
+                  "text": "3ºC",
+                  "correct": false
+                },
+                {
+                  "text": "2,5ºC",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q39",
+              "text": "El periodo 2013-2020 del Protocolo de Kyoto corresponde al…",
+              "answers": [
+                {
+                  "text": "Segundo periodo",
+                  "correct": true
+                },
+                {
+                  "text": "Primer",
+                  "correct": false
+                },
+                {
+                  "text": "Tercero",
+                  "correct": false
+                },
+                {
+                  "text": "Cuarto",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q40",
+              "text": "Las NDC se establecieron en el…",
+              "answers": [
+                {
+                  "text": "Acuerdo de París",
+                  "correct": true
+                },
+                {
+                  "text": "Protocolo de Kyoto",
+                  "correct": false
+                },
+                {
+                  "text": "CMNUCC",
+                  "correct": false
+                },
+                {
+                  "text": "COP 3",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q41",
+              "text": "La biodiversidad según la RAE es…",
+              "answers": [
+                {
+                  "text": "Variedad de especies animales y vegetales en su medio ambiente",
+                  "correct": true
+                },
+                {
+                  "text": "Solo animales",
+                  "correct": false
+                },
+                {
+                  "text": "Solo plantas",
+                  "correct": false
+                },
+                {
+                  "text": "Solo microorganismos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q42",
+              "text": "¿Qué es la CIPF?",
+              "answers": [
+                {
+                  "text": "Convención Internacional de Protección Fitosanitaria",
+                  "correct": true
+                },
+                {
+                  "text": "CMS",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q43",
+              "text": "¿Qué es la CMS?",
+              "answers": [
+                {
+                  "text": "Convención sobre la Conservación de las Especies Migratorias",
+                  "correct": true
+                },
+                {
+                  "text": "CIPF",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q44",
+              "text": "¿Qué es el IPBES?",
+              "answers": [
+                {
+                  "text": "Plataforma intergubernamental sobre biodiversidad y servicios ecosistémicos",
+                  "correct": true
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                },
+                {
+                  "text": "CMS",
+                  "correct": false
+                },
+                {
+                  "text": "CIPF",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q45",
+              "text": "¿Qué es la TRFAA?",
+              "answers": [
+                {
+                  "text": "Tratado Internacional sobre los Recursos Fitogenéticos",
+                  "correct": true
+                },
+                {
+                  "text": "CMS",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q46",
+              "text": "El CDB trata sobre…",
+              "answers": [
+                {
+                  "text": "Ecosistemas, especies, recursos genéticos y biotecnología",
+                  "correct": true
+                },
+                {
+                  "text": "Clima",
+                  "correct": false
+                },
+                {
+                  "text": "Economía",
+                  "correct": false
+                },
+                {
+                  "text": "Energía",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q47",
+              "text": "¿Qué es la CITES?",
+              "answers": [
+                {
+                  "text": "Convención sobre el Comercio Internacional de Especies Amenazadas",
+                  "correct": true
+                },
+                {
+                  "text": "CMS",
+                  "correct": false
+                },
+                {
+                  "text": "CIPF",
+                  "correct": false
+                },
+                {
+                  "text": "IPBES",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q48",
+              "text": "¿Qué convención protege lugares con Valor Universal Excepcional?",
+              "answers": [
+                {
+                  "text": "Convención del Patrimonio Mundial",
+                  "correct": true
+                },
+                {
+                  "text": "CMS",
+                  "correct": false
+                },
+                {
+                  "text": "CITES",
+                  "correct": false
+                },
+                {
+                  "text": "CDB",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q49",
+              "text": "El Tratado Internacional de las Semillas se refiere a…",
+              "answers": [
+                {
+                  "text": "Recursos fitogenéticos",
+                  "correct": true
+                },
+                {
+                  "text": "Migración animal",
+                  "correct": false
+                },
+                {
+                  "text": "Patrimonio cultural",
+                  "correct": false
+                },
+                {
+                  "text": "Comercio de especies",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q50",
+              "text": "Número aproximado de humedales Ramsar en España…",
+              "answers": [
+                {
+                  "text": "Cerca de 80",
+                  "correct": true
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "2000",
+                  "correct": false
+                },
+                {
+                  "text": "Ninguno",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q51",
+              "text": "La RAE define superpoblación como…",
+              "answers": [
+                {
+                  "text": "Exceso de individuos en un espacio determinado",
+                  "correct": true
+                },
+                {
+                  "text": "Consumo excesivo",
+                  "correct": false
+                },
+                {
+                  "text": "Uso de recursos",
+                  "correct": false
+                },
+                {
+                  "text": "Sostenibilidad",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q52",
+              "text": "Según la ONU, la población mundial presenta…",
+              "answers": [
+                {
+                  "text": "Altas tasas de fertilidad en algunas regiones",
+                  "correct": true
+                },
+                {
+                  "text": "Crecimiento homogéneo",
+                  "correct": false
+                },
+                {
+                  "text": "Rejuvenecimiento",
+                  "correct": false
+                },
+                {
+                  "text": "Baja fertilidad global",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q53",
+              "text": "Según la ONU, ¿qué afirmación es incorrecta?",
+              "answers": [
+                {
+                  "text": "El crecimiento será homogéneo",
+                  "correct": true
+                },
+                {
+                  "text": "Crecimiento heterogéneo",
+                  "correct": false
+                },
+                {
+                  "text": "Variación regional",
+                  "correct": false
+                },
+                {
+                  "text": "Impacto en sostenibilidad",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q54",
+              "text": "Otro factor clave en la evolución poblacional es…",
+              "answers": [
+                {
+                  "text": "Migración",
+                  "correct": true
+                },
+                {
+                  "text": "Homogeneidad",
+                  "correct": false
+                },
+                {
+                  "text": "Estabilidad",
+                  "correct": false
+                },
+                {
+                  "text": "Neutralidad",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q55",
+              "text": "Para lograr desarrollo sostenible con superpoblación se necesita…",
+              "answers": [
+                {
+                  "text": "Innovación verde",
+                  "correct": true
+                },
+                {
+                  "text": "Innovación azul",
+                  "correct": false
+                },
+                {
+                  "text": "Innovación gris",
+                  "correct": false
+                },
+                {
+                  "text": "Innovación pasiva",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q56",
+              "text": "Según WWF, España necesitaría…",
+              "answers": [
+                {
+                  "text": "2,8 planetas",
+                  "correct": true
+                },
+                {
+                  "text": "1 planeta",
+                  "correct": false
+                },
+                {
+                  "text": "50 planetas",
+                  "correct": false
+                },
+                {
+                  "text": "Equilibrio",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q57",
+              "text": "El día en que se agota el presupuesto natural se llama…",
+              "answers": [
+                {
+                  "text": "Día de la Deuda Ecológica",
+                  "correct": true
+                },
+                {
+                  "text": "Huella de carbono",
+                  "correct": false
+                },
+                {
+                  "text": "Huella hídrica",
+                  "correct": false
+                },
+                {
+                  "text": "Huella ecológica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q58",
+              "text": "Indicador para gestionar emisiones climáticas…",
+              "answers": [
+                {
+                  "text": "Huella de Carbono",
+                  "correct": true
+                },
+                {
+                  "text": "Huella hídrica",
+                  "correct": false
+                },
+                {
+                  "text": "Huella ecológica",
+                  "correct": false
+                },
+                {
+                  "text": "Deuda ecológica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q59",
+              "text": "Indicador del impacto en recursos hídricos…",
+              "answers": [
+                {
+                  "text": "Huella Hídrica",
+                  "correct": true
+                },
+                {
+                  "text": "Huella ecológica",
+                  "correct": false
+                },
+                {
+                  "text": "Huella de carbono",
+                  "correct": false
+                },
+                {
+                  "text": "Deuda ecológica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q60",
+              "text": "Indicador del impacto humano en ecosistemas…",
+              "answers": [
+                {
+                  "text": "Huella ecológica",
+                  "correct": true
+                },
+                {
+                  "text": "Huella hídrica",
+                  "correct": false
+                },
+                {
+                  "text": "Huella de carbono",
+                  "correct": false
+                },
+                {
+                  "text": "Deuda ecológica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q61",
+              "text": "Principal gas de efecto invernadero atmosférico…",
+              "answers": [
+                {
+                  "text": "Dióxido de carbono",
+                  "correct": true
+                },
+                {
+                  "text": "Metano",
+                  "correct": false
+                },
+                {
+                  "text": "Ozono",
+                  "correct": false
+                },
+                {
+                  "text": "Vapor de agua",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q62",
+              "text": "Mayor fuente humana de CO2…",
+              "answers": [
+                {
+                  "text": "Quema de combustibles fósiles",
+                  "correct": true
+                },
+                {
+                  "text": "Volcanes",
+                  "correct": false
+                },
+                {
+                  "text": "Respiración",
+                  "correct": false
+                },
+                {
+                  "text": "Pantanos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q63",
+              "text": "Principal origen del metano…",
+              "answers": [
+                {
+                  "text": "Digestión de rumiantes y vertederos",
+                  "correct": true
+                },
+                {
+                  "text": "Volcanes",
+                  "correct": false
+                },
+                {
+                  "text": "Respiración",
+                  "correct": false
+                },
+                {
+                  "text": "Industria química",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q64",
+              "text": "¿Cuál NO es un GEI principal?",
+              "answers": [
+                {
+                  "text": "Propano",
+                  "correct": true
+                },
+                {
+                  "text": "Metano",
+                  "correct": false
+                },
+                {
+                  "text": "Ozono",
+                  "correct": false
+                },
+                {
+                  "text": "Vapor de agua",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q65",
+              "text": "GEI significa…",
+              "answers": [
+                {
+                  "text": "Gases de efecto invernadero",
+                  "correct": true
+                },
+                {
+                  "text": "Gases efectivos",
+                  "correct": false
+                },
+                {
+                  "text": "Ganancias térmicas",
+                  "correct": false
+                },
+                {
+                  "text": "Gases industriales",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q66",
+              "text": "Actividad NO generadora de GEI…",
+              "answers": [
+                {
+                  "text": "Residuos inorgánicos en vertederos",
+                  "correct": true
+                },
+                {
+                  "text": "Transporte",
+                  "correct": false
+                },
+                {
+                  "text": "Agricultura",
+                  "correct": false
+                },
+                {
+                  "text": "Aerosoles",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q67",
+              "text": "El cambio climático es…",
+              "answers": [
+                {
+                  "text": "Una alteración duradera del clima",
+                  "correct": true
+                },
+                {
+                  "text": "Alteración puntual",
+                  "correct": false
+                },
+                {
+                  "text": "Calor estival",
+                  "correct": false
+                },
+                {
+                  "text": "Evento aislado",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q68",
+              "text": "Actividad GEI del sector energía…",
+              "answers": [
+                {
+                  "text": "Transporte",
+                  "correct": true
+                },
+                {
+                  "text": "Industria química",
+                  "correct": false
+                },
+                {
+                  "text": "Metalurgia",
+                  "correct": false
+                },
+                {
+                  "text": "Vertederos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q69",
+              "text": "Actividad GEI del sector industrial…",
+              "answers": [
+                {
+                  "text": "Productos químicos",
+                  "correct": true
+                },
+                {
+                  "text": "Transporte",
+                  "correct": false
+                },
+                {
+                  "text": "Residencial",
+                  "correct": false
+                },
+                {
+                  "text": "Vertederos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q70",
+              "text": "Actividad GEI del sector residuos…",
+              "answers": [
+                {
+                  "text": "Lodos de depuración",
+                  "correct": true
+                },
+                {
+                  "text": "Metalurgia",
+                  "correct": false
+                },
+                {
+                  "text": "Química",
+                  "correct": false
+                },
+                {
+                  "text": "Transporte",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q71",
+              "text": "La identidad de Kaya incluye…",
+              "answers": [
+                {
+                  "text": "CO2, población, PIB, intensidad energética y de emisiones",
+                  "correct": true
+                },
+                {
+                  "text": "GEI",
+                  "correct": false
+                },
+                {
+                  "text": "Factores sociales",
+                  "correct": false
+                },
+                {
+                  "text": "Consumo hídrico",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q72",
+              "text": "La huella de carbono se calcula con…",
+              "answers": [
+                {
+                  "text": "Dato de actividad y factor de emisión",
+                  "correct": true
+                },
+                {
+                  "text": "PIB",
+                  "correct": false
+                },
+                {
+                  "text": "Intensidad energética",
+                  "correct": false
+                },
+                {
+                  "text": "Población",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q73",
+              "text": "Huella asociada a infraestructuras…",
+              "answers": [
+                {
+                  "text": "Huella de proyecto",
+                  "correct": true
+                },
+                {
+                  "text": "Corporativa",
+                  "correct": false
+                },
+                {
+                  "text": "Servicio",
+                  "correct": false
+                },
+                {
+                  "text": "Industria",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q74",
+              "text": "Huella a lo largo del ciclo de vida…",
+              "answers": [
+                {
+                  "text": "Huella de servicio",
+                  "correct": true
+                },
+                {
+                  "text": "Proyecto",
+                  "correct": false
+                },
+                {
+                  "text": "Industria",
+                  "correct": false
+                },
+                {
+                  "text": "Territorio",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q75",
+              "text": "Emisiones indirectas según GHG Protocol…",
+              "answers": [
+                {
+                  "text": "Alcance 2",
+                  "correct": true
+                },
+                {
+                  "text": "Alcance 1",
+                  "correct": false
+                },
+                {
+                  "text": "Alcance 3",
+                  "correct": false
+                },
+                {
+                  "text": "Alcance 0",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q76",
+              "text": "Huella de un individuo…",
+              "answers": [
+                {
+                  "text": "Huella personal",
+                  "correct": true
+                },
+                {
+                  "text": "Corporativa",
+                  "correct": false
+                },
+                {
+                  "text": "Industrial",
+                  "correct": false
+                },
+                {
+                  "text": "Territorial",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q77",
+              "text": "Huella de un sector productivo…",
+              "answers": [
+                {
+                  "text": "Huella de industria",
+                  "correct": true
+                },
+                {
+                  "text": "Proyecto",
+                  "correct": false
+                },
+                {
+                  "text": "Servicio",
+                  "correct": false
+                },
+                {
+                  "text": "Personal",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q78",
+              "text": "Actividades prioritarias de reducción…",
+              "answers": [
+                {
+                  "text": "Oportunidades de reducción",
+                  "correct": true
+                },
+                {
+                  "text": "Mitigación",
+                  "correct": false
+                },
+                {
+                  "text": "Minimización",
+                  "correct": false
+                },
+                {
+                  "text": "Huella mayor",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q79",
+              "text": "Huella de una zona concreta…",
+              "answers": [
+                {
+                  "text": "Huella de territorio",
+                  "correct": true
+                },
+                {
+                  "text": "Servicio",
+                  "correct": false
+                },
+                {
+                  "text": "Proyecto",
+                  "correct": false
+                },
+                {
+                  "text": "Industria",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q80",
+              "text": "Huella del transporte marítimo…",
+              "answers": [
+                {
+                  "text": "Huella de transporte",
+                  "correct": true
+                },
+                {
+                  "text": "Servicio",
+                  "correct": false
+                },
+                {
+                  "text": "Industria",
+                  "correct": false
+                },
+                {
+                  "text": "Proyecto",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q81",
+              "text": "La descarbonización es…",
+              "answers": [
+                {
+                  "text": "Reducción de emisiones de GEI",
+                  "correct": true
+                },
+                {
+                  "text": "Aumento de emisiones",
+                  "correct": false
+                },
+                {
+                  "text": "Uso fósil",
+                  "correct": false
+                },
+                {
+                  "text": "Reducción renovables",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q82",
+              "text": "Net Zero requiere reducir emisiones en…",
+              "answers": [
+                {
+                  "text": "Energía, transporte, agricultura e industria",
+                  "correct": true
+                },
+                {
+                  "text": "Solo energía",
+                  "correct": false
+                },
+                {
+                  "text": "Solo transporte",
+                  "correct": false
+                },
+                {
+                  "text": "Solo industria",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q83",
+              "text": "La eficiencia energética busca…",
+              "answers": [
+                {
+                  "text": "Optimizar el consumo sin perder calidad",
+                  "correct": true
+                },
+                {
+                  "text": "Aumentar consumo",
+                  "correct": false
+                },
+                {
+                  "text": "Reducir calidad",
+                  "correct": false
+                },
+                {
+                  "text": "Eliminar energía",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q84",
+              "text": "Energía del viento…",
+              "answers": [
+                {
+                  "text": "Energía eólica",
+                  "correct": true
+                },
+                {
+                  "text": "Solar",
+                  "correct": false
+                },
+                {
+                  "text": "Hidráulica",
+                  "correct": false
+                },
+                {
+                  "text": "Termoeléctrica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q85",
+              "text": "Energía del agua…",
+              "answers": [
+                {
+                  "text": "Energía hidráulica",
+                  "correct": true
+                },
+                {
+                  "text": "Eólica",
+                  "correct": false
+                },
+                {
+                  "text": "Solar",
+                  "correct": false
+                },
+                {
+                  "text": "Termoeléctrica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q86",
+              "text": "Para lograr Net Zero se requiere…",
+              "answers": [
+                {
+                  "text": "Reducir emisiones y aumentar absorción",
+                  "correct": true
+                },
+                {
+                  "text": "Solo renovables",
+                  "correct": false
+                },
+                {
+                  "text": "Solo absorción",
+                  "correct": false
+                },
+                {
+                  "text": "Limitar actividad",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q87",
+              "text": "Energía basada en silicio…",
+              "answers": [
+                {
+                  "text": "Solar fotovoltaica",
+                  "correct": true
+                },
+                {
+                  "text": "Termoeléctrica",
+                  "correct": false
+                },
+                {
+                  "text": "Hidráulica",
+                  "correct": false
+                },
+                {
+                  "text": "Biomasa",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q88",
+              "text": "Energía solar por concentración…",
+              "answers": [
+                {
+                  "text": "Termoeléctrica",
+                  "correct": true
+                },
+                {
+                  "text": "Fotovoltaica",
+                  "correct": false
+                },
+                {
+                  "text": "Hidráulica",
+                  "correct": false
+                },
+                {
+                  "text": "Biomasa",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q89",
+              "text": "Biogás y biometano son…",
+              "answers": [
+                {
+                  "text": "Combustibles renovables",
+                  "correct": true
+                },
+                {
+                  "text": "Solar",
+                  "correct": false
+                },
+                {
+                  "text": "Hidráulica",
+                  "correct": false
+                },
+                {
+                  "text": "Termoeléctrica",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q90",
+              "text": "Los humedales actúan como…",
+              "answers": [
+                {
+                  "text": "Sumideros naturales de carbono",
+                  "correct": true
+                },
+                {
+                  "text": "Tecnologías CCS",
+                  "correct": false
+                },
+                {
+                  "text": "Emisiones negativas",
+                  "correct": false
+                },
+                {
+                  "text": "Carbono gris",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q91",
+              "text": "La economía circular se basa en…",
+              "answers": [
+                {
+                  "text": "Reducir, reutilizar, reciclar y regenerar",
+                  "correct": true
+                },
+                {
+                  "text": "Reducir y desechar",
+                  "correct": false
+                },
+                {
+                  "text": "Consumir más",
+                  "correct": false
+                },
+                {
+                  "text": "Producción lineal",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q92",
+              "text": "La economía circular implica…",
+              "answers": [
+                {
+                  "text": "Minimizar residuos y recursos",
+                  "correct": true
+                },
+                {
+                  "text": "Maximizar residuos",
+                  "correct": false
+                },
+                {
+                  "text": "Consumir más",
+                  "correct": false
+                },
+                {
+                  "text": "Usar más recursos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q93",
+              "text": "El modelo económico convencional es…",
+              "answers": [
+                {
+                  "text": "Lineal",
+                  "correct": true
+                },
+                {
+                  "text": "Circular",
+                  "correct": false
+                },
+                {
+                  "text": "Parabólico",
+                  "correct": false
+                },
+                {
+                  "text": "Exponencial",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q94",
+              "text": "La obsolescencia programada es propia de…",
+              "answers": [
+                {
+                  "text": "Economía lineal",
+                  "correct": true
+                },
+                {
+                  "text": "Circular",
+                  "correct": false
+                },
+                {
+                  "text": "Preindustrial",
+                  "correct": false
+                },
+                {
+                  "text": "Sostenible",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q95",
+              "text": "La economía circular aporta beneficios…",
+              "answers": [
+                {
+                  "text": "Económicos, ambientales y sociales",
+                  "correct": true
+                },
+                {
+                  "text": "Solo económicos",
+                  "correct": false
+                },
+                {
+                  "text": "Solo ambientales",
+                  "correct": false
+                },
+                {
+                  "text": "Tecnológicos",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q96",
+              "text": "ODS vinculado a reducción y reciclaje…",
+              "answers": [
+                {
+                  "text": "ODS 12",
+                  "correct": true
+                },
+                {
+                  "text": "ODS 1",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 10",
+                  "correct": false
+                },
+                {
+                  "text": "ODS 11",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q97",
+              "text": "Mantener productos en uso reduce…",
+              "answers": [
+                {
+                  "text": "Residuos",
+                  "correct": true
+                },
+                {
+                  "text": "Ecosistemas",
+                  "correct": false
+                },
+                {
+                  "text": "Producción",
+                  "correct": false
+                },
+                {
+                  "text": "Consumo",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q98",
+              "text": "Reutilizar y reciclar reduce…",
+              "answers": [
+                {
+                  "text": "Extracción de recursos",
+                  "correct": true
+                },
+                {
+                  "text": "Residuos",
+                  "correct": false
+                },
+                {
+                  "text": "Energía",
+                  "correct": false
+                },
+                {
+                  "text": "Producción",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q99",
+              "text": "Plan de acción UE se centra en…",
+              "answers": [
+                {
+                  "text": "TIC, plásticos, textiles y construcción",
+                  "correct": true
+                },
+                {
+                  "text": "Agricultura",
+                  "correct": false
+                },
+                {
+                  "text": "Química",
+                  "correct": false
+                },
+                {
+                  "text": "Energía",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "q100",
+              "text": "Sectores con mayor crecimiento circular…",
+              "answers": [
+                {
+                  "text": "Plásticos, moda y alimentación",
+                  "correct": true
+                },
+                {
+                  "text": "Papel",
+                  "correct": false
+                },
+                {
+                  "text": "Residuos",
+                  "correct": false
+                },
+                {
+                  "text": "Energía",
+                  "correct": false
                 }
               ]
             }

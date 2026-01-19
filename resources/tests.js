@@ -5913,5 +5913,3000 @@ const TEST_DATA = {
         },
       ],
     },
+    {
+      id: "programacion",
+      name: "programacion",
+      units: [
+        {
+          id: "tema1",
+          name: "1 Questions from tema1",
+          tests: [
+            {
+              id: "tema1-test",
+              title: "Tema 1 - Autoevaluación",
+              createdOn: "2026-01-12",
+              questions: [
+                {
+                  id: 1,
+                  text: "La informática ________",
+                  answers: [
+                    {
+                      text: "Permite el procesamiento automático de los datos",
+                      correct: true,
+                    },
+                    {
+                      text: "Puede trabajar sin datos de entrada",
+                      correct: false,
+                    },
+                    {
+                      text: "Tiene sus orígenes en las teorías de la información",
+                      correct: false,
+                    },
+                    {
+                      text: "Tiene sus orígenes en las válvulas de vacío",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 2,
+                  text: "Un lenguaje de programación puede ser ________",
+                  answers: [
+                    { text: "De alto nivel", correct: false },
+                    { text: "De bajo nivel", correct: false },
+                    { text: "De nivel intermedio", correct: false },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 3,
+                  text: "Una máquina de procesamiento dispone de ________",
+                  answers: [
+                    { text: "Entrada", correct: false },
+                    { text: "Unidad de procesamiento", correct: false },
+                    { text: "Salida", correct: false },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 4,
+                  text: "El lenguaje máquina ________",
+                  answers: [
+                    { text: "Es de alto nivel", correct: false },
+                    { text: "Es independiente del hardware", correct: false },
+                    { text: "Es de bajo nivel", correct: true },
+                    { text: "Es de nivel intermedio", correct: false },
+                  ],
+                },
+                {
+                  id: 5,
+                  text: "El software ________",
+                  answers: [
+                    {
+                      text: "Representa a los elementos lógicos del sistema",
+                      correct: false,
+                    },
+                    {
+                      text: "Incluye a los programas informáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Necesita de una unidad de procesamiento para poder ejecutarse",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 6,
+                  text: "El lenguaje ensamblador ________",
+                  answers: [
+                    { text: "Se considera de alto nivel", correct: false },
+                    {
+                      text: "Es más complicado de comprender que el lenguaje máquina",
+                      correct: false,
+                    },
+                    { text: "No depende del hardware", correct: false },
+                    {
+                      text: "Requiere ser traducido a lenguaje máquina",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 7,
+                  text: "Un lenguaje de alto nivel ________",
+                  answers: [
+                    {
+                      text: "Introduce mayor nivel de complejidad al programador",
+                      correct: false,
+                    },
+                    {
+                      text: "Es ejecutable directamente por el procesador",
+                      correct: false,
+                    },
+                    { text: "Se asemeja al lenguaje humano", correct: true },
+                    { text: "Se asemeja al lenguaje máquina", correct: false },
+                  ],
+                },
+                {
+                  id: 8,
+                  text: "Los lenguajes pueden ser ________",
+                  answers: [
+                    { text: "Compilados", correct: false },
+                    { text: "Interpretados", correct: false },
+                    { text: "Compilados e interpretados", correct: false },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 9,
+                  text: "Un algoritmo ________",
+                  answers: [
+                    { text: "Tiene que ser ambiguo", correct: false },
+                    {
+                      text: "Puede ser definido sin entrar en detalles",
+                      correct: false,
+                    },
+                    { text: "Tiene que ser determinista", correct: true },
+                    {
+                      text: "Puede generar resultados diferentes tras diferentes ejecuciones",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 10,
+                  text: "¿Qué características debe tener un algoritmo?",
+                  answers: [
+                    { text: "Debe ser infinito", correct: false },
+                    {
+                      text: "No debe depender del lenguaje de programación",
+                      correct: true,
+                    },
+                    { text: "Debe ser indeterminado", correct: false },
+                    {
+                      text: "No dará los mismos resultados siempre bajo las mismas entradas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 11,
+                  text: "¿Cuál de las siguientes declaraciones de variables no es correcta?",
+                  answers: [
+                    { text: "int numero = 9.3;", correct: true },
+                    {
+                      text: 'String palabra = "Ha llovido en la calle";',
+                      correct: false,
+                    },
+                    { text: "char letra = '9';", correct: false },
+                    { text: 'String palabra2 = "perro";', correct: false },
+                  ],
+                },
+                {
+                  id: 12,
+                  text: "¿Cuál de los siguientes identificadores puedo utilizar para nombrar una variable?",
+                  answers: [
+                    { text: "transient", correct: false },
+                    { text: "1numero", correct: false },
+                    { text: "edad_persona", correct: true },
+                    { text: "while", correct: false },
+                  ],
+                },
+                {
+                  id: 13,
+                  text: "Para leer una variable por teclado necesito una variable de tipo:",
+                  answers: [
+                    { text: "String", correct: false },
+                    { text: "Scanner", correct: true },
+                    { text: "int", correct: false },
+                    { text: "boolean", correct: false },
+                  ],
+                },
+                {
+                  id: 14,
+                  text: "Los castings:",
+                  answers: [
+                    {
+                      text: "Pueden hacerse entre cualquier tipo de dato",
+                      correct: false,
+                    },
+                    {
+                      text: "Entre un int y un char puedo hacer uno",
+                      correct: false,
+                    },
+                    {
+                      text: "Pueden hacerse entre tipos de datos compatibles, pero nos arriesgamos a perder información",
+                      correct: true,
+                    },
+                    { text: "Están totalmente prohibidos", correct: false },
+                  ],
+                },
+                {
+                  id: 15,
+                  text: "La palabra reservada final:",
+                  answers: [
+                    {
+                      text: "Solo se puede utilizar en datos numéricos",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite cambiar su valor una única vez",
+                      correct: false,
+                    },
+                    {
+                      text: "Debe colocarse después del tipo de la variable",
+                      correct: false,
+                    },
+                    {
+                      text: "Se coloca antes del tipo y puede usarse con cualquier tipo de dato",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 16,
+                  text: "La expresión dato1 *= dato2 es equivalente a:",
+                  answers: [
+                    { text: "dato1 = dato1 * dato2", correct: true },
+                    { text: "dato2 = dato1 * dato2", correct: false },
+                    { text: "dato1 = dato1 + dato2", correct: false },
+                    { text: "dato2 = dato1 + dato2", correct: false },
+                  ],
+                },
+                {
+                  id: 17,
+                  text: "El operador lógico AND:",
+                  answers: [
+                    {
+                      text: "Devuelve verdadero solo si ambos son verdaderos",
+                      correct: true,
+                    },
+                    {
+                      text: "No siempre devuelve falso si el segundo es falso",
+                      correct: false,
+                    },
+                    { text: "Devuelve siempre verdadero", correct: false },
+                    { text: "Devuelve lo contrario que OR", correct: false },
+                  ],
+                },
+                {
+                  id: 18,
+                  text: "El operador lógico OR:",
+                  answers: [
+                    { text: "Devuelve lo contrario que AND", correct: false },
+                    {
+                      text: "Devuelve verdadero si el primero es falso",
+                      correct: false,
+                    },
+                    { text: "Devuelve siempre falso", correct: false },
+                    {
+                      text: "Devuelve verdadero si uno es verdadero",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 19,
+                  text: "¿Cuál de los siguientes no es un operador relacional?",
+                  answers: [
+                    { text: ">", correct: false },
+                    { text: ">>", correct: true },
+                    { text: "<", correct: false },
+                    { text: "<=", correct: false },
+                  ],
+                },
+                {
+                  id: 20,
+                  text: "¿Cuál de los siguientes no es un tipo de dato válido para representar un dato entero en Java?",
+                  answers: [
+                    { text: "int", correct: false },
+                    { text: "long", correct: false },
+                    { text: "short", correct: false },
+                    { text: "bit", correct: true },
+                  ],
+                },
+                {
+                  id: 21,
+                  text: "La instrucción break es mejor utilizarla en la sentencia:",
+                  answers: [
+                    { text: "if-else", correct: false },
+                    { text: "switch", correct: true },
+                    { text: "while", correct: false },
+                    { text: "for", correct: false },
+                  ],
+                },
+                {
+                  id: 22,
+                  text: "Podemos utilizar varias condiciones unidas con AND y OR en:",
+                  answers: [
+                    {
+                      text: "Solo en los if que no tengan else y en todos los bucles.",
+                      correct: false,
+                    },
+                    { text: "Solamente en el bucle while.", correct: false },
+                    {
+                      text: "Tanto en los if-else como en todos los bucles.",
+                      correct: true,
+                    },
+                    {
+                      text: "Tanto en los if-else, switch, como en todos los bucles.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 23,
+                  text: "Indica la afirmación correcta:",
+                  answers: [
+                    {
+                      text: "Para poder crear un bloque de código es indispensable delimitarlo entre llaves.",
+                      correct: false,
+                    },
+                    {
+                      text: "Para finalizar en Java cualquier instrucción tenemos que poner punto y coma.",
+                      correct: false,
+                    },
+                    {
+                      text: "Podemos hacer con un bucle for lo mismo que con un bucle do-while.",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las afirmaciones son correctas.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 24,
+                  text: "Sobre el bucle for:",
+                  answers: [
+                    {
+                      text: "Se utilizará cuando sepamos el número de iteraciones que vamos a realizar.",
+                      correct: true,
+                    },
+                    {
+                      text: "Se utilizará cuando no sepamos el número de iteraciones.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es obligatorio declarar la variable contador en la cabecera.",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las afirmaciones son correctas.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 25,
+                  text: "Sobre la sentencia switch:",
+                  answers: [
+                    {
+                      text: "En Java es obligatorio poner el caso default.",
+                      correct: false,
+                    },
+                    {
+                      text: "Podremos utilizar condiciones múltiples en su cabecera.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es equivalente a una serie de if-else anidados con ==.",
+                      correct: true,
+                    },
+                    {
+                      text: "Hace exactamente el mismo trabajo que if-else.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 26,
+                  text: "Los delimitadores de bloque en Java son:",
+                  answers: [
+                    { text: "Llaves ({ })", correct: true },
+                    { text: "Tabulaciones", correct: false },
+                    { text: "Guiones (-)", correct: false },
+                    { text: "Punto y coma (;)", correct: false },
+                  ],
+                },
+                {
+                  id: 27,
+                  text: "Sobre la instrucción if:",
+                  answers: [
+                    { text: "Todos los if deben tener else.", correct: false },
+                    {
+                      text: "Puede haber if sin else, pero los else deben tener if.",
+                      correct: true,
+                    },
+                    {
+                      text: "Un if puede tener más de un else.",
+                      correct: false,
+                    },
+                    { text: "Ninguna es correcta.", correct: false },
+                  ],
+                },
+                {
+                  id: 28,
+                  text: "Sobre la instrucción while:",
+                  answers: [
+                    { text: "Es equivalente a switch.", correct: false },
+                    {
+                      text: "No puede contener condiciones múltiples.",
+                      correct: false,
+                    },
+                    {
+                      text: "Usa tabuladores como delimitadores.",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede ejecutarse 0 o muchas veces.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 29,
+                  text: "¿Cuál de los siguientes operadores no puede usarse en una condición?",
+                  answers: [
+                    { text: "=", correct: true },
+                    { text: "!=", correct: false },
+                    { text: "<=", correct: false },
+                    { text: ">=", correct: false },
+                  ],
+                },
+                {
+                  id: 30,
+                  text: "El operador lógico OR:",
+                  answers: [
+                    {
+                      text: "Devuelve verdadero solo si todas son verdaderas.",
+                      correct: false,
+                    },
+                    { text: "Devuelve falso si una es falsa.", correct: false },
+                    {
+                      text: "Devuelve verdadero si al menos una es verdadera.",
+                      correct: true,
+                    },
+                    {
+                      text: "Devuelve falso si al menos una es falsa.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 31,
+                  text: "La programación modular ________",
+                  answers: [
+                    { text: "Está en desuso", correct: false },
+                    { text: "Mejora la reutilización", correct: true },
+                    { text: "Es poco recomendable", correct: false },
+                    {
+                      text: "Es incompatible con lenguajes modernos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 32,
+                  text: "Señala la opción correcta:",
+                  answers: [
+                    {
+                      text: "Un subprograma es lo mismo que una función",
+                      correct: false,
+                    },
+                    {
+                      text: "Un procedimiento es lo mismo que una función",
+                      correct: false,
+                    },
+                    {
+                      text: "La función devuelve siempre un valor",
+                      correct: true,
+                    },
+                    {
+                      text: "Los procedimientos siempre devuelven un valor",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 33,
+                  text: "Un procedimiento ________",
+                  answers: [
+                    {
+                      text: "Puede tener únicamente un parámetro",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede tener muchos parámetros de entrada",
+                      correct: true,
+                    },
+                    { text: "Carece de parámetros de salida", correct: false },
+                    { text: "Solo puede tener uno de salida", correct: false },
+                  ],
+                },
+                {
+                  id: 34,
+                  text: "Una variable local puede usarse:",
+                  answers: [
+                    { text: "En cualquier lugar del código", correct: false },
+                    {
+                      text: "Solo en la función donde se declaró",
+                      correct: true,
+                    },
+                    { text: "Solo dentro del main", correct: false },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 35,
+                  text: "La visibilidad de las variables ________",
+                  answers: [
+                    {
+                      text: "También se aplica con programación modular",
+                      correct: true,
+                    },
+                    {
+                      text: "Deja de tener sentido con procedimientos",
+                      correct: false,
+                    },
+                    { text: "Es igual en todas las funciones", correct: false },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 36,
+                  text: "Señala la opción correcta:",
+                  answers: [
+                    {
+                      text: "Las variables locales tienen alcance limitado al bloque.",
+                      correct: true,
+                    },
+                    {
+                      text: "Las variables globales tienen alcance limitado.",
+                      correct: false,
+                    },
+                    {
+                      text: "Las locales son accesibles desde todo el programa.",
+                      correct: false,
+                    },
+                    {
+                      text: "Las globales solo existen en subprogramas.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 37,
+                  text: "Las variables globales ________",
+                  answers: [
+                    {
+                      text: "Solo son accedidas por funciones",
+                      correct: false,
+                    },
+                    { text: "Solo por procedimientos", correct: false },
+                    { text: "Son altamente recomendables", correct: false },
+                    { text: "Dificultan el diseño del código", correct: true },
+                  ],
+                },
+                {
+                  id: 38,
+                  text: "Las funciones ________",
+                  answers: [
+                    {
+                      text: "Se pueden utilizar como parte de expresiones",
+                      correct: true,
+                    },
+                    { text: "Carecen de salida de datos", correct: false },
+                    {
+                      text: "Son menos potentes que procedimientos",
+                      correct: false,
+                    },
+                    { text: "Solo reciben enteros", correct: false },
+                  ],
+                },
+                {
+                  id: 39,
+                  text: "Paso de parámetros en Java al pasar un objeto:",
+                  answers: [
+                    { text: "Por valor", correct: false },
+                    { text: "Por referencia", correct: true },
+                    { text: "Por copia", correct: false },
+                    { text: "Por asignación", correct: false },
+                  ],
+                },
+                {
+                  id: 40,
+                  text: "Los procedimientos ________",
+                  answers: [
+                    { text: "Carecen de sentencias", correct: false },
+                    { text: "Solo pueden declarar variables", correct: false },
+                    { text: "Permiten reutilizar código", correct: true },
+                    { text: "Están limitados por el lenguaje", correct: false },
+                  ],
+                },
+                {
+                  id: 41,
+                  text: "La recursividad ________",
+                  answers: [
+                    { text: "Permite la sobrecarga", correct: false },
+                    { text: "Se invoca desde su propio bloque", correct: true },
+                    { text: "Solo usa if", correct: false },
+                    { text: "Genera bucle infinito", correct: false },
+                  ],
+                },
+                {
+                  id: 42,
+                  text: "En la recursividad, el caso base ________",
+                  answers: [
+                    { text: "Permite continuar", correct: false },
+                    { text: "Es opcional", correct: false },
+                    { text: "Siempre es único", correct: false },
+                    { text: "Permite parar el proceso", correct: true },
+                  ],
+                },
+                {
+                  id: 43,
+                  text: "El proceso de recursión ________",
+                  answers: [
+                    { text: "Tiene un único nivel", correct: false },
+                    { text: "Permite parar el flujo", correct: false },
+                    { text: "Puede incluir diferentes niveles", correct: true },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 44,
+                  text: "Al utilizar la recursividad ________",
+                  answers: [
+                    { text: "Siempre hay bucle infinito", correct: false },
+                    { text: "Se puede omitir el caso base", correct: false },
+                    { text: "Siempre mejora el rendimiento", correct: false },
+                    {
+                      text: "Puede producir desbordamiento de pila",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 45,
+                  text: "Las soluciones recursivas ________",
+                  answers: [
+                    { text: "Usan estructuras iterativas", correct: false },
+                    { text: "Suelen ser más elegantes", correct: true },
+                    { text: "Siempre son más sencillas", correct: false },
+                    { text: "Nunca producen errores", correct: false },
+                  ],
+                },
+                {
+                  id: 46,
+                  text: "Desde el punto de vista de la eficiencia ________",
+                  answers: [
+                    { text: "Pueden ser muy ineficientes", correct: true },
+                    { text: "Siempre son más eficientes", correct: false },
+                    { text: "Carecen de este criterio", correct: false },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 47,
+                  text: "Para desarrollar soluciones recursivas ________",
+                  answers: [
+                    { text: "No depende del lenguaje", correct: false },
+                    {
+                      text: "Cada lenguaje puede requerir características distintas",
+                      correct: true,
+                    },
+                    { text: "Solo detectar el caso base", correct: false },
+                    { text: "Solo detectar el caso general", correct: false },
+                  ],
+                },
+                {
+                  id: 48,
+                  text: "El cálculo del factorial ________",
+                  answers: [
+                    { text: "Siempre es iterativo", correct: false },
+                    { text: "Siempre es recursivo", correct: false },
+                    { text: "Solo puede ser recursivo", correct: false },
+                    {
+                      text: "Puede resolverse de forma más sencilla con recursividad",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 49,
+                  text: "El desbordamiento de pila ________",
+                  answers: [
+                    {
+                      text: "Es un error típico de soluciones recursivas",
+                      correct: true,
+                    },
+                    { text: "Es típico de iterativas", correct: false },
+                    { text: "Depende del caso base", correct: false },
+                    {
+                      text: "Es independiente de la recursión",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 50,
+                  text: "La recursividad ________",
+                  answers: [
+                    {
+                      text: "Es incompatible con la iteración",
+                      correct: false,
+                    },
+                    { text: "Solo se usa con funciones", correct: false },
+                    {
+                      text: "Se puede usar con funciones y procedimientos",
+                      correct: true,
+                    },
+                    { text: "Solo se usa con procedimientos", correct: false },
+                  ],
+                },
+                {
+                  id: 51,
+                  text: "¿Cuál de las siguientes declaraciones nos permitirá almacenar más de 50 números reales?",
+                  answers: [
+                    { text: "int[] array = new int[52];", correct: false },
+                    { text: "int[] array = new int[50];", correct: false },
+                    { text: "double[] array = new int[51];", correct: false },
+                    { text: "double[] array = new double[54];", correct: true },
+                  ],
+                },
+                {
+                  id: 52,
+                  text: "¿Qué orden de eficiencia tiene la búsqueda lineal?",
+                  answers: [
+                    { text: "O(n)", correct: true },
+                    { text: "O(n²)", correct: false },
+                    { text: "O(1)", correct: false },
+                    { text: "O(n * log n)", correct: false },
+                  ],
+                },
+                {
+                  id: 53,
+                  text: "¿Cuál es el máximo de dimensiones con las que podemos crear un array multidimensional?",
+                  answers: [
+                    { text: "2", correct: false },
+                    { text: "5", correct: false },
+                    { text: "10", correct: false },
+                    { text: "Las que necesitemos.", correct: true },
+                  ],
+                },
+                {
+                  id: 54,
+                  text: "¿Cuántos bucles for necesito para recorrer una matriz?",
+                  answers: [
+                    { text: "Solo 1.", correct: false },
+                    { text: "2, filas y columnas.", correct: true },
+                    { text: "2, columnas y filas.", correct: false },
+                    { text: "3 bucles.", correct: false },
+                  ],
+                },
+                {
+                  id: 55,
+                  text: "¿Qué orden de eficiencia tiene la búsqueda binaria?",
+                  answers: [
+                    { text: "O(n)", correct: false },
+                    { text: "O(n²)", correct: false },
+                    { text: "O(1)", correct: false },
+                    { text: "O(log n)", correct: true },
+                  ],
+                },
+                {
+                  id: 56,
+                  text: "¿De qué tipo de datos se pueden declarar matrices?",
+                  answers: [
+                    { text: "Solo numéricos.", correct: false },
+                    { text: "Solo primitivos.", correct: false },
+                    { text: "De cualquier tipo de dato.", correct: true },
+                    { text: "Solo objetos.", correct: false },
+                  ],
+                },
+                {
+                  id: 57,
+                  text: "¿Qué orden de eficiencia tiene la ordenación por burbuja?",
+                  answers: [
+                    { text: "O(n)", correct: false },
+                    { text: "O(n²)", correct: true },
+                    { text: "O(1)", correct: false },
+                    { text: "O(n * log n)", correct: false },
+                  ],
+                },
+                {
+                  id: 58,
+                  text: "¿Qué operador se utiliza para acceder a un elemento de un array?",
+                  answers: [
+                    { text: "[ ]", correct: true },
+                    { text: "( )", correct: false },
+                    { text: "{ }", correct: false },
+                    { text: '" "', correct: false },
+                  ],
+                },
+                {
+                  id: 59,
+                  text: "¿Qué función devuelve el tamaño de un String?",
+                  answers: [
+                    { text: "size()", correct: false },
+                    { text: "long()", correct: false },
+                    { text: "length()", correct: true },
+                    { text: "lenght()", correct: false },
+                  ],
+                },
+                {
+                  id: 60,
+                  text: "¿Cómo puedo saber si dos String son iguales?",
+                  answers: [
+                    { text: "Con equals()", correct: true },
+                    { text: "Con ==", correct: false },
+                    { text: "A y B son correctas.", correct: false },
+                    { text: "A y B son incorrectas.", correct: false },
+                  ],
+                },
+                {
+                  id: 61,
+                  text: "POO significa:",
+                  answers: [
+                    { text: "Programación de Objetos", correct: false },
+                    {
+                      text: "Programación de Distintos Objetos",
+                      correct: false,
+                    },
+                    { text: "Programando Diferentes Objetos", correct: false },
+                    { text: "Programación Dirigida a Objetos", correct: true },
+                  ],
+                },
+                {
+                  id: 62,
+                  text: "En la programación dirigida a objetos el programa está compuesto por:",
+                  answers: [
+                    { text: "Objetos", correct: true },
+                    { text: "Variables primitivas", correct: false },
+                    { text: "Objetos primitivos", correct: false },
+                    { text: "Variables constantes", correct: false },
+                  ],
+                },
+                {
+                  id: 63,
+                  text: "¿Cuántos atributos podemos definir en una clase?",
+                  answers: [
+                    { text: "Todos los que necesitemos", correct: true },
+                    { text: "Solo 3 por tipo", correct: false },
+                    { text: "No pueden ser objetos", correct: false },
+                    { text: "Solo 3 objetos", correct: false },
+                  ],
+                },
+                {
+                  id: 64,
+                  text: "Una clase se compone de:",
+                  answers: [
+                    { text: "Atributos y métodos", correct: true },
+                    { text: "Atributos constantes y métodos", correct: false },
+                    { text: "Atributos y objetos", correct: false },
+                    { text: "Bucles y métodos", correct: false },
+                  ],
+                },
+                {
+                  id: 65,
+                  text: "La relación “tiene-un” o “parte-de” es:",
+                  answers: [
+                    { text: "Herencia", correct: false },
+                    { text: "Dependencia", correct: false },
+                    { text: "Generalización", correct: false },
+                    { text: "Asociación", correct: true },
+                  ],
+                },
+                {
+                  id: 66,
+                  text: "¿Para qué utilizamos Doxygen?",
+                  answers: [
+                    { text: "Colorear código", correct: false },
+                    { text: "Compilar programas", correct: false },
+                    { text: "Mostrar errores", correct: false },
+                    { text: "Documentar código", correct: true },
+                  ],
+                },
+                {
+                  id: 67,
+                  text: "La programación dirigida a objetos mejora:",
+                  answers: [
+                    {
+                      text: "Programación orientada a eventos",
+                      correct: false,
+                    },
+                    { text: "Programación estructural", correct: false },
+                    { text: "Programación estructurada", correct: true },
+                    { text: "Divide y vencerás", correct: false },
+                  ],
+                },
+                {
+                  id: 68,
+                  text: "Diferencia entre variable y objeto:",
+                  answers: [
+                    { text: "Son lo mismo", correct: false },
+                    { text: "Variables instancian clases", correct: false },
+                    {
+                      text: "Variables son primitivas, objetos instancian clases",
+                      correct: true,
+                    },
+                    { text: "Variables siempre constantes", correct: false },
+                  ],
+                },
+                {
+                  id: 69,
+                  text: "¿Cómo debemos nombrar una clase?",
+                  answers: [
+                    { text: "Siempre minúscula", correct: false },
+                    { text: "Empieza por número", correct: false },
+                    { text: "CamelCase con inicial mayúscula", correct: true },
+                    { text: "Todo mayúscula", correct: false },
+                  ],
+                },
+                {
+                  id: 70,
+                  text: "¿En cuántos tipos se clasifican las relaciones entre clases?",
+                  answers: [
+                    { text: "1", correct: false },
+                    { text: "2", correct: false },
+                    { text: "3", correct: true },
+                    { text: "4", correct: false },
+                  ],
+                },
+                {
+                  id: 71,
+                  text: "¿Cuántos parámetros puede tener una función?",
+                  answers: [
+                    { text: "1", correct: false },
+                    { text: "2", correct: false },
+                    { text: "3", correct: false },
+                    { text: "Todos los necesarios", correct: true },
+                  ],
+                },
+                {
+                  id: 72,
+                  text: "¿Cuántos valores puede devolver una función?",
+                  answers: [
+                    { text: "0", correct: false },
+                    { text: "1", correct: true },
+                    { text: "2", correct: false },
+                    { text: "3", correct: false },
+                  ],
+                },
+                {
+                  id: 73,
+                  text: "¿Qué etiqueta no pertenece a Doxygen en Java?",
+                  answers: [
+                    { text: "see", correct: false },
+                    { text: "return", correct: false },
+                    { text: "struct", correct: true },
+                    { text: "param", correct: false },
+                  ],
+                },
+                {
+                  id: 74,
+                  text: "¿Dónde se almacenan los programas para ejecutarse?",
+                  answers: [
+                    { text: "En ningún sitio", correct: false },
+                    { text: "Disco duro", correct: false },
+                    { text: "Memoria RAM", correct: true },
+                    { text: "Tarjeta gráfica", correct: false },
+                  ],
+                },
+                {
+                  id: 75,
+                  text: "Según CamelCase, los métodos se nombran:",
+                  answers: [
+                    { text: "Todo minúscula", correct: false },
+                    { text: "Todo mayúscula", correct: false },
+                    { text: "Primera mayúscula", correct: false },
+                    {
+                      text: "Primera palabra minúscula, resto mayúscula",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 76,
+                  text: "¿Cómo gestiona Java el paso de parámetros?",
+                  answers: [
+                    { text: "Siempre por valor", correct: false },
+                    {
+                      text: "Variables por valor, objetos por referencia",
+                      correct: true,
+                    },
+                    { text: "Variables por referencia", correct: false },
+                    { text: "Siempre por referencia", correct: false },
+                  ],
+                },
+                {
+                  id: 77,
+                  text: "¿Podemos llamar métodos dentro de otros métodos?",
+                  answers: [
+                    { text: "Solo funciones", correct: false },
+                    { text: "Sí, todos los necesarios", correct: true },
+                    { text: "No", correct: false },
+                    { text: "Solo toString", correct: false },
+                  ],
+                },
+                {
+                  id: 78,
+                  text: "En Doxygen @param sirve para:",
+                  answers: [
+                    { text: "Documentar autor", correct: false },
+                    { text: "Documentar parámetro", correct: true },
+                    { text: "Documentar retorno", correct: false },
+                    { text: "Documentar método", correct: false },
+                  ],
+                },
+                {
+                  id: 79,
+                  text: "¿Qué se guarda en la memoria de un objeto?",
+                  answers: [
+                    { text: "Variables y código", correct: true },
+                    { text: "Variables, código y llamadas", correct: false },
+                    {
+                      text: "Variables, llamadas, código y globales",
+                      correct: false,
+                    },
+                    { text: "Variables, código y globales", correct: false },
+                  ],
+                },
+                {
+                  id: 80,
+                  text: "Indica la frase incorrecta:",
+                  answers: [
+                    {
+                      text: "Organizamos el código en objetos",
+                      correct: false,
+                    },
+                    {
+                      text: "Cambios en objetos afectan a funciones",
+                      correct: true,
+                    },
+                    { text: "Java es multiplataforma", correct: false },
+                    {
+                      text: "Datos y funciones están en objetos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 81,
+                  text: "Los objetos se comunican mediante:",
+                  answers: [
+                    { text: "Mensajes", correct: true },
+                    { text: "Señales de humo", correct: false },
+                    { text: "Código binario", correct: false },
+                    { text: "Hexadecimal", correct: false },
+                  ],
+                },
+                {
+                  id: 82,
+                  text: "Para mostrar un objeto por pantalla:",
+                  answers: [
+                    { text: "get o toString", correct: true },
+                    { text: "Solo toString", correct: false },
+                    { text: "Solo get", correct: false },
+                    { text: "No se puede", correct: false },
+                  ],
+                },
+                {
+                  id: 83,
+                  text: "Desde un método estático puedo llamar:",
+                  answers: [
+                    { text: "Métodos de objeto", correct: false },
+                    { text: "Otros métodos estáticos", correct: true },
+                    { text: "A ninguno", correct: false },
+                    { text: "A ambos", correct: false },
+                  ],
+                },
+                {
+                  id: 84,
+                  text: "Método para modificar un atributo:",
+                  answers: [
+                    { text: "set", correct: true },
+                    { text: "get", correct: false },
+                    { text: "Constructor", correct: false },
+                    { text: "toString", correct: false },
+                  ],
+                },
+                {
+                  id: 85,
+                  text: "El constructor de copia:",
+                  answers: [
+                    { text: "Inicializa por defecto", correct: false },
+                    { text: "Inicializa por parámetro", correct: false },
+                    { text: "Copia valores de otro objeto", correct: true },
+                    { text: "Es híbrido", correct: false },
+                  ],
+                },
+                {
+                  id: 86,
+                  text: "¿Puedo definir constructor de copia?",
+                  answers: [
+                    { text: "Sí", correct: true },
+                    { text: "No", correct: false },
+                    {
+                      text: "Solo con constructor por defecto",
+                      correct: false,
+                    },
+                    { text: "Con nombre distinto", correct: false },
+                  ],
+                },
+                {
+                  id: 87,
+                  text: "Los paquetes sirven para:",
+                  answers: [
+                    { text: "Organizar código", correct: true },
+                    { text: "Guardar imágenes", correct: false },
+                    { text: "No se usan", correct: false },
+                    { text: "Limitar herencia", correct: false },
+                  ],
+                },
+                {
+                  id: 88,
+                  text: "Para crear una biblioteca en NetBeans:",
+                  answers: [
+                    { text: "Instalar plugin", correct: false },
+                    { text: "Automático al compilar", correct: false },
+                    { text: "No se puede", correct: false },
+                    { text: "Proyecto Java Class Library", correct: true },
+                  ],
+                },
+                {
+                  id: 89,
+                  text: "¿Cuál NO es un pilar de la POO?",
+                  answers: [
+                    { text: "Herencia", correct: false },
+                    { text: "Encapsulación", correct: false },
+                    { text: "Ámbito de visibilidad", correct: true },
+                    { text: "Polimorfismo", correct: false },
+                  ],
+                },
+                {
+                  id: 90,
+                  text: "Los métodos get y set:",
+                  answers: [
+                    { text: "Son obligatorios", correct: false },
+                    {
+                      text: "No obligatorios pero recomendables",
+                      correct: true,
+                    },
+                    { text: "Solo con constructor", correct: false },
+                    { text: "Solo get obligatorio", correct: false },
+                  ],
+                },
+                {
+                  id: 91,
+                  text: "¿Qué tipo de herencia se usa en Java?",
+                  answers: [
+                    { text: "Herencia simple", correct: true },
+                    { text: "Herencia múltiple", correct: false },
+                    { text: "Composición", correct: false },
+                    { text: "Agregación", correct: false },
+                  ],
+                },
+                {
+                  id: 92,
+                  text: "Al heredar, ¿puedo acceder a la parte privada?",
+                  answers: [
+                    { text: "Sí", correct: false },
+                    { text: "No", correct: false },
+                    { text: "Indicando al compilador", correct: false },
+                    { text: "Con método puente", correct: true },
+                  ],
+                },
+                {
+                  id: 93,
+                  text: "Palabra reservada para herencia:",
+                  answers: [
+                    { text: "Herency", correct: false },
+                    { text: "extends", correct: true },
+                    { text: "implements", correct: false },
+                    { text: ":", correct: false },
+                  ],
+                },
+                {
+                  id: 94,
+                  text: "¿Cuándo usar super en constructores?",
+                  answers: [
+                    { text: "Después de inicializar", correct: false },
+                    { text: "Primera línea obligatoria", correct: true },
+                    { text: "Solo con parámetros", correct: false },
+                    { text: "No es necesario", correct: false },
+                  ],
+                },
+                {
+                  id: 95,
+                  text: "¿Se puede heredar de una clase heredada?",
+                  answers: [
+                    { text: "Sí", correct: true },
+                    { text: "No", correct: false },
+                    { text: "Solo sin atributos", correct: false },
+                    { text: "No se permite herencia", correct: false },
+                  ],
+                },
+                {
+                  id: 96,
+                  text: "Notación para sobreescribir métodos:",
+                  answers: [
+                    { text: "Ninguna", correct: false },
+                    { text: "@overrided", correct: false },
+                    { text: "@sobreescrito", correct: false },
+                    { text: "@Override", correct: true },
+                  ],
+                },
+                {
+                  id: 97,
+                  text: "La herencia múltiple:",
+                  answers: [
+                    { text: "Está en todos los lenguajes", correct: false },
+                    { text: "Puede causar ambigüedades", correct: true },
+                    { text: "Solo Python", correct: false },
+                    { text: "No existe", correct: false },
+                  ],
+                },
+                {
+                  id: 98,
+                  text: "Todas las clases heredan de:",
+                  answers: [
+                    { text: "Object", correct: true },
+                    { text: "String", correct: false },
+                    { text: "Ninguna", correct: false },
+                    { text: "Integer", correct: false },
+                  ],
+                },
+                {
+                  id: 99,
+                  text: "Clase de la que se hereda:",
+                  answers: [
+                    { text: "Hermana", correct: false },
+                    { text: "Abuelo", correct: false },
+                    { text: "Padre", correct: true },
+                    { text: "Hija", correct: false },
+                  ],
+                },
+                {
+                  id: 100,
+                  text: "El polimorfismo en Java:",
+                  answers: [
+                    { text: "Tres clases", correct: false },
+                    { text: "Estático con cualquier tipo", correct: false },
+                    { text: "Dinámico define tipo antes", correct: false },
+                    { text: "Objetos con raíz común", correct: true },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "digitalizacion",
+      name: "digitalizacion",
+      units: [
+        {
+          id: "tema1",
+          name: "1 Questions from tema1",
+          tests: [
+            {
+              id: "tema1-test",
+              title: "Tema 1 - Autoevaluación",
+              createdOn: "2026-01-12",
+              questions: [
+                {
+                  id: 1,
+                  text: "¿Qué invento fue vital para la Primera Revolución Industrial?",
+                  answers: [
+                    { text: "La electricidad", correct: false },
+                    { text: "La máquina de vapor", correct: true },
+                    { text: "Los primeros ordenadores", correct: false },
+                    { text: "Las herramientas manuales", correct: false },
+                  ],
+                },
+                {
+                  id: 2,
+                  text: "¿Qué descubrimiento fue vital para la Segunda Revolución Industrial?",
+                  answers: [
+                    { text: "La electricidad", correct: true },
+                    { text: "La máquina de vapor", correct: false },
+                    { text: "Los primeros ordenadores", correct: false },
+                    { text: "Las herramientas manuales", correct: false },
+                  ],
+                },
+                {
+                  id: 3,
+                  text: "¿En qué revolución industrial se empieza a tener una economía más interconectada y orientada a los servicios?",
+                  answers: [
+                    { text: "Primera Revolución Industrial", correct: false },
+                    { text: "Segunda Revolución Industrial", correct: false },
+                    { text: "Tercera Revolución Industrial", correct: true },
+                    { text: "Cuarta Revolución Industrial", correct: false },
+                  ],
+                },
+                {
+                  id: 4,
+                  text: "¿En qué revolución industrial apareció la producción en cadena?",
+                  answers: [
+                    { text: "Primera Revolución Industrial", correct: false },
+                    { text: "Segunda Revolución Industrial", correct: true },
+                    { text: "Tercera Revolución Industrial", correct: false },
+                    { text: "Cuarta Revolución Industrial", correct: false },
+                  ],
+                },
+                {
+                  id: 5,
+                  text: "¿En qué revolución industrial se trabaja con big data?",
+                  answers: [
+                    { text: "Primera Revolución Industrial", correct: false },
+                    { text: "Segunda Revolución Industrial", correct: false },
+                    { text: "Tercera Revolución Industrial", correct: false },
+                    { text: "Cuarta Revolución Industrial", correct: true },
+                  ],
+                },
+                {
+                  id: 6,
+                  text: "¿Qué significan las siglas THD?",
+                  answers: [
+                    {
+                      text: "Tecnologías Habilitadoras Digitales",
+                      correct: true,
+                    },
+                    {
+                      text: "Técnicas Habilitadoras Digitales",
+                      correct: false,
+                    },
+                    {
+                      text: "Técnicas Humanizadoras Digitales",
+                      correct: false,
+                    },
+                    {
+                      text: "Tecnologías Humanizadoras Digitales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 7,
+                  text: "Los sistemas ciberfísicos",
+                  answers: [
+                    { text: "Son sistemas integrados físicos", correct: false },
+                    {
+                      text: "Son sistemas integrados virtuales",
+                      correct: false,
+                    },
+                    {
+                      text: "Son sistemas integrados que combinan componentes físicos y virtuales",
+                      correct: true,
+                    },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 8,
+                  text: "¿Qué es la interoperabilidad?",
+                  answers: [
+                    {
+                      text: "La capacidad de tener distintas opciones para elegir",
+                      correct: false,
+                    },
+                    {
+                      text: "La protección de la privacidad de la información",
+                      correct: false,
+                    },
+                    {
+                      text: "La integración de sistemas de diferentes proveedores y tecnologías",
+                      correct: true,
+                    },
+                    {
+                      text: "La capacidad de poder responder a ataques cibernéticos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 9,
+                  text: "¿Cuál no es una característica de las THD?",
+                  answers: [
+                    { text: "Poca variabilidad", correct: true },
+                    { text: "Fuerte inversión de capital", correct: false },
+                    { text: "Ciclo de innovaciones ágiles", correct: false },
+                    {
+                      text: "Alto nivel de investigación y desarrollo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 10,
+                  text: "¿Qué característica distintiva permite identificar tendencias, patrones y oportunidades?",
+                  answers: [
+                    { text: "Automatización", correct: false },
+                    { text: "Personalización", correct: false },
+                    { text: "Analítica avanzada", correct: true },
+                    { text: "Conectividad", correct: false },
+                  ],
+                },
+                {
+                  id: 11,
+                  text: "¿Quién tiene como objetivo principal garantizar la operación segura y eficiente de los sistemas físicos y la producción de bienes y servicios?",
+                  answers: [
+                    { text: "IT", correct: false },
+                    { text: "OT", correct: true },
+                  ],
+                },
+                {
+                  id: 12,
+                  text: "¿Cuál es una tecnología habilitadora digital del IT?",
+                  answers: [
+                    { text: "Sistema SCADA", correct: false },
+                    { text: "Sistema de control industrial", correct: false },
+                    { text: "Cloud computing", correct: true },
+                    { text: "Internet de las cosas", correct: false },
+                  ],
+                },
+                {
+                  id: 13,
+                  text: "¿Cuál es una característica de la evolución de la estructura organizativa en la era digital?",
+                  answers: [
+                    {
+                      text: "Jerarquías rígidas y silos departamentales",
+                      correct: false,
+                    },
+                    {
+                      text: "Flexibilidad, agilidad y colaboración",
+                      correct: true,
+                    },
+                    {
+                      text: "Estancamiento y resistencia al cambio",
+                      correct: false,
+                    },
+                    { text: "Centralización y burocracia", correct: false },
+                  ],
+                },
+                {
+                  id: 14,
+                  text: "¿Qué tecnología digital se utiliza para mejorar la eficiencia en la logística empresarial?",
+                  answers: [
+                    {
+                      text: "Redes sociales y correo electrónico",
+                      correct: false,
+                    },
+                    {
+                      text: "Fabricación inteligente y Internet de las cosas",
+                      correct: false,
+                    },
+                    {
+                      text: "Sistemas de gestión de almacenes basados en la nube",
+                      correct: true,
+                    },
+                    {
+                      text: "Procesadores de texto y hojas de cálculo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 15,
+                  text: "¿Cómo contribuye la digitalización al departamento de recursos humanos?",
+                  answers: [
+                    {
+                      text: "Incrementando la burocracia en la gestión del talento",
+                      correct: false,
+                    },
+                    {
+                      text: "Utilizando análisis predictivo para la selección y retención de empleados",
+                      correct: true,
+                    },
+                    {
+                      text: "Reduciendo la necesidad de formación continua",
+                      correct: false,
+                    },
+                    {
+                      text: "Eliminando la necesidad de plataformas digitales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 16,
+                  text: "¿Cuál es el objetivo principal de las Tecnologías de la Información (IT)?",
+                  answers: [
+                    {
+                      text: "Controlar procesos físicos y operativos en entornos industriales",
+                      correct: false,
+                    },
+                    {
+                      text: "Gestionar y manipular datos para facilitar la toma de decisiones",
+                      correct: true,
+                    },
+                    {
+                      text: "Garantizar la operación segura y eficiente de los sistemas físicos",
+                      correct: false,
+                    },
+                    {
+                      text: "Mejorar la eficiencia operativa y proporcionar información útil para la organización",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 17,
+                  text: "¿Cuál es una característica de las Tecnologías Operativas (OT)?",
+                  answers: [
+                    {
+                      text: "Utiliza sistemas y aplicaciones de software para procesar y almacenar datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Se enfoca en la eficiencia, la productividad y la toma de decisiones basada en datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Utiliza dispositivos físicos como sensores y controladores para monitorear y controlar sistemas",
+                      correct: true,
+                    },
+                    {
+                      text: "Utiliza redes de comunicación para transmitir datos entre dispositivos y usuarios",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 18,
+                  text: "¿Cuál es uno de los beneficios de la integración entre IT y OT en la digitalización empresarial?",
+                  answers: [
+                    {
+                      text: "Aumento de la burocracia y rigidez en los procesos de producción",
+                      correct: false,
+                    },
+                    {
+                      text: "Reducción de la flexibilidad y eficiencia en la cadena de valor",
+                      correct: false,
+                    },
+                    {
+                      text: "Mejora de la calidad del producto y la seguridad operativa",
+                      correct: true,
+                    },
+                    {
+                      text: "Disminución de la colaboración entre equipos de trabajo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 19,
+                  text: "¿Qué tecnología habilitadora digital en el entorno IT facilita el almacenamiento escalable de datos y la ejecución de aplicaciones en servidores remotos?",
+                  answers: [
+                    { text: "Big Data y analítica", correct: false },
+                    { text: "Seguridad cibernética", correct: false },
+                    { text: "Cloud computing", correct: true },
+                    {
+                      text: "Inteligencia Artificial (IA) y Machine Learning",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 20,
+                  text: "¿Qué función desempeña la Inteligencia Artificial (IA) y el Machine Learning en el entorno IT?",
+                  answers: [
+                    {
+                      text: "Proteger los sistemas, redes y datos de amenazas cibernéticas",
+                      correct: false,
+                    },
+                    {
+                      text: "Facilitar la recopilación, almacenamiento y análisis de grandes volúmenes de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Automatizar tareas repetitivas y realizar análisis predictivo",
+                      correct: true,
+                    },
+                    {
+                      text: "Identificar patrones, tendencias y oportunidades de negocio",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 21,
+                  text: "¿Qué implica el cambio organizativo y cultural durante la transformación digital de una empresa?",
+                  answers: [
+                    {
+                      text: "Mantener una cultura estática y resistente al cambio",
+                      correct: false,
+                    },
+                    {
+                      text: "Fomentar una cultura de innovación, colaboración y adaptabilidad",
+                      correct: true,
+                    },
+                    {
+                      text: "Eliminar la necesidad de capacitación de los empleados",
+                      correct: false,
+                    },
+                    {
+                      text: "Limitar la adopción de nuevas tecnologías",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 22,
+                  text: "¿Cuál es una acción importante en la etapa de formación y capacitación durante la transformación digital de una empresa?",
+                  answers: [
+                    {
+                      text: "Reducción del presupuesto destinado a la formación",
+                      correct: false,
+                    },
+                    {
+                      text: "Proporcionar formación y capacitación en competencias digitales",
+                      correct: true,
+                    },
+                    {
+                      text: "Excluir a ciertos empleados de la formación",
+                      correct: false,
+                    },
+                    {
+                      text: "Ignorar el progreso y los ajustes necesarios",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 23,
+                  text: "¿Cuál es una de las características más destacadas del 5G en comparación con las redes 4G?",
+                  answers: [
+                    { text: "Mayor latencia", correct: false },
+                    { text: "Menor velocidad de conexión", correct: false },
+                    { text: "Mayor capacidad de conexión", correct: true },
+                    { text: "Menor ancho de banda", correct: false },
+                  ],
+                },
+                {
+                  id: 24,
+                  text: "¿Qué beneficio ofrece el uso extensivo de la virtualización de redes en el 5G?",
+                  answers: [
+                    { text: "Mayor latencia", correct: false },
+                    {
+                      text: "Menor flexibilidad en la gestión de recursos de red",
+                      correct: false,
+                    },
+                    {
+                      text: "Mayor eficiencia en la gestión de recursos de red",
+                      correct: true,
+                    },
+                    { text: "Menor velocidad de conexión", correct: false },
+                  ],
+                },
+                {
+                  id: 25,
+                  text: "¿Qué modelo de servicio en la computación en la nube proporciona un entorno completo de desarrollo y ejecución para aplicaciones, incluyendo herramientas de desarrollo, bases de datos y servicios de despliegue?",
+                  answers: [
+                    {
+                      text: "Infraestructura como Servicio (IaaS)",
+                      correct: false,
+                    },
+                    { text: "Plataforma como Servicio (PaaS)", correct: true },
+                    { text: "Software como Servicio (SaaS)", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 26,
+                  text: "¿Cuál es uno de los beneficios principales de la computación en la nube que permite a las organizaciones adaptarse rápidamente a las demandas cambiantes del mercado, experimentar con nuevas ideas y proyectos, y aprovechar tecnologías emergentes sin grandes inversiones en infraestructura?",
+                  answers: [
+                    {
+                      text: "Mayor complejidad en la gestión de recursos informáticos",
+                      correct: false,
+                    },
+                    { text: "Reducción de la seguridad", correct: false },
+                    { text: "Escalabilidad y flexibilidad", correct: true },
+                    {
+                      text: "Menor disponibilidad de recursos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 27,
+                  text: '¿Cuál de las siguientes características NO es una de las "3V" asociadas con el Big Data?',
+                  answers: [
+                    { text: "Volumen", correct: false },
+                    { text: "Variedad", correct: false },
+                    { text: "Validez", correct: true },
+                    { text: "Velocidad", correct: false },
+                  ],
+                },
+                {
+                  id: 28,
+                  text: "¿Qué tecnologías de procesamiento distribuido se utilizan para el procesamiento eficiente de grandes conjuntos de datos en el contexto del Big Data?",
+                  answers: [
+                    { text: "Hadoop y Apache Spark", correct: true },
+                    { text: "Bases de datos relacionales", correct: false },
+                    {
+                      text: "Sistemas de almacenamiento en la nube",
+                      correct: false,
+                    },
+                    { text: "NoSQL", correct: false },
+                  ],
+                },
+                {
+                  id: 29,
+                  text: "¿Cuál de las siguientes capas del IoT se encarga de garantizar la disponibilidad, la seguridad y la eficiencia en la transmisión de datos a través de la red?",
+                  answers: [
+                    { text: "Conectividad", correct: false },
+                    { text: "Capa de red", correct: true },
+                    { text: "Plataforma de gestión", correct: false },
+                    { text: "Aplicaciones y servicios", correct: false },
+                  ],
+                },
+                {
+                  id: 30,
+                  text: "¿Cuál de las siguientes amenazas se encuentra principalmente en entornos OT?",
+                  answers: [
+                    { text: "Ataques de phishing", correct: false },
+                    {
+                      text: "Ataques de denegación de servicio (DDoS)",
+                      correct: false,
+                    },
+                    {
+                      text: "Ataques a Sistemas de Control Industrial (ICS)",
+                      correct: true,
+                    },
+                    { text: "Ingeniería social", correct: false },
+                  ],
+                },
+                {
+                  id: 31,
+                  text: "¿Cuál de las siguientes amenazas se encuentra principalmente en entornos IT?",
+                  answers: [
+                    {
+                      text: "Ataques a Sistemas de Control Industrial (ICS)",
+                      correct: false,
+                    },
+                    {
+                      text: "Manipulación de datos y procesos",
+                      correct: false,
+                    },
+                    { text: "Malware", correct: true },
+                    {
+                      text: "Ataques de ransomware industrial",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 32,
+                  text: "¿Cuál es una similitud entre la Tecnología de Libro Mayor Distribuido (DLT) y la tecnología Blockchain?",
+                  answers: [
+                    {
+                      text: "Utilizan una cadena inmutable de bloques enlazados para almacenar información",
+                      correct: true,
+                    },
+                    {
+                      text: "Están diseñadas para operar en entornos centralizados",
+                      correct: false,
+                    },
+                    {
+                      text: "No proporcionan un registro transparente y auditable de las transacciones",
+                      correct: false,
+                    },
+                    {
+                      text: "No ofrecen un alto nivel de seguridad mediante criptografía avanzada",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 33,
+                  text: "¿Cuál de los siguientes no es uno de los pilares fundamentales de la Inteligencia Artificial (IA)?",
+                  answers: [
+                    { text: "Lógica y razonamiento", correct: false },
+                    { text: "Representación del conocimiento", correct: false },
+                    { text: "Cálculo y matemáticas avanzadas", correct: true },
+                    { text: "Percepción", correct: false },
+                  ],
+                },
+                {
+                  id: 34,
+                  text: "¿Qué técnica de aprendizaje implica entrenar a un modelo con ejemplos etiquetados?",
+                  answers: [
+                    { text: "Aprendizaje supervisado", correct: true },
+                    { text: "Aprendizaje no supervisado", correct: false },
+                    { text: "Aprendizaje por refuerzo", correct: false },
+                    { text: "Aprendizaje semi-supervisado", correct: false },
+                  ],
+                },
+                {
+                  id: 35,
+                  text: "¿Cuál de las siguientes tecnologías de Realidad Inmersiva permite a los usuarios sumergirse completamente en entornos digitales generados por computadora?",
+                  answers: [
+                    { text: "Realidad Aumentada (AR)", correct: false },
+                    { text: "Realidad Virtual (VR)", correct: true },
+                    { text: "Realidad Mixta (MR)", correct: false },
+                    { text: "Realidad Híbrida (HR)", correct: false },
+                  ],
+                },
+                {
+                  id: 36,
+                  text: "¿Qué tecnología de Realidad Inmersiva combina elementos del mundo real con elementos virtuales, superponiendo información digital en el entorno físico del usuario?",
+                  answers: [
+                    { text: "Realidad Aumentada (AR)", correct: true },
+                    { text: "Realidad Virtual (VR)", correct: false },
+                    { text: "Realidad Mixta (MR)", correct: false },
+                    { text: "Realidad Híbrida (HR)", correct: false },
+                  ],
+                },
+                {
+                  id: 37,
+                  text: "¿Cuál de las siguientes afirmaciones es verdadera acerca de los cobots?",
+                  answers: [
+                    {
+                      text: "Los cobots están diseñados para trabajar de forma autónoma sin interacción con humanos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los cobots son robots industriales tradicionales confinados a jaulas de seguridad",
+                      correct: false,
+                    },
+                    {
+                      text: "Los cobots están equipados con sensores avanzados y sistemas de seguridad para detectar la presencia de humanos y evitar colisiones o accidentes",
+                      correct: true,
+                    },
+                    {
+                      text: "Los cobots no pueden ser reubicados ni reconfigurados",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 38,
+                  text: "¿Qué aspecto hace que los robots de Cobótica sean fáciles de programar y reconfigurar, permitiendo a los usuarios enseñarles nuevas tareas sin necesidad de conocimientos especializados en programación?",
+                  answers: [
+                    { text: "Colaboración", correct: false },
+                    { text: "Flexibilidad", correct: false },
+                    { text: "Programación intuitiva", correct: true },
+                    { text: "Eficiencia", correct: false },
+                  ],
+                },
+                {
+                  id: 39,
+                  text: "¿Qué permiten los gemelos digitales?",
+                  answers: [
+                    {
+                      text: "Ejecutar simulaciones en el entorno virtual",
+                      correct: false,
+                    },
+                    { text: "Prever fallos antes que ocurran", correct: false },
+                    {
+                      text: "Rastrear la historia de un producto",
+                      correct: false,
+                    },
+                    { text: "Todas son correctas", correct: true },
+                  ],
+                },
+                {
+                  id: 40,
+                  text: "¿Cuál de los siguientes procesos de impresión 3D utiliza un láser ultravioleta para solidificar resina líquida capa por capa?",
+                  answers: [
+                    {
+                      text: "Fusión e deposición de material (FDM)",
+                      correct: false,
+                    },
+                    { text: "Estereolitografía (SLA)", correct: true },
+                    {
+                      text: "Sinterización selectiva por láser (SLS)",
+                      correct: false,
+                    },
+                    {
+                      text: "Impresión 3D a chorro de tinta (Inkjet 3D)",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 41,
+                  text: "¿Qué tipo de material se utiliza comúnmente en el proceso de Sinterización Selectiva por Láser (SLS) en la impresión 3D?",
+                  answers: [
+                    { text: "Resina líquida", correct: false },
+                    { text: "Poliamida o metal en polvo", correct: true },
+                    {
+                      text: "Material líquido que se solidifica mediante luz UV",
+                      correct: false,
+                    },
+                    {
+                      text: "Filamento de plástico que se derrite y se extruye capa por capa",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 42,
+                  text: "¿Qué aspecto es fundamental en el enfoque Building Information Modeling (BIM) para representar digitalmente todos los aspectos físicos y funcionales de un proyecto de construcción?",
+                  answers: [
+                    { text: "Base de datos centralizada", correct: false },
+                    { text: "Información interoperable", correct: false },
+                    { text: "Modelado 3D", correct: true },
+                    { text: "Análisis y simulación", correct: false },
+                  ],
+                },
+                {
+                  id: 43,
+                  text: "¿Cuál no es un paso del análisis de datos en el deporte?",
+                  answers: [
+                    { text: "Recopilación de datos", correct: false },
+                    { text: "Procesamiento de datos", correct: false },
+                    { text: "Eliminación de datos", correct: true },
+                    { text: "Análisis de insight", correct: false },
+                  ],
+                },
+                {
+                  id: 44,
+                  text: "¿Qué función desempeñan los sistemas de automatización en la gestión de proyectos de construcción?",
+                  answers: [
+                    { text: "Generar horarios detallados", correct: false },
+                    {
+                      text: "Monitorear el progreso en tiempo real",
+                      correct: false,
+                    },
+                    {
+                      text: "Almacenar y distribuir documentos",
+                      correct: false,
+                    },
+                    { text: "Todas las anteriores", correct: true },
+                  ],
+                },
+                {
+                  id: 45,
+                  text: "¿Qué significa MDT?",
+                  answers: [
+                    { text: "Modelo Digital Temporal", correct: false },
+                    { text: "Modelo Digital de Terreno", correct: true },
+                    { text: "Muestreo Digital Temporal", correct: false },
+                    { text: "Muestreo Digital de Terreno", correct: false },
+                  ],
+                },
+                {
+                  id: 46,
+                  text: "¿Qué tecnología de Realidad Inmersiva combina elementos del mundo real con elementos virtuales, superponiendo información digital en el entorno físico del usuario?",
+                  answers: [
+                    { text: "Realidad Aumentada (AR)", correct: true },
+                    { text: "Realidad Virtual (VR)", correct: false },
+                    { text: "Realidad Mixta (MR)", correct: false },
+                    { text: "Realidad Híbrida (HR)", correct: false },
+                  ],
+                },
+                {
+                  id: 47,
+                  text: "¿Cuál es una función clave de las plataformas de comercio electrónico en el contexto del marketing digital?",
+                  answers: [
+                    {
+                      text: "Analizar datos demográficos, geográficos y de comportamiento del consumidor",
+                      correct: false,
+                    },
+                    {
+                      text: "Ofrecer catálogos de productos, carritos de compra y opciones de pago seguras",
+                      correct: true,
+                    },
+                    {
+                      text: "Optimizar motores de búsqueda y crear contenido relevante",
+                      correct: false,
+                    },
+                    {
+                      text: "Segmentar el mercado objetivo en segmentos más pequeños y específicos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 48,
+                  text: "¿Mediante qué THD podemos segmentar el mercado en marketing?",
+                  answers: [
+                    { text: "Gemelos digitales", correct: false },
+                    { text: "Inteligencia artificial", correct: false },
+                    { text: "Big data", correct: true },
+                    { text: "BIM", correct: false },
+                  ],
+                },
+                {
+                  id: 49,
+                  text: "¿Qué hace el MFA?",
+                  answers: [
+                    {
+                      text: "Monitorean y bloquean actividades sospechosas en la red",
+                      correct: false,
+                    },
+                    {
+                      text: "Protege la confidencialidad de los datos mediante algoritmos matemáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Asegura que solo usuarios autorizados puedan acceder a sistemas y aplicaciones",
+                      correct: true,
+                    },
+                    {
+                      text: "Detecta patrones anómalos en el uso de sistemas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 50,
+                  text: "¿Qué hace el UBA?",
+                  answers: [
+                    {
+                      text: "Monitorean y bloquean actividades sospechosas en la red",
+                      correct: false,
+                    },
+                    {
+                      text: "Protege la confidencialidad de los datos mediante algoritmos matemáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Asegura que solo usuarios autorizados puedan acceder a sistemas y aplicaciones",
+                      correct: false,
+                    },
+                    {
+                      text: "Detecta patrones anómalos en el uso de sistemas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 51,
+                  text: "¿En qué aplicación tiene grandes posibilidades el blockchain en el sector de la sanidad?",
+                  answers: [
+                    { text: "Consultas virtuales", correct: false },
+                    { text: "Gestión de datos médicos", correct: true },
+                    { text: "Monitoreo de signos vitales", correct: false },
+                    { text: "Detectar anomalías", correct: false },
+                  ],
+                },
+                {
+                  id: 52,
+                  text: "¿Qué es el crowdfunding?",
+                  answers: [
+                    {
+                      text: "Una app de capacitación de empleo",
+                      correct: false,
+                    },
+                    {
+                      text: "Una plataforma de gestión de voluntariado",
+                      correct: false,
+                    },
+                    {
+                      text: "Una plataforma para recaudar fondos",
+                      correct: true,
+                    },
+                    { text: "Una app con recursos educativos", correct: false },
+                  ],
+                },
+                {
+                  id: 53,
+                  text: "¿Cuál es la definición formal de Cloud Computing según el Instituto Nacional de Estándares y Tecnologías (NIST)?",
+                  answers: [
+                    {
+                      text: "Un modelo que permite el acceso a redes adecuadas, desde cualquier lugar y bajo demanda, a un conjunto compartido de recursos informáticos",
+                      correct: true,
+                    },
+                    {
+                      text: "Un modelo que permite el acceso a redes inadecuadas, desde cualquier lugar y bajo demanda, a un conjunto compartido de recursos informáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Un modelo que restringe el acceso a redes adecuadas, desde cualquier lugar y bajo demanda, a un conjunto compartido de recursos informáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Un modelo que permite el acceso a redes adecuadas, desde cualquier lugar y bajo demanda, a recursos informáticos exclusivos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 54,
+                  text: "¿Qué tipo de servicio de Cloud Computing proporciona una plataforma de desarrollo completa y herramientas para desarrollar, probar y desplegar aplicaciones web y móviles?",
+                  answers: [
+                    {
+                      text: "Infraestructura como servicio (IaaS)",
+                      correct: false,
+                    },
+                    { text: "Plataforma como servicio (PaaS)", correct: true },
+                    { text: "Software como servicio (SaaS)", correct: false },
+                    { text: "Red como servicio (RaaS)", correct: false },
+                  ],
+                },
+                {
+                  id: 55,
+                  text: "¿Qué característica principal define a la tecnología de Cloud Computing?",
+                  answers: [
+                    {
+                      text: "La accesibilidad para el usuario desde cualquier lugar y en cualquier momento",
+                      correct: true,
+                    },
+                    {
+                      text: "La restricción de acceso a datos y recursos",
+                      correct: false,
+                    },
+                    {
+                      text: "La necesidad de interacción constante con el proveedor de servicios",
+                      correct: false,
+                    },
+                    {
+                      text: "La complejidad de su gestión y mantenimiento",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 56,
+                  text: "¿Cómo se llama a las nubes compartidas por varias organizaciones?",
+                  answers: [
+                    { text: "Públicas", correct: false },
+                    { text: "Privadas", correct: false },
+                    { text: "Híbridas", correct: false },
+                    { text: "Comunitaria", correct: true },
+                  ],
+                },
+                {
+                  id: 57,
+                  text: "¿Cuál es la característica principal de las nubes privadas?",
+                  answers: [
+                    {
+                      text: "Ofrecen una escalabilidad y una flexibilidad excepcionales",
+                      correct: false,
+                    },
+                    {
+                      text: "Están ubicadas en el centro de datos de la organización",
+                      correct: false,
+                    },
+                    {
+                      text: "Ofrecen un mayor control sobre la seguridad y el cumplimiento normativo",
+                      correct: true,
+                    },
+                    {
+                      text: "Permiten compartir los costos de la infraestructura de nube entre varias organizaciones",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 58,
+                  text: "¿Qué significa el modelo de pago por uso en la infraestructura como servicio (IaaS)?",
+                  answers: [
+                    {
+                      text: "Se paga una tarifa fija independientemente del uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Se paga por los recursos utilizados solo cuando se supera un límite predeterminado",
+                      correct: false,
+                    },
+                    {
+                      text: "Se paga solo por los recursos que se utilizan",
+                      correct: true,
+                    },
+                    {
+                      text: "No hay costos asociados con el uso de recursos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 59,
+                  text: "¿Qué ventaja ofrece la infraestructura como servicio (IaaS) en términos de escalabilidad?",
+                  answers: [
+                    {
+                      text: "Se pueden reducir los retrasos en el aprovisionamiento",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede adaptarse a picos de demanda inesperados de forma casi inmediata",
+                      correct: true,
+                    },
+                    {
+                      text: "Ofrece redundancia y tolerancia a fallos integrados",
+                      correct: false,
+                    },
+                    {
+                      text: "Minimiza la latencia y aumenta el rendimiento colocando aplicaciones en regiones cercanas a los usuarios finales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 60,
+                  text: "¿Qué tipo de interfaz proporciona la plataforma como servicio (PaaS) para que los desarrolladores trabajen en proyectos desde cualquier ubicación y colaboren sin restricciones con otros miembros del equipo?",
+                  answers: [
+                    {
+                      text: "Interfaz gráfica de usuario (GUI)",
+                      correct: false,
+                    },
+                    {
+                      text: "Interfaz de línea de comandos (CLI)",
+                      correct: false,
+                    },
+                    { text: "Interfaz de API", correct: false },
+                    { text: "Todas las anteriores", correct: true },
+                  ],
+                },
+                {
+                  id: 61,
+                  text: "¿Qué característica define al modelo de software como servicio (SaaS)?",
+                  answers: [
+                    {
+                      text: "Los usuarios deben preocuparse por el mantenimiento del servicio",
+                      correct: false,
+                    },
+                    {
+                      text: "Los usuarios pueden acceder a las aplicaciones a través de un navegador de Internet",
+                      correct: true,
+                    },
+                    {
+                      text: "Los clientes gestionan las aplicaciones y bases de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los datos de los usuarios se mezclan con los datos de otros clientes",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 62,
+                  text: "¿Cómo se clasifica el mercado del software como servicio según su forma de explotación?",
+                  answers: [
+                    { text: "Por la complejidad del producto", correct: false },
+                    {
+                      text: "Por el número de clientes atendidos",
+                      correct: false,
+                    },
+                    {
+                      text: "Por el tipo de relación con el proveedor y el nivel de servicio requerido",
+                      correct: true,
+                    },
+                    {
+                      text: "Por la cantidad de características ofrecidas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 63,
+                  text: "¿Cuál es la principal ventaja de la arquitectura de Edge Computing en comparación con un centro de datos centralizado?",
+                  answers: [
+                    { text: "Mayor coste de mantenimiento", correct: false },
+                    { text: "Incremento de la latencia", correct: false },
+                    {
+                      text: "Reducción de la latencia y optimización del ancho de banda",
+                      correct: true,
+                    },
+                    { text: "Dependencia total de la nube", correct: false },
+                  ],
+                },
+                {
+                  id: 64,
+                  text: "¿Qué tipos de dispositivos se consideran parte del 'borde' (edge) en Edge Computing?",
+                  answers: [
+                    { text: "Centros de datos centralizados", correct: false },
+                    {
+                      text: "Routers, gateways, dispositivos IoT, estaciones base de telecomunicaciones",
+                      correct: true,
+                    },
+                    { text: "Solo dispositivos IoT", correct: false },
+                    { text: "Solo servidores en la nube", correct: false },
+                  ],
+                },
+                {
+                  id: 65,
+                  text: "¿Cómo se complementan el edge y la nube en la arquitectura de Edge Computing?",
+                  answers: [
+                    {
+                      text: "El edge realiza tareas de análisis masivo de datos y la nube tareas de baja latencia",
+                      correct: false,
+                    },
+                    {
+                      text: "El edge funciona de manera aislada sin necesidad de la nube",
+                      correct: false,
+                    },
+                    {
+                      text: "El edge maneja tareas que requieren baja latencia y procesamiento en tiempo real, mientras que la nube se encarga de análisis masivos de datos y almacenamiento a gran escala",
+                      correct: true,
+                    },
+                    {
+                      text: "La nube solo se utiliza para actualizaciones y mantenimiento del edge",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 66,
+                  text: "¿Qué es Fog Computing?",
+                  answers: [
+                    {
+                      text: "Un tipo de computación que se realiza exclusivamente en la núcleo de la red",
+                      correct: false,
+                    },
+                    {
+                      text: "Una arquitectura de red que extiende las capacidades de la computación en la nube al borde de la red",
+                      correct: true,
+                    },
+                    {
+                      text: "Un enfoque que utiliza exclusivamente dispositivos IoT para procesar datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Una técnica para reducir la latencia en centros de datos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 67,
+                  text: "¿Cuál de las siguientes es una característica principal de Fog Computing?",
+                  answers: [
+                    {
+                      text: "Aumento de la latencia en el procesamiento de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Centralización exclusiva del procesamiento en la nube",
+                      correct: false,
+                    },
+                    {
+                      text: "Preprocesamiento de datos para reducir la cantidad de datos transmitidos a la nube",
+                      correct: true,
+                    },
+                    {
+                      text: "Exclusiva compatibilidad con dispositivos móviles",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 68,
+                  text: "¿Por qué es importante la reducción de latencia en Fog Computing?",
+                  answers: [
+                    {
+                      text: "Para aumentar los costos de ancho de banda",
+                      correct: false,
+                    },
+                    {
+                      text: "Para mejorar aplicaciones en tiempo real como la conducción autónoma y la telemedicina",
+                      correct: true,
+                    },
+                    {
+                      text: "Para garantizar que todos los datos se procesen en un solo nodo",
+                      correct: false,
+                    },
+                    {
+                      text: "Para evitar la heterogeneidad de dispositivos y protocolos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 69,
+                  text: "¿Qué distingue principalmente a Mist Computing de Fog Computing?",
+                  answers: [
+                    {
+                      text: "Se enfoca en la capa intermedia de nodos distribuidos",
+                      correct: false,
+                    },
+                    {
+                      text: "Se ocupa del procesamiento en dispositivos extremadamente cercanos al punto de generación de datos",
+                      correct: true,
+                    },
+                    {
+                      text: "Se centra exclusivamente en el procesamiento en la nube",
+                      correct: false,
+                    },
+                    {
+                      text: "Utiliza recursos ilimitados para el procesamiento de datos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 70,
+                  text: "¿Cuál es una característica clave de los dispositivos utilizados en Mist Computing?",
+                  answers: [
+                    {
+                      text: "Capacidad de procesamiento y almacenamiento ilimitados",
+                      correct: false,
+                    },
+                    {
+                      text: "Alta latencia en el procesamiento de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Recursos limitados y capacidad para realizar tareas específicas y ligeras",
+                      correct: true,
+                    },
+                    {
+                      text: "Exclusivo enfoque en análisis masivos de datos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 71,
+                  text: "¿Qué implica la reducción de CapEx al adoptar la computación en la nube?",
+                  answers: [
+                    {
+                      text: "Transformar los gastos de capital en gastos operativos",
+                      correct: true,
+                    },
+                    {
+                      text: "Incrementar la necesidad de inversiones iniciales en hardware y software",
+                      correct: false,
+                    },
+                    {
+                      text: "Incrementar los costos de mantenimiento y gestión",
+                      correct: false,
+                    },
+                    {
+                      text: "Aumentar la complejidad de la infraestructura de TI",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 72,
+                  text: "¿Cómo contribuye Mist Computing a la eficiencia de la red en un sistema distribuido?",
+                  answers: [
+                    {
+                      text: "Aumentando la carga de trabajo en la capa de fog y en la nube",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesando datos masivos en centros de datos centralizados",
+                      correct: false,
+                    },
+                    {
+                      text: "Realizando tareas simples directamente en los dispositivos, reduciendo la carga en fog y cloud",
+                      correct: true,
+                    },
+                    {
+                      text: "Enfocándose únicamente en el almacenamiento a largo plazo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 73,
+                  text: "¿Qué procesos incluye la inteligencia artificial?",
+                  answers: [
+                    {
+                      text: "Solo el aprendizaje y el razonamiento",
+                      correct: false,
+                    },
+                    {
+                      text: "La adquisición de información y la toma de decisiones",
+                      correct: false,
+                    },
+                    {
+                      text: "El aprendizaje, el razonamiento y la autocorrección",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo la percepción visual y el reconocimiento del habla",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 74,
+                  text: "¿Cuál de los siguientes es un objetivo principal de la IA?",
+                  answers: [
+                    { text: "Crear emociones humanas", correct: false },
+                    {
+                      text: "Aumentar la eficiencia y reducir errores humanos",
+                      correct: true,
+                    },
+                    {
+                      text: "Controlar todos los procesos industriales",
+                      correct: false,
+                    },
+                    {
+                      text: "Sustituir completamente a los médicos en diagnósticos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 75,
+                  text: "¿En qué año se acuñó el término 'inteligencia artificial'?",
+                  answers: [
+                    { text: "1950", correct: false },
+                    { text: "1956", correct: true },
+                    { text: "1960", correct: false },
+                    { text: "1970", correct: false },
+                  ],
+                },
+                {
+                  id: 76,
+                  text: "¿Qué evento significativo ocurrió en 1997 relacionado con la inteligencia artificial?",
+                  answers: [
+                    {
+                      text: "La publicación del artículo 'Computing Machinery and Intelligence'",
+                      correct: false,
+                    },
+                    {
+                      text: "La invención de LISP por John McCarthy",
+                      correct: false,
+                    },
+                    {
+                      text: "La victoria de Deep Blue contra Garry Kasparov",
+                      correct: true,
+                    },
+                    {
+                      text: "La victoria de AlphaGo contra el campeón mundial de Go",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 77,
+                  text: "¿Cuál es la principal característica de los sistemas expertos en la primera generación de IA?",
+                  answers: [
+                    {
+                      text: "Utilización de grandes volúmenes de datos para aprendizaje",
+                      correct: false,
+                    },
+                    {
+                      text: "Emulación de la toma de decisiones de un experto humano en un dominio específico",
+                      correct: true,
+                    },
+                    {
+                      text: "Uso de redes neuronales profundas",
+                      correct: false,
+                    },
+                    {
+                      text: "Aplicación en motores de recomendación",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 78,
+                  text: "¿Qué elemento de los sistemas expertos utiliza las reglas de la base de conocimientos para deducir nueva información?",
+                  answers: [
+                    { text: "Algoritmo de regresión", correct: false },
+                    { text: "Motor de inferencia", correct: true },
+                    { text: "Interfaz de usuario", correct: false },
+                    { text: "Máquina de vectores de soporte", correct: false },
+                  ],
+                },
+                {
+                  id: 79,
+                  text: "¿Cuál es la unidad básica de las redes neuronales que realiza tareas de clasificación binaria?",
+                  answers: [
+                    { text: "Red neuronal profunda", correct: false },
+                    { text: "Red convolucional (CNN)", correct: false },
+                    { text: "Perceptrón", correct: true },
+                    { text: "Red recurrente (RNN)", correct: false },
+                  ],
+                },
+                {
+                  id: 80,
+                  text: "¿Qué tipo de red neuronal se utiliza principalmente para el procesamiento de secuencias?",
+                  answers: [
+                    { text: "Red neuronal profunda", correct: false },
+                    { text: "Red convolucional (CNN)", correct: false },
+                    { text: "Perceptrón", correct: false },
+                    { text: "Red recurrente (RNN)", correct: true },
+                  ],
+                },
+                {
+                  id: 81,
+                  text: "¿Cuál de las siguientes características es propia de la IA débil?",
+                  answers: [
+                    {
+                      text: "Capacidad para transferir conocimiento entre dominios",
+                      correct: false,
+                    },
+                    {
+                      text: "Consciencia y comprensión profunda",
+                      correct: false,
+                    },
+                    {
+                      text: "Especialización en tareas específicas",
+                      correct: true,
+                    },
+                    {
+                      text: "Autonomía en la toma de decisiones",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 82,
+                  text: "¿Qué ejemplo es una aplicación de IA débil?",
+                  answers: [
+                    {
+                      text: "Un sistema capaz de entender y aplicar conocimientos humanos",
+                      correct: false,
+                    },
+                    {
+                      text: "Un asistente virtual como Siri o Alexa",
+                      correct: true,
+                    },
+                    {
+                      text: "Un sistema que puede aprender de experiencias sin intervención humana",
+                      correct: false,
+                    },
+                    {
+                      text: "Una inteligencia artificial con autoconciencia",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 83,
+                  text: "¿Cuál es una de las razones por las que los datos son cruciales para el desarrollo y el funcionamiento de los sistemas de IA?",
+                  answers: [
+                    {
+                      text: "Para reducir la complejidad de los algoritmos",
+                      correct: false,
+                    },
+                    {
+                      text: "Para entrenar, validar y probar los modelos de IA",
+                      correct: true,
+                    },
+                    {
+                      text: "Para reemplazar los algoritmos de IA",
+                      correct: false,
+                    },
+                    {
+                      text: "Para minimizar el uso de hardware en los sistemas de IA",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 84,
+                  text: "¿Qué tipo de datos están organizados en formatos fijos como bases de datos relacionales?",
+                  answers: [
+                    { text: "Datos no estructurados", correct: false },
+                    { text: "Datos semiestructurados", correct: false },
+                    { text: "Datos estructurados", correct: true },
+                    { text: "Datos de sensores", correct: false },
+                  ],
+                },
+                {
+                  id: 85,
+                  text: "¿Qué se debe hacer con los datos antes de que puedan ser utilizados para entrenar modelos de IA?",
+                  answers: [
+                    {
+                      text: "Guardarlos en una base de datos NoSQL",
+                      correct: false,
+                    },
+                    {
+                      text: "Anonimizarlos y pseudonimizarlos",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesarlos y limpiarlos para eliminar inconsistencias",
+                      correct: true,
+                    },
+                    {
+                      text: "Cifrarlos en tránsito y en reposo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 86,
+                  text: "¿Qué técnica se utiliza para proteger la identidad de los individuos en los conjuntos de datos reemplazando los datos identificativos con pseudónimos?",
+                  answers: [
+                    { text: "Cifrado", correct: false },
+                    { text: "Regulaciones y cumplimiento", correct: false },
+                    { text: "Anonimización", correct: false },
+                    { text: "Pseudonimización", correct: true },
+                  ],
+                },
+                {
+                  id: 87,
+                  text: "¿Cuál de las siguientes técnicas de procesamiento de datos implica reemplazar datos perdidos con estimaciones basadas en otros datos?",
+                  answers: [
+                    { text: "Normalización", correct: false },
+                    { text: "Imputación de valores faltantes", correct: true },
+                    {
+                      text: "Análisis de Componentes Principales (PCA)",
+                      correct: false,
+                    },
+                    { text: "Codificación", correct: false },
+                  ],
+                },
+                {
+                  id: 88,
+                  text: "¿Qué técnica de transformación de datos ajusta los valores de datos para que sigan una escala común?",
+                  answers: [
+                    { text: "Estandarización", correct: false },
+                    { text: "Normalización", correct: true },
+                    { text: "Codificación one-hot", correct: false },
+                    { text: "Análisis de correlación", correct: false },
+                  ],
+                },
+                {
+                  id: 89,
+                  text: "¿Cuál de las siguientes técnicas de reducción de dimensionalidad transforma los datos a un nuevo espacio de menor dimensión que captura la mayor variabilidad posible?",
+                  answers: [
+                    { text: "Codificación", correct: false },
+                    { text: "Eliminación de duplicados", correct: false },
+                    {
+                      text: "Análisis de Componentes Principales (PCA)",
+                      correct: true,
+                    },
+                    { text: "Agrupación y agregación", correct: false },
+                  ],
+                },
+                {
+                  id: 90,
+                  text: "¿Cuál de los siguientes no es un paso en la limpieza de datos?",
+                  answers: [
+                    { text: "Imputación de valores faltantes", correct: false },
+                    { text: "Eliminación de duplicados", correct: false },
+                    { text: "Codificación", correct: true },
+                    { text: "Corrección de errores", correct: false },
+                  ],
+                },
+                {
+                  id: 91,
+                  text: "¿Cuál es el objetivo principal de la minería de datos?",
+                  answers: [
+                    {
+                      text: "Almacenar grandes conjuntos de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Descubrir patrones, correlaciones y tendencias significativas en grandes conjuntos de datos",
+                      correct: true,
+                    },
+                    { text: "Generar informes financieros", correct: false },
+                    {
+                      text: "Realizar copias de seguridad de datos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 92,
+                  text: "¿Qué se entiende por 'instancias' en el contexto de la minería de datos?",
+                  answers: [
+                    {
+                      text: "Atributos o variables en un conjunto de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "Regularidades o tendencias en los datos",
+                      correct: false,
+                    },
+                    { text: "Algoritmos de machine learning", correct: false },
+                    {
+                      text: "Casos individuales o registros en un conjunto de datos",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 93,
+                  text: "¿Cuál de las siguientes afirmaciones NO es correcta sobre cómo la IA se entrelaza con otras tecnologías?",
+                  answers: [
+                    {
+                      text: "La IA y el IoT permiten una gestión más inteligente de activos y procesos mediante sensores y análisis de datos",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA incrementa la seguridad y confianza en blockchain al detectar patrones anómalos o fraudes",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA limita el almacenamiento de datos en Cloud Computing debido a su gran tamaño",
+                      correct: true,
+                    },
+                    {
+                      text: "La IA mejora las experiencias de AR y VR al adaptarse a las preferencias del usuario",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 94,
+                  text: "¿Cuál es la principal responsabilidad de los especialistas en ética de la IA según el texto?",
+                  answers: [
+                    {
+                      text: "Diseñar y construir sistemas inteligentes",
+                      correct: false,
+                    },
+                    {
+                      text: "Abordar temas como el sesgo algorítmico, la privacidad de datos y el impacto social de la automatización",
+                      correct: true,
+                    },
+                    {
+                      text: "Interpretar grandes volúmenes de datos para extraer insights valiosos",
+                      correct: false,
+                    },
+                    {
+                      text: "Optimizar la interacción entre humanos y sistemas de IA",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 95,
+                  text: "¿Cuál de los siguientes profesionales está a la vanguardia del desarrollo de la IA, trabajando en el diseño, construcción y mantenimiento de sistemas inteligentes?",
+                  answers: [
+                    { text: "Científicos de datos", correct: false },
+                    { text: "Especialistas en ética de la IA", correct: false },
+                    { text: "Analistas de negocios en IA", correct: false },
+                    {
+                      text: "Especialistas en IA y Machine Learning",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 96,
+                  text: "¿Cuál de las siguientes aplicaciones utiliza IA para procesar el lenguaje natural, comprender comandos de voz y realizar tareas específicas, como buscar información en la web o controlar dispositivos IoT en el hogar?",
+                  answers: [
+                    { text: "Reconocimiento de Música", correct: false },
+                    { text: "Asistentes Virtuales", correct: true },
+                    { text: "Análisis de Datos", correct: false },
+                    { text: "Reconocimiento de Imágenes", correct: false },
+                  ],
+                },
+                {
+                  id: 97,
+                  text: "¿Cuál de las siguientes opciones describe una aplicación de la IA en el reconocimiento de imágenes según el texto?",
+                  answers: [
+                    {
+                      text: "Diagnósticos médicos basados en radiografías o resonancias magnéticas",
+                      correct: true,
+                    },
+                    {
+                      text: "Análisis de sentimientos en redes sociales",
+                      correct: false,
+                    },
+                    {
+                      text: "Transcripción médica en el sector de salud",
+                      correct: false,
+                    },
+                    { text: "Respuestas automatizadas", correct: false },
+                  ],
+                },
+                {
+                  id: 98,
+                  text: "¿Qué significa NPL?",
+                  answers: [
+                    {
+                      text: "Procesamiento de logística natural",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesamiento del lenguaje natural",
+                      correct: true,
+                    },
+                    {
+                      text: "Procesamiento de logística nativa",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesamiento de lenguaje natural",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 99,
+                  text: "Señala qué sentencia es incorrecta de las siguientes, referida a la IA en el sector de la salud.",
+                  answers: [
+                    {
+                      text: "La IA ayuda a los investigadores a descubrir nuevas asociaciones genéticas y biomarcadores",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA puede predecir la susceptibilidad de un individuo a ciertas enfermedades y recomendar tratamientos personalizados basados en su perfil genético",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA puede detectar anomalías en las imágenes radiológicas pero aun no puede detectar tumores",
+                      correct: true,
+                    },
+                    {
+                      text: "La IA puede crear simulaciones detalladas de procedimientos quirúrgicos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 100,
+                  text: "Señala qué sentencia es incorrecta de las siguientes, referida a la IA en el sector de la educación",
+                  answers: [
+                    {
+                      text: "La IA puede ajustar el contenido y el ritmo del aprendizaje según el desempeño y las preferencias del estudiante",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA puede proporcionar retroalimentación inmediata y detallada sobre las tareas",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA aun no permite gestionar admisión de estudiantes, revisar solicitudes y verificar documentos",
+                      correct: true,
+                    },
+                    {
+                      text: "La IA puede proporcionar herramientas de traducción que ayudan a estudiantes que hablen diferentes idiomas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 101,
+                  text: "¿Qué puede hacer la IA en el sector financiero?",
+                  answers: [
+                    {
+                      text: "Analizar los perfiles de crédito de los solicitantes de préstamos, evaluando su solvencia mediante el análisis de datos históricos, transacciones y comportamientos financieros",
+                      correct: false,
+                    },
+                    {
+                      text: "Los algoritmos de IA pueden identificar patrones de actividad sospechosa en tiempo real, ayudando a prevenir fraudes financieros",
+                      correct: false,
+                    },
+                    {
+                      text: "Automatizar tareas administrativas repetitivas, como la gestión de cuentas, el cumplimiento normativo y la conciliación de cuentas",
+                      correct: false,
+                    },
+                    { text: "Todas son correctas", correct: true },
+                  ],
+                },
+                {
+                  id: 102,
+                  text: "Señala qué sentencia es incorrecta de las siguientes, referida a la IA en el sector del comercio y marketing",
+                  answers: [
+                    {
+                      text: "Los sistemas de IA analizan el comportamiento y las preferencias de los usuarios",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA puede gestionar y optimizar campañas de publicidad programática en tiempo real",
+                      correct: false,
+                    },
+                    {
+                      text: "Los algoritmos de IA pueden ajustar los precios en tiempo real basándose en factores como la demanda, la competencia, la disponibilidad de stock y el comportamiento del cliente",
+                      correct: false,
+                    },
+                    {
+                      text: "La IA no permite analizar como varia el precio afectando a la demanda de productos",
+                      correct: true,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
 };

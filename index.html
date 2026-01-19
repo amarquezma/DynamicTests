@@ -190,6 +190,21 @@
 
 <!-- Load helper functions and main script next -->
 <script>
+  function getNextQuestions(subjectId, count) {
+  const allQuestions = getAllQuestions(TEST_DATA, subjectId);
+
+  // Initialize or reset pool if needed
+  if (
+    !questionPools[subjectId] ||
+    questionPools[subjectId].length < count
+  ) {
+    questionPools[subjectId] = shuffle([...allQuestions]);
+  }
+
+  // Take next batch
+  return questionPools[subjectId].splice(0, count);
+}
+
   // 1. Helper function to shuffle
   function shuffle(array) {
     return array.sort(() => Math.random() - 0.5);
@@ -205,11 +220,10 @@
   );
 }
 function retakeTest() {
-  const allQuestions = getAllQuestions(TEST_DATA, select.value);
-  selected = shuffle(allQuestions).slice(0, questionCount);
-
+  selected = getNextQuestions(select.value, questionCount);
   renderQuestions(selected);
 }
+
 
   // 3. The render function must exist BEFORE calling it
   function renderQuestions(questions) {
@@ -280,6 +294,8 @@ document.getElementById('retakeTest').onclick = retakeTest;
 
   let selected = [];
   let questionCount = 10;
+  let questionPools = {}; // { subjectId: [questions...] }
+
   let select;
     document.getElementById('questionCount').addEventListener('change', (e) => {
     questionCount = parseInt(e.target.value, 10);
@@ -289,21 +305,21 @@ document.getElementById('retakeTest').onclick = retakeTest;
   document.addEventListener('DOMContentLoaded', () => {
     select = document.getElementById("subjectChosen");
     select.addEventListener("change", () => {
-    const allQuestions = getAllQuestions(TEST_DATA, select.value);
-      selected = shuffle(allQuestions).slice(0, questionCount);
+  // Reset pool for new subject
+  questionPools[select.value] = null;
 
-      renderQuestions(selected);
-    });
+  selected = getNextQuestions(select.value, questionCount);
+  renderQuestions(selected);
+});
     selectQuestions = document.getElementById("questionCount");
-    selectQuestions.addEventListener("change", () => {
-    const allQuestions = getAllQuestions(TEST_DATA, select.value);
-      selected = shuffle(allQuestions).slice(0, questionCount);
+ selectQuestions.addEventListener("change", () => {
+  selected = getNextQuestions(select.value, questionCount);
+  renderQuestions(selected);
+});
 
-      renderQuestions(selected);
-    });
     
-    const allQuestions = getAllQuestions(TEST_DATA, select.value);
-    selected = shuffle(allQuestions).slice(0, 10); // number of questions
+    selected = getNextQuestions(select.value, questionCount);
+
     renderQuestions(selected);
     showResults();
 

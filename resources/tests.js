@@ -5907,6 +5907,189 @@ const TEST_DATA = {
                     },
                   ],
                 },
+                {
+                  id: 251,
+                  text: "La meta temporal fijada para el cumplimiento de los ODM fue el año:",
+                  answers: [
+                    { text: "2010", correct: false },
+                    { text: "2015", correct: true },
+                    { text: "2020", correct: false },
+                    { text: "2025", correct: false },
+                  ],
+                },
+                {
+                  id: 252,
+                  text: "El Pacto Mundial o Global Compact es una iniciativa promovida por la ONU en favor de la sostenibilidad:",
+                  answers: [
+                    { text: "Corporativa", correct: true },
+                    { text: "Ambiental", correct: false },
+                    { text: "Social", correct: false },
+                    { text: "Política", correct: false },
+                  ],
+                },
+                {
+                  id: 253,
+                  text: "Los Objetivos de Desarrollo Sostenible (ODS) son un total de 17 y están planteados para ser alcanzados antes del año:",
+                  answers: [
+                    { text: "2025", correct: false },
+                    { text: "2030", correct: true },
+                    { text: "2040", correct: false },
+                    { text: "2050", correct: false },
+                  ],
+                },
+                {
+                  id: 254,
+                  text: "El Objetivo de Desarrollo Sostenible 15 versa sobre gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de:",
+                  answers: [
+                    { text: "Agua", correct: false },
+                    { text: "Biodiversidad", correct: true },
+                    { text: "Recursos energéticos", correct: false },
+                    { text: "Suelos fértiles", correct: false },
+                  ],
+                },
+                {
+                  id: 255,
+                  text: "El Foro Económico Mundial emite anualmente un informe que señala los ________ emergentes para la sociedad.",
+                  answers: [
+                    { text: "Beneficios", correct: false },
+                    { text: "Riesgos", correct: true },
+                    { text: "Objetivos", correct: false },
+                    { text: "Retos", correct: false },
+                  ],
+                },
+                {
+                  id: 256,
+                  text: "El Pacto Verde Europeo pretende alcanzar la _________ climática para el año 2050.",
+                  answers: [
+                    { text: "Neutralidad", correct: true },
+                    { text: "Reducción", correct: false },
+                    { text: "Mitigación parcial", correct: false },
+                    { text: "Adaptación total", correct: false },
+                  ],
+                },
+                {
+                  id: 257,
+                  text: "Actualmente, los cambios en el clima se están produciendo de manera:",
+                  answers: [
+                    { text: "Muy lenta", correct: false },
+                    { text: "Muy rápida", correct: true },
+                    { text: "Moderada", correct: false },
+                    {
+                      text: "No ha habido cambios relevantes",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 258,
+                  text: "Las decisiones propuestas en la CMNUCC deben ser discutidas y aprobadas por todas las ________.",
+                  answers: [
+                    { text: "Partes", correct: true },
+                    { text: "Naciones Unidas", correct: false },
+                    { text: "Empresas", correct: false },
+                    { text: "ONGs", correct: false },
+                  ],
+                },
+                {
+                  id: 259,
+                  text: "El CDB trata aspectos tales como ________, especies, recursos genéticos y biotecnología.",
+                  answers: [
+                    { text: "Ecosistemas", correct: true },
+                    { text: "Agua", correct: false },
+                    { text: "Energía", correct: false },
+                    { text: "Contaminantes", correct: false },
+                  ],
+                },
+                {
+                  id: 260,
+                  text: "La tasa de crecimiento y la tasa de fertilidad entre regiones son:",
+                  answers: [
+                    { text: "Homogéneas", correct: false },
+                    { text: "Heterogéneas", correct: true },
+                    { text: "Nulas", correct: false },
+                    { text: "Constantes", correct: false },
+                  ],
+                },
+                {
+                  id: 261,
+                  text: "El principal GEI por su influencia en las dinámicas atmosféricas es el dióxido de ________.",
+                  answers: [
+                    { text: "Carbono", correct: true },
+                    { text: "Metano", correct: false },
+                    { text: "Óxido nitroso", correct: false },
+                    { text: "Ozono", correct: false },
+                  ],
+                },
+                {
+                  id: 262,
+                  text: "Ciertos usos del suelo, como las tierras forestales, no aportan dióxido de carbono (CO2) a la atmósfera, sino que suponen ________ de carbono.",
+                  answers: [
+                    { text: "Emisiones", correct: false },
+                    { text: "Sumideros", correct: true },
+                    { text: "Fuentes", correct: false },
+                    { text: "Reservas", correct: false },
+                  ],
+                },
+                {
+                  id: 263,
+                  text: "Los dos objetivos de la identidad de Kaya son mejorar la eficiencia de _________ en la producción de energía y mejorar la eficiencia energética de la producción.",
+                  answers: [
+                    { text: "Agua", correct: false },
+                    { text: "Carbono", correct: true },
+                    { text: "Energía", correct: false },
+                    { text: "Suelo", correct: false },
+                  ],
+                },
+                {
+                  id: 264,
+                  text: "La cantidad de carbono anual emitida por una organización se refiere a la huella de carbono ________.",
+                  answers: [
+                    { text: "Individual", correct: false },
+                    { text: "Corporativa", correct: true },
+                    { text: "Global", correct: false },
+                    { text: "Regional", correct: false },
+                  ],
+                },
+                {
+                  id: 265,
+                  text: "Entre las medidas para alcanzar el Net Zero se encuentra la de reducir las emisiones de GEI en todas las áreas de actividad, desde la ________ hasta el transporte, la agricultura y la industria.",
+                  answers: [
+                    { text: "Energía", correct: true },
+                    { text: "Educación", correct: false },
+                    { text: "Tecnología", correct: false },
+                    { text: "Salud", correct: false },
+                  ],
+                },
+                {
+                  id: 266,
+                  text: "La energía renovable es aquella que se obtiene a partir de fuentes naturales que son ________.",
+                  answers: [
+                    { text: "Limitadas", correct: false },
+                    { text: "Inagotables", correct: true },
+                    { text: "Contaminantes", correct: false },
+                    { text: "Caras", correct: false },
+                  ],
+                },
+                {
+                  id: 267,
+                  text: "Para frenar y revertir la disminución de la biodiversidad, es imperativo que modifiquemos radicalmente nuestros métodos de ________, uso y consumo de productos y alimentos.",
+                  answers: [
+                    { text: "Producción", correct: true },
+                    { text: "Distribución", correct: false },
+                    { text: "Reciclaje", correct: false },
+                    { text: "Transporte", correct: false },
+                  ],
+                },
+                {
+                  id: 268,
+                  text: "El diagrama de _______ incluye dos ciclos principales: el ciclo técnico y el ciclo biológico.",
+                  answers: [
+                    { text: "Mariposa", correct: true },
+                    { text: "Flujo", correct: false },
+                    { text: "Ciclo", correct: false },
+                    { text: "Circular", correct: false },
+                  ],
+                },
               ],
             },
           ],
@@ -7191,6 +7374,563 @@ const TEST_DATA = {
                     { text: "Estático con cualquier tipo", correct: false },
                     { text: "Dinámico define tipo antes", correct: false },
                     { text: "Objetos con raíz común", correct: true },
+                  ],
+                },
+                {
+                  id: 251,
+                  text: "Al hablar de hardware y software, ¿cuál de ellos ha tenido tradicionalmente más importancia?",
+                  answers: [
+                    { text: "El software.", correct: false },
+                    {
+                      text: "Ambos han tenido siempre la misma importancia.",
+                      correct: false,
+                    },
+                    { text: "Hardware.", correct: true },
+                  ],
+                },
+                {
+                  id: 252,
+                  text: "Los lenguajes de programación de alto nivel ___________.",
+                  answers: [
+                    {
+                      text: "Son menos potentes que el lenguaje ensamblador.",
+                      correct: false,
+                    },
+                    {
+                      text: "Son dependientes de la plataforma y el microprocesador.",
+                      correct: false,
+                    },
+                    {
+                      text: "Son muy cercanos al lenguaje humano.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 253,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta?",
+                  answers: [
+                    {
+                      text: "La finitud garantiza que un algoritmo nunca termine.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es recomendable que los algoritmos generen resultados diferentes para las mismas entradas.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es obligatorio garantizar el determinismo de los algoritmos.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 254,
+                  text: "La fase de análisis y diseño ______________.",
+                  answers: [
+                    {
+                      text: "Permite facilitar el desarrollo del software.",
+                      correct: true,
+                    },
+                    {
+                      text: "No es relevante en el desarrollo del software.",
+                      correct: false,
+                    },
+                    {
+                      text: "No puede ser modificada en ningún momento durante el desarrollo.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 255,
+                  text: "A la hora de elegir el nombre para una variable:",
+                  answers: [
+                    {
+                      text: "Se podrá repetir el nombre de las variables.",
+                      correct: false,
+                    },
+                    { text: "Puede empezar por un número.", correct: false },
+                    {
+                      text: "Se debe elegir un nombre significativo.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 256,
+                  text: "Indica cuál de las siguientes declaraciones de variables es correcta:",
+                  answers: [
+                    { text: "double int nota", correct: false },
+                    { text: "char una_letra = ‘t’", correct: true },
+                    { text: "int edad de persona", correct: false },
+                  ],
+                },
+                {
+                  id: 257,
+                  text: "Las constantes ________.",
+                  answers: [
+                    {
+                      text: "Pueden cambiar su valor en cualquier momento.",
+                      correct: false,
+                    },
+                    { text: "Nunca pueden cambiar su valor.", correct: false },
+                    {
+                      text: "Solo está permitido asignar valor una vez después de su declaración.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 258,
+                  text: "¿Cuál de las siguientes afirmaciones sobre los comentarios de código es incorrecta?",
+                  answers: [
+                    {
+                      text: "Existen tres tipos de comentarios de código, de una línea, de dos líneas y multilínea.",
+                      correct: false,
+                    },
+                    {
+                      text: "En los comentarios de código podemos escribir lo que queramos a modo de aclaración, siempre que usemos el comentario multilínea, ya que nos ofrece más líneas.",
+                      correct: false,
+                    },
+                    {
+                      text: "En los comentarios de código podemos escribir lo que queramos a modo de aclaración, ya que lo primero que hará el compilador será obviarlos.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 259,
+                  text: "En la programación estructurada:",
+                  answers: [
+                    {
+                      text: "Se obtienen varios bloques de programa, los cuales pueden ser difíciles de mantener si crece el programa.",
+                      correct: false,
+                    },
+                    {
+                      text: "Disminuye la productividad del programador.",
+                      correct: false,
+                    },
+                    {
+                      text: "Un programa podrá ser desarrollado por partes fácilmente ensamblables.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 260,
+                  text: "¿Cuándo se ejecutará el siguiente código? \nScanner teclado_int = new Scanner(System.in);\nint numero;\nSystem.out.println(“Introduce un número: “);\nnumero = teclado_int.nextInt();\nif(numero % 5 == 0) {\nSystem.out.println(“Bloque ejecutado”);\n}",
+                  answers: [
+                    { text: "No se ejecuta nunca.", correct: false },
+                    {
+                      text: "Se ejecutará cuando el número introducido sea múltiplo de 5.",
+                      correct: true,
+                    },
+                    {
+                      text: "Se ejecutará cuando el número introducido sea par.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 261,
+                  text: "¿Hasta cuándo se estará ejecutando el siguiente bucle while? \nScanner teclado = new Scanner(System.in); \nint numero = 20;\nwhile(numero % 3 == 0) {\nSystem.out.println(“Introduce un numero”);\nnumero = teclado_int.nextInt();\n}",
+                  answers: [
+                    { text: "No se ejecutará nunca.", correct: true },
+                    {
+                      text: "Se ejecutará siempre y cuando introduzcamos el número 3.",
+                      correct: false,
+                    },
+                    {
+                      text: "Se estará ejecutando mientras que introduzcamos números múltiplos de 3.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 262,
+                  text: "¿Cuáles son los componentes de la cabecera de un bucle for?",
+                  answers: [
+                    {
+                      text: "Incremento del contador, condición de parada, creación del contador.",
+                      correct: false,
+                    },
+                    {
+                      text: "Condición de parada e incremento del contador.",
+                      correct: false,
+                    },
+                    {
+                      text: "Creación de contador, condición de parada, incremento del contador.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 263,
+                  text: "El diseño modular_________.",
+                  answers: [
+                    {
+                      text: "Surge de manera previa a la programación estructurada.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una práctica poco recomendada.",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite crear fragmentos de código con una funcionalidad acotada.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 264,
+                  text: "Las funciones___________.",
+                  answers: [
+                    {
+                      text: "Son más lentas que los procedimientos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Carecen de un ámbito de visibilidad propia.",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben devolver siempre un resultado.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 265,
+                  text: "¿Qué tipo de paso de parámetros se utiliza para el tipo int?",
+                  answers: [
+                    { text: "Por valor.", correct: true },
+                    { text: "Por referencia.", correct: false },
+                    { text: "Por copia.", correct: false },
+                  ],
+                },
+                {
+                  id: 266,
+                  text: "La forma de distinguir entre dos funciones sobrecargadas es ___________.",
+                  answers: [
+                    { text: "Mediante su nombre.", correct: false },
+                    { text: "Mediante el tipo devuelto.", correct: false },
+                    { text: "Mediante su lista de parámetros.", correct: true },
+                  ],
+                },
+                {
+                  id: 267,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta?",
+                  answers: [
+                    {
+                      text: "La utilización de la recursividad es más segura que las soluciones iterativas.",
+                      correct: false,
+                    },
+                    {
+                      text: "La recursividad siempre finaliza su flujo de ejecución.",
+                      correct: false,
+                    },
+                    {
+                      text: "La recursividad puede acabar con los recursos de la máquina.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 268,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta?",
+                  answers: [
+                    {
+                      text: "La recursividad siempre requiere de la utilización de funciones.",
+                      correct: false,
+                    },
+                    {
+                      text: "La implementación de la serie de Fibonacci es más compleja empleando recursividad.",
+                      correct: false,
+                    },
+                    {
+                      text: "La serie de Fibonacci requiere dos llamadas recursivas.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 269,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta?",
+                  answers: [
+                    {
+                      text: "La recursividad múltiple aumenta el valor de los parámetros de entrada.",
+                      correct: false,
+                    },
+                    {
+                      text: "La recursividad indirecta puede ser complicada de detectar.",
+                      correct: true,
+                    },
+                    {
+                      text: "La recursividad directa realiza múltiples llamadas recursivas.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 270,
+                  text: "¿Cuál es el propósito del uso del driver en la implementación de un método recursivo?",
+                  answers: [
+                    {
+                      text: "Evitar el uso de recursión y convertir la solución en iterativa.",
+                      correct: false,
+                    },
+                    {
+                      text: "Inicializar parámetros y manejar casos especiales antes de llamar al método recursivo real.",
+                      correct: true,
+                    },
+                    {
+                      text: "Garantizar que el método recursivo se ejecute en un orden específico.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 271,
+                  text: "Para poder declarar una variable de tipo array, es necesario indicar al menos los siguientes parámetros:",
+                  answers: [
+                    {
+                      text: "Nombre de la variable, longitud y valores.",
+                      correct: false,
+                    },
+                    {
+                      text: "Nombre de la variable y tipo de dato.",
+                      correct: false,
+                    },
+                    {
+                      text: "Nombre de la variable, tipo de dato y longitud.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 272,
+                  text: "El método de inserción tiene una complejidad de _______.",
+                  answers: [
+                    { text: "O(log n).", correct: false },
+                    { text: "O(n).", correct: true },
+                    { text: "O(n²).", correct: false },
+                  ],
+                },
+                {
+                  id: 273,
+                  text: "¿Qué realiza este código?\nint[][] matriz = int[3][4];",
+                  answers: [
+                    {
+                      text: "Este código crea una matriz de 3 filas y 4 columnas.",
+                      correct: false,
+                    },
+                    {
+                      text: "Este código crea una matriz de 4 filas y 3 columnas.",
+                      correct: false,
+                    },
+                    { text: "Este código no funciona.", correct: true },
+                  ],
+                },
+                {
+                  id: 274,
+                  text: "¿Qué método se encarga de comparar dos cadenas?",
+                  answers: [
+                    { text: "length().", correct: false },
+                    { text: "compareTo().", correct: false },
+                    { text: "equals().", correct: true },
+                  ],
+                },
+                {
+                  id: 275,
+                  text: "¿Qué principio proporciona a un objeto la posibilidad de tener diferentes comportamientos que están asociados a diferentes objetos?",
+                  answers: [
+                    { text: "Abstracción", correct: false },
+                    { text: "Encapsulación", correct: false },
+                    { text: "Polimorfismo", correct: true },
+                  ],
+                },
+                {
+                  id: 276,
+                  text: "¿Qué tipo específico de método es empleado para asignar valores a los datos de un objeto?",
+                  answers: [
+                    { text: "Modificador", correct: false },
+                    { text: "Observador", correct: false },
+                    { text: "Constructor", correct: true },
+                  ],
+                },
+                {
+                  id: 277,
+                  text: "La relación entre el modelo T-Roc y Coche es de __________.",
+                  answers: [
+                    { text: "Dependencia", correct: false },
+                    { text: "Asociación", correct: false },
+                    { text: "Generalización", correct: true },
+                  ],
+                },
+                {
+                  id: 278,
+                  text: "La relación de _________ forma parte de la relación de asociación.",
+                  answers: [
+                    { text: "Descomposición", correct: false },
+                    { text: "Herencia", correct: false },
+                    { text: "Agregación", correct: true },
+                  ],
+                },
+                {
+                  id: 279,
+                  text: "¿Qué propiedad nos va a permitir distinguir un objeto de otro del mismo tipo?",
+                  answers: [
+                    { text: "El comportamiento.", correct: false },
+                    { text: "El estado.", correct: false },
+                    { text: "La identidad.", correct: true },
+                  ],
+                },
+                {
+                  id: 280,
+                  text: "La zona de memoria donde se van a almacenar las variables globales del programa:",
+                  answers: [
+                    { text: "Área de código.", correct: false },
+                    { text: "Área de datos reservada.", correct: false },
+                    { text: "Área de datos estática.", correct: true },
+                  ],
+                },
+                {
+                  id: 281,
+                  text: "Al emplear una variable ______ sobre una variable _________ se produce la ocultación de variables.",
+                  answers: [
+                    { text: "Clase – Local.", correct: true },
+                    { text: "Local – Ámbito.", correct: false },
+                    { text: "Local – Clase.", correct: false },
+                  ],
+                },
+                {
+                  id: 282,
+                  text: "¿Qué afirmación es correcta con respecto al paso de parámetros?",
+                  answers: [
+                    {
+                      text: "Los parámetros de tipo primitivo se pasan por referencia.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los parámetros de tipo objeto se pasan por valor.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los parámetros de tipo objeto se pasan por valor de referencia.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 283,
+                  text: "¿Cuántas veces se ejecutan los bloques estáticos?",
+                  answers: [
+                    { text: "Las veces que llamen al bloque.", correct: false },
+                    { text: "2.", correct: true },
+                  ],
+                },
+                {
+                  id: 284,
+                  text: "Cuando ambas clases pertenecen a paquetes distintos se dice que son:",
+                  answers: [
+                    { text: "Vecinas.", correct: false },
+                    { text: "Diferentes.", correct: false },
+                    { text: "Externas.", correct: true },
+                  ],
+                },
+                {
+                  id: 285,
+                  text: "¿Cuántas bibliotecas podemos importar en nuestro proyecto?",
+                  answers: [
+                    {
+                      text: "Tantas bibliotecas como necesitemos mientras sean externas.",
+                      correct: false,
+                    },
+                    {
+                      text: "Tantas bibliotecas como necesitemos mientras sean propias.",
+                      correct: false,
+                    },
+                    {
+                      text: "Tantas bibliotecas, propias o externas, como necesitemos.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 286,
+                  text: "¿Qué extensión tienen las bibliotecas en Java?",
+                  answers: [
+                    { text: ".blio", correct: false },
+                    { text: ".java", correct: false },
+                    { text: ".jar", correct: true },
+                  ],
+                },
+                {
+                  id: 287,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta con relación a la herencia en programación orientada a objetos?",
+                  answers: [
+                    {
+                      text: "La clase hija puede acceder directamente a los atributos privados de la clase padre.",
+                      correct: false,
+                    },
+                    {
+                      text: "La herencia permite crear clases que se apoyan en otras, reduciendo la complejidad y recodificación.",
+                      correct: true,
+                    },
+                    {
+                      text: "Cuando una clase hereda de otra, los métodos heredados deben ser reimplementados en la clase hija.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 288,
+                  text: "¿Se puede acceder a un atributo con visibilidad protected sin heredar de la clase que lo contiene?",
+                  answers: [
+                    {
+                      text: "No, protected actúa como private si no se hereda.",
+                      correct: false,
+                    },
+                    {
+                      text: "Sí, protected actúa como public siempre.",
+                      correct: false,
+                    },
+                    {
+                      text: "Sí, siempre que se esté en el mismo paquete que la clase que contiene la variable protected.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 289,
+                  text: "¿Cuáles son los métodos que podemos sobrescribir en una clase?",
+                  answers: [
+                    { text: "Todos.", correct: false },
+                    {
+                      text: "Solo los métodos que no sean ni constructores ni observadores ni modificadores.",
+                      correct: false,
+                    },
+                    { text: "Todos salvo los constructores.", correct: true },
+                  ],
+                },
+                {
+                  id: 290,
+                  text: "¿Qué efecto tiene final en una clase?",
+                  answers: [
+                    {
+                      text: "De esa clase tendrá que heredar, mínimo, otra clase de forma obligatoria.",
+                      correct: false,
+                    },
+                    {
+                      text: "Final solo se puede utilizar con variables y métodos, no con clases.",
+                      correct: false,
+                    },
+                    {
+                      text: "Hará que de esa clase no se pueda heredar.",
+                      correct: true,
+                    },
                   ],
                 },
               ],
@@ -8900,6 +9640,4483 @@ const TEST_DATA = {
                       text: "La IA no permite analizar como varia el precio afectando a la demanda de productos",
                       correct: true,
                     },
+                  ],
+                },
+                {
+                  id: 269,
+                  text: "¿Cuál está considerada como una capa intermedia?",
+                  answers: [
+                    { text: "Cloud", correct: false },
+                    { text: "Fog", correct: true },
+                    { text: "Edge", correct: false },
+                    { text: "Mist", correct: false },
+                  ],
+                },
+                {
+                  id: 270,
+                  text: "¿Qué se considera la reducción del CapEX?",
+                  answers: [
+                    { text: "Un costo directo", correct: false },
+                    { text: "Un costo indirecto", correct: false },
+                    { text: "Un beneficio", correct: true },
+                    { text: "Un impacto en la seguridad", correct: false },
+                  ],
+                },
+                {
+                  id: 271,
+                  text: "¿En qué años se desarrollaron los primeros sistemas de juegos y demostraciones de teoremas automatizados?",
+                  answers: [
+                    { text: "Años 50", correct: false },
+                    { text: "Años 60 y 70", correct: true },
+                    { text: "Años 80", correct: false },
+                    { text: "Años 90", correct: false },
+                  ],
+                },
+                {
+                  id: 272,
+                  text: "¿En qué generación surge el perceptrón?",
+                  answers: [
+                    { text: "En la primera", correct: false },
+                    { text: "En la segunda", correct: false },
+                    { text: "En la tercera", correct: true },
+                    { text: "En la cuarta", correct: false },
+                  ],
+                },
+                {
+                  id: 273,
+                  text: "¿Cómo se llaman los datos que no tienen un formato predefinido?",
+                  answers: [
+                    { text: "Estructurados", correct: false },
+                    { text: "No estructurados", correct: true },
+                    { text: "Semiestructurados", correct: false },
+                    { text: "Relacionales", correct: false },
+                  ],
+                },
+                {
+                  id: 274,
+                  text: "¿Cuál de las siguientes opciones no es un paso en la limpieza de datos?",
+                  answers: [
+                    {
+                      text: "Imputación de valores faltantes",
+                      correct: false,
+                    },
+                    { text: "Eliminación de duplicados", correct: false },
+                    { text: "Codificación", correct: true },
+                    { text: "Corrección de errores", correct: false },
+                  ],
+                },
+                {
+                  id: 275,
+                  text: "¿Qué significa NPL?",
+                  answers: [
+                    {
+                      text: "Procesamiento de logística natural",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesamiento del lenguaje natural",
+                      correct: true,
+                    },
+                    {
+                      text: "Procesamiento de logística nativa",
+                      correct: false,
+                    },
+                    {
+                      text: "Procesamiento de lenguaje natural",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 276,
+                  text: "¿Cómo se llama a las nubes compartidas por varias organizaciones?",
+                  answers: [
+                    { text: "Híbridas", correct: false },
+                    { text: "Comunitarias", correct: true },
+                    { text: "Públicas", correct: false },
+                    { text: "Privadas", correct: false },
+                  ],
+                },
+                {
+                  id: 277,
+                  text: "La IA puede mejorar la accesibilidad y la inclusión en la educación.",
+                  answers: [
+                    { text: "Verdadero", correct: true },
+                    { text: "Falso", correct: false },
+                  ],
+                },
+                {
+                  id: 278,
+                  text: "¿En qué nivel tiene la gestión de más recursos el proveedor?",
+                  answers: [
+                    { text: "IaaS", correct: false },
+                    { text: "PaaS", correct: false },
+                    { text: "SaaS", correct: true },
+                    { text: "Edge", correct: false },
+                  ],
+                },
+                {
+                  id: 279,
+                  text: "¿Qué significa MDT?",
+                  answers: [
+                    { text: "Modelo digital temporal", correct: false },
+                    { text: "Modelo digital de terreno", correct: true },
+                    { text: "Muestreo digital temporal", correct: false },
+                    { text: "Muestreo digital de terreno", correct: false },
+                  ],
+                },
+                {
+                  id: 280,
+                  text: "¿Qué hace la MFA?",
+                  answers: [
+                    {
+                      text: "Monitorea y bloquea actividades sospechosas en la red",
+                      correct: false,
+                    },
+                    {
+                      text: "Protege la confidencialidad de los datos mediante algoritmos matemáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Asegura que solo usuarios autorizados puedan acceder a sistemas y aplicaciones",
+                      correct: true,
+                    },
+                    {
+                      text: "Detecta patrones anómalos en el uso de sistemas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 281,
+                  text: "¿En qué realidad inmersiva te sumerges completamente?",
+                  answers: [
+                    { text: "AR", correct: false },
+                    { text: "VR", correct: true },
+                    { text: "MR", correct: false },
+                    { text: "XR", correct: false },
+                  ],
+                },
+                {
+                  id: 282,
+                  text: "¿Qué tipo de impresión 3D utiliza un láser para fusionar polvos de material capa por capa?",
+                  answers: [
+                    { text: "SLA", correct: false },
+                    { text: "FDM", correct: false },
+                    { text: "SLS", correct: true },
+                    { text: "Inkjet3D", correct: false },
+                  ],
+                },
+                {
+                  id: 283,
+                  text: "¿Qué modelo ofrece un entorno de desarrollo y ejecución completo para aplicaciones?",
+                  answers: [
+                    { text: "IaaS", correct: false },
+                    { text: "PaaS", correct: true },
+                    { text: "SaaS", correct: false },
+                    { text: "On-Premise", correct: false },
+                  ],
+                },
+                {
+                  id: 284,
+                  text: "¿Cuál no es una de las 3 V de big data?",
+                  answers: [
+                    { text: "Volumen", correct: false },
+                    { text: "Variedad", correct: false },
+                    { text: "Visión", correct: true },
+                    { text: "Velocidad", correct: false },
+                  ],
+                },
+                {
+                  id: 285,
+                  text: "¿En qué revolución apareció la producción en cadena?",
+                  answers: [
+                    {
+                      text: "Primera Revolución Industrial",
+                      correct: false,
+                    },
+                    {
+                      text: "Segunda Revolución Industrial",
+                      correct: true,
+                    },
+                    {
+                      text: "Tercera Revolución Industrial",
+                      correct: false,
+                    },
+                    {
+                      text: "Cuarta Revolución Industrial",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 286,
+                  text: "¿Qué característica distintiva permite identificar tendencias, patrones y oportunidades?",
+                  answers: [
+                    { text: "Automatización", correct: false },
+                    { text: "Personalización", correct: false },
+                    { text: "Analítica avanzada", correct: true },
+                    { text: "Conectividad", correct: false },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "fol",
+      name: "fol",
+      units: [
+        {
+          id: "tema1",
+          name: "1 Questions from tema1",
+          tests: [
+            {
+              id: "tema1-test",
+              title: "Tema 1 - Autoevaluación",
+              createdOn: "2026-01-12",
+              questions: [
+                {
+                  id: 1,
+                  text: "La aplicación de las capacidades físicas e intelectuales de una persona hacia un fin previamente fijado se conoce como…",
+                  answers: [
+                    { text: "Cultura preventiva", correct: false },
+                    { text: "Salud", correct: false },
+                    { text: "Trabajo", correct: true },
+                    { text: "Salud laboral", correct: false },
+                  ],
+                },
+                {
+                  id: 2,
+                  text: "Un estado completo de bienestar físico, psíquico y social, no meramente la ausencia de enfermedad se conoce como…",
+                  answers: [
+                    { text: "Cultura preventiva", correct: false },
+                    { text: "Salud", correct: true },
+                    { text: "Trabajo", correct: false },
+                    { text: "Salud laboral", correct: false },
+                  ],
+                },
+                {
+                  id: 3,
+                  text: "Según las disciplinas estudiadas en la práctica de la salud laboral, ¿cuál se encarga de evitar que los trabajadores enfermen a consecuencia de su actividad laboral?",
+                  answers: [
+                    { text: "Seguridad laboral", correct: false },
+                    { text: "Higiene industrial", correct: true },
+                    { text: "Medicina del trabajo", correct: false },
+                    { text: "Ergonomía", correct: false },
+                  ],
+                },
+                {
+                  id: 4,
+                  text: "¿En qué grupo de factores causantes de riesgos laborales debemos incluir a los virus, hongos y bacterias?",
+                  answers: [
+                    { text: "Equipos de trabajo", correct: false },
+                    { text: "Lugar de trabajo", correct: false },
+                    { text: "Agentes químicos", correct: false },
+                    { text: "Agentes biológicos", correct: true },
+                  ],
+                },
+                {
+                  id: 5,
+                  text: "En relación a los riesgos laborales, las condiciones psicosociales son aquellas…",
+                  answers: [
+                    {
+                      text: "Relacionadas con las condiciones fisiológicas",
+                      correct: false,
+                    },
+                    {
+                      text: "Relacionadas con el bienestar mental",
+                      correct: true,
+                    },
+                    {
+                      text: "Relacionadas con la calidad ambiental",
+                      correct: false,
+                    },
+                    {
+                      text: "Relacionadas con la salvaguarda del trabajador",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 6,
+                  text: "¿En qué artículo de la Ley de Prevención de Riesgos Laborales se indica que los trabajadores tienen derecho a una protección eficaz?",
+                  answers: [
+                    { text: "Artículo 40", correct: false },
+                    { text: "Artículo 4", correct: false },
+                    { text: "Artículo 19", correct: false },
+                    { text: "Artículo 14", correct: true },
+                  ],
+                },
+                {
+                  id: 7,
+                  text: "Señale cuál de los siguientes derechos NO es un derecho de los trabajadores en materia de salud laboral:",
+                  answers: [
+                    {
+                      text: "Derecho a recibir información en materia de prevención de riesgos laborales",
+                      correct: false,
+                    },
+                    {
+                      text: "Derecho a que haya ascensores en todas las plantas",
+                      correct: true,
+                    },
+                    {
+                      text: "Derecho a vigilar regularmente su estado de salud",
+                      correct: false,
+                    },
+                    {
+                      text: "Derecho de disponer de equipos de protección individual",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 8,
+                  text: "¿Cuál de las siguientes no es una obligación del empresario en situaciones de riesgo grave e inminente?",
+                  answers: [
+                    {
+                      text: "Informar lo antes posible a todos los trabajadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Facilitar la formación de los trabajadores",
+                      correct: true,
+                    },
+                    {
+                      text: "Adoptar medidas y dar instrucciones oportunas",
+                      correct: false,
+                    },
+                    {
+                      text: "Disponer de lo necesario para evitar una situación de peligro",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 9,
+                  text: "En el caso de que un trabajador no cumpla con sus obligaciones y se origine un accidente o enfermedad laboral sin lesiones, ¿qué tipo de responsabilidad tendrá dicho trabajador?",
+                  answers: [
+                    { text: "Responsabilidad civil", correct: true },
+                    { text: "Responsabilidad penal", correct: false },
+                    { text: "Responsabilidad disciplinaria", correct: false },
+                    { text: "Responsabilidad accidental", correct: false },
+                  ],
+                },
+                {
+                  id: 10,
+                  text: "¿Cuál de los siguientes no es un elemento que deba incluir el plan de prevención de riesgos laborales?",
+                  answers: [
+                    { text: "La estructura organizativa", correct: false },
+                    { text: "La política de prevención", correct: false },
+                    { text: "Los salarios de los trabajadores", correct: true },
+                    { text: "Los datos de la empresa", correct: false },
+                  ],
+                },
+                {
+                  id: 11,
+                  text: "¿Cuál de las siguientes no es una situación en la que deba volver a realizarse una evaluación de riesgos tras la inicial?",
+                  answers: [
+                    {
+                      text: "Introducción de nuevas tecnologías",
+                      correct: false,
+                    },
+                    { text: "Cambio del dueño de la empresa", correct: true },
+                    {
+                      text: "Cambios en las condiciones de trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Nuevos trabajos con componentes químicos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 12,
+                  text: "En la etapa de estimación del riesgo laboral, según la severidad del daño, ¿Qué clasificación corresponde a los cortes, irritaciones o dolores de cabeza?",
+                  answers: [
+                    { text: "Dañinos", correct: false },
+                    { text: "Extremadamente dañinos", correct: false },
+                    { text: "Moderados", correct: false },
+                    { text: "Ligeramente dañinos", correct: true },
+                  ],
+                },
+                {
+                  id: 13,
+                  text: "¿A qué riesgo laboral se asocian los factores de riesgo tales como mala distribución, falta de orden, limpieza y mantenimiento?",
+                  answers: [
+                    { text: "Lugar de trabajo", correct: true },
+                    { text: "Utilización de equipo", correct: false },
+                    { text: "Trabajo con máquinas", correct: false },
+                    { text: "Riesgo eléctrico", correct: false },
+                  ],
+                },
+                {
+                  id: 14,
+                  text: "¿Qué tipos de daños se pueden producir generalmente por un mal uso de las maquinas o herramientas?",
+                  answers: [
+                    { text: "Caídas a distinto nivel", correct: false },
+                    { text: "Estrés social", correct: false },
+                    { text: "Fatiga", correct: false },
+                    { text: "Cortes o aplastamientos", correct: true },
+                  ],
+                },
+                {
+                  id: 15,
+                  text: "¿Qué medidas de prevención específicas podemos adoptar frente a los riesgos de incendio?",
+                  answers: [
+                    { text: "Revisiones del nivel de ruido", correct: false },
+                    { text: "Reducir la jornada laboral", correct: false },
+                    {
+                      text: "Mantener alejados los combustibles del calor",
+                      correct: true,
+                    },
+                    {
+                      text: "Vía de circulación de materiales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 16,
+                  text: "¿Qué puede ocasionar un contacto eléctrico de 30 a 80 mA?",
+                  answers: [
+                    { text: "Cosquilleo", correct: false },
+                    { text: "Tetanización muscular", correct: true },
+                    { text: "Quemaduras superficiales", correct: false },
+                    { text: "Contracción muscular", correct: false },
+                  ],
+                },
+                {
+                  id: 17,
+                  text: "¿Cuál de los siguientes no es uno de los riesgos físicos estudiados?",
+                  answers: [
+                    { text: "Ruido", correct: false },
+                    { text: "Temperatura", correct: false },
+                    { text: "Radiaciones", correct: false },
+                    { text: "Explosiones", correct: true },
+                  ],
+                },
+                {
+                  id: 18,
+                  text: "Riesgo que relaciona con transferencia de material genético y reproducción de microorganismos:",
+                  answers: [
+                    { text: "Riesgo eléctrico", correct: false },
+                    { text: "Riesgo ergonómico", correct: false },
+                    { text: "Riesgo biológico", correct: true },
+                    { text: "Riesgo químico", correct: false },
+                  ],
+                },
+                {
+                  id: 19,
+                  text: "¿Con qué nombre se conocen los actos de violencia psicológica extrema, sistemática y prolongada sobre un trabajador en su lugar de trabajo?",
+                  answers: [
+                    { text: "Burnout", correct: false },
+                    { text: "Estrés laboral", correct: false },
+                    { text: "Mobbing", correct: true },
+                    { text: "Ergonomía", correct: false },
+                  ],
+                },
+                {
+                  id: 20,
+                  text: "La lesión corporal que el trabajador sufre con ocasión o consecuencia del trabajo por cuenta ajena se conoce como:",
+                  answers: [
+                    { text: "Accidente de trabajo", correct: true },
+                    { text: "Causa de trabajo", correct: false },
+                    { text: "Enfermedad profesional", correct: false },
+                    { text: "Accidente ocasional", correct: false },
+                  ],
+                },
+                {
+                  id: 21,
+                  text: "¿Cuál de los siguientes no se considera un accidente de trabajo?",
+                  answers: [
+                    {
+                      text: "El accidente al ejercitar funciones de carácter sindical",
+                      correct: false,
+                    },
+                    {
+                      text: "Enfermedad no profesionales pero contraídas en el trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Agravamiento de enfermedades como consecuencia del trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Accidentes ocasionados por mala fe del trabajador",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 22,
+                  text: "¿Cuál de las siguientes no es un requisito exigido para estimar un accidente in itinere?",
+                  answers: [
+                    {
+                      text: "Que se produzca el trayecto habitual del trabajo al domicilio",
+                      correct: false,
+                    },
+                    {
+                      text: "Que se produzca dentro del tiempo normal del trayecto",
+                      correct: false,
+                    },
+                    {
+                      text: "Que el trabajador se encuentre solo en su vehículo",
+                      correct: true,
+                    },
+                    {
+                      text: "Que el medio de transporte elegido sea el habitual",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 23,
+                  text: "¿Cuál de las siguientes afirmaciones no es correcta?",
+                  answers: [
+                    {
+                      text: "La enfermedad profesional suele tener tratamiento médico",
+                      correct: false,
+                    },
+                    {
+                      text: "La enfermedad profesional se produce de manera súbita",
+                      correct: true,
+                    },
+                    {
+                      text: "El inicio de la enfermedad profesional suele ser lento y solapado",
+                      correct: false,
+                    },
+                    {
+                      text: "Las enfermedades profesionales se incluyen en un listado",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 24,
+                  text: "En relación con los costes de los accidentes laborales, el coste psicológico y el dolor físico ¿a qué parte está asociado?",
+                  answers: [
+                    { text: "Para la empresa", correct: false },
+                    { text: "Para las familias", correct: false },
+                    { text: "Para el trabajador", correct: true },
+                    { text: "Para la sociedad", correct: false },
+                  ],
+                },
+                {
+                  id: 25,
+                  text: "En relación con las medidas de prevención de riesgos, ¿cuál de ellas se fundamenta en la curación y rehabilitación de una enfermedad?",
+                  answers: [
+                    { text: "La seguridad en el trabajo", correct: false },
+                    { text: "La medicina del trabajo", correct: true },
+                    { text: "La higiene industrial", correct: false },
+                    {
+                      text: "Las técnicas basadas en ergonomía",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 26,
+                  text: "¿Cuál de los siguientes es una medida de protección colectiva?",
+                  answers: [
+                    { text: "Una mascarilla", correct: false },
+                    { text: "Unas manoplas", correct: false },
+                    {
+                      text: "Zapatos con suela antideslizante",
+                      correct: false,
+                    },
+                    {
+                      text: "Mejorar la barandilla de una escalera",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 27,
+                  text: "Señale la respuesta CORRECTA sobre los EPI:",
+                  answers: [
+                    {
+                      text: "Los EPI son equipos de protección colectivos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los EPI son equipos de protección individuales",
+                      correct: true,
+                    },
+                    {
+                      text: "Los EPI son equipos de prevención colectivos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los EPI son equipos de prevención individuales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 28,
+                  text: "¿Cuál de las siguientes no es una norma relativa al uso de EPI?",
+                  answers: [
+                    {
+                      text: "El trabajador debe recibir información sobre su uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Se deben seguir las instrucciones del fabricante",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben estar homologados y marcados como CE",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben prestarse a los compañeros siempre que sea necesario",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 29,
+                  text: "¿Qué principio o criterio general de la Vigilancia de la Salud hace mención a la intimidad, igualdad y no discriminación?",
+                  answers: [
+                    { text: "Garantizada y gratuita", correct: false },
+                    { text: "Voluntaria", correct: false },
+                    { text: "Ética", correct: true },
+                    { text: "Documentada", correct: false },
+                  ],
+                },
+                {
+                  id: 30,
+                  text: "Señale la respuesta CORRECTA, respecto al plan de autoprotección:",
+                  answers: [
+                    {
+                      text: "Se encuentra incluido dentro del plan de emergencias",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un documento más específico que el plan de emergencias",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un documento más general que el plan de emergencias",
+                      correct: true,
+                    },
+                    { text: "Es voluntario para las empresas", correct: false },
+                  ],
+                },
+                {
+                  id: 31,
+                  text: "Señala la afirmación correcta en relación a las emergencias parciales:",
+                  answers: [
+                    {
+                      text: "Afectan a zonas muy amplias de la empresa",
+                      correct: true,
+                    },
+                    {
+                      text: "Intervienen equipos de primera intervención",
+                      correct: false,
+                    },
+                    {
+                      text: "Afectan a zonas muy concretas de la empresa",
+                      correct: false,
+                    },
+                    { text: "Suelen requerir una evacuación", correct: false },
+                  ],
+                },
+                {
+                  id: 32,
+                  text: "La actuación que consiste en dar el aviso de emergencia o la señal de evacuación al personal de la empresa y se transmite por medios técnicos o humanos se conoce como:",
+                  answers: [
+                    { text: "Mecanismos de alarma", correct: true },
+                    { text: "Mecanismos de respuesta", correct: false },
+                    { text: "Primeras ayudas", correct: false },
+                    { text: "Procedimientos de evacuación", correct: false },
+                  ],
+                },
+                {
+                  id: 33,
+                  text: "En el contexto de los primeros auxilios, el método PAS consiste en:",
+                  answers: [
+                    { text: "Proteger, Animar, Socorrer", correct: false },
+                    { text: "Proteger, Avisar, Socorrer", correct: true },
+                    { text: "Proponer, Animar, Socorrer", correct: false },
+                    { text: "Proteger, Avisar, Silenciar", correct: false },
+                  ],
+                },
+                {
+                  id: 34,
+                  text: "La reanimación respiratoria se realiza cuando el accidentado:",
+                  answers: [
+                    {
+                      text: "Está consciente, respira y tiene pulso",
+                      correct: false,
+                    },
+                    {
+                      text: "Está inconsciente, no respira, pero tiene pulso",
+                      correct: true,
+                    },
+                    {
+                      text: "Está inconsciente, no respira y no tiene pulso",
+                      correct: false,
+                    },
+                    {
+                      text: "Está inconsciente, respira y tiene pulso",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 35,
+                  text: "La primera fase de las técnicas de soporte vital básico es:",
+                  answers: [
+                    { text: "Comprobación de la consciencia", correct: true },
+                    {
+                      text: "Apertura de las vías respiratorias",
+                      correct: false,
+                    },
+                    { text: "Realizar un masaje cardiaco", correct: false },
+                    { text: "Chequear la respiración", correct: false },
+                  ],
+                },
+                {
+                  id: 36,
+                  text: "Según las técnicas de soporte vital básico, cuando el accidentado respira:",
+                  answers: [
+                    {
+                      text: "Debemos iniciar el masaje cardiaco",
+                      correct: false,
+                    },
+                    { text: "Debemos colocarle boca abajo", correct: false },
+                    { text: "Debemos usar un desfibrilador", correct: false },
+                    {
+                      text: "Hay que colocarlo en posición PLS",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 37,
+                  text: "La maniobra de Heimlich se lleva a cabo en casos de...",
+                  answers: [
+                    { text: "Atragantamiento", correct: true },
+                    { text: "Fractura o esguince", correct: false },
+                    { text: "Hemorragia", correct: false },
+                    { text: "Quemadura", correct: false },
+                  ],
+                },
+                {
+                  id: 38,
+                  text: "El protocolo de actuación en el caso de quemaduras indica que lo primero que hay que hacer es:",
+                  answers: [
+                    { text: "Eliminar el agente que la causa", correct: true },
+                    {
+                      text: "Cubrir al accidentado con una manta",
+                      correct: false,
+                    },
+                    {
+                      text: "Echar abundante agua sobre la quemadura",
+                      correct: false,
+                    },
+                    {
+                      text: "Tumbar al accidentado con los pies en alto",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 39,
+                  text: "Además de disponer de un botiquín, deberán contar con local de primeros auxilios:",
+                  answers: [
+                    {
+                      text: "Las empresas con más de 10 trabajadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Las empresas con más de 50 trabajadores",
+                      correct: true,
+                    },
+                    {
+                      text: "Las empresas con más de 25 trabajadores",
+                      correct: false,
+                    },
+                    { text: "Cualquier empresa", correct: false },
+                  ],
+                },
+                {
+                  id: 40,
+                  text: "La falta de correspondencia entre las competencias ofrecidas por la población activa y demandadas por los oferentes de empleo ocasiona:",
+                  answers: [
+                    { text: "Equilibrio laboral", correct: false },
+                    { text: "Desempleo no estructural", correct: false },
+                    { text: "Desempleo estructural", correct: true },
+                    { text: "Pleno empleo", correct: false },
+                  ],
+                },
+                {
+                  id: 41,
+                  text: "Es una característica de la evolución del mercado de trabajo actual en España:",
+                  answers: [
+                    { text: "Reducción de la temporalidad", correct: true },
+                    {
+                      text: "Reducción de los contratos fijos discontinuos",
+                      correct: false,
+                    },
+                    { text: "Reducción de la precariedad", correct: false },
+                    {
+                      text: "Reducción del número de personas ocupadas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 42,
+                  text: "Un ejemplo de área de actividad con gran potencial es:",
+                  answers: [
+                    { text: "Edición e imprenta", correct: false },
+                    { text: "Las energías renovables", correct: true },
+                    { text: "La minería", correct: false },
+                    { text: "Atención al público presencial", correct: false },
+                  ],
+                },
+                {
+                  id: 43,
+                  text: "Las actividades agrícolas pertenecen al sector (productivo):",
+                  answers: [
+                    { text: "Primario", correct: true },
+                    { text: "Secundario", correct: false },
+                    { text: "Terciario", correct: false },
+                    { text: "Cuaternario", correct: false },
+                  ],
+                },
+                {
+                  id: 44,
+                  text: "El trabajo de un abogado del Estado pertenece al sector(productivo):",
+                  answers: [
+                    { text: "Privado", correct: false },
+                    { text: "Público", correct: true },
+                    { text: "Primario", correct: false },
+                    { text: "Secundario", correct: false },
+                  ],
+                },
+                {
+                  id: 45,
+                  text: "Una física que trabaja en un laboratorio pertenece al sector profesional:",
+                  answers: [
+                    { text: "Ciencia e investigación", correct: true },
+                    { text: "Deporte", correct: false },
+                    { text: "Tecnológico", correct: false },
+                    { text: "Administración", correct: false },
+                  ],
+                },
+                {
+                  id: 46,
+                  text: "La prospectiva de un título de grado superior proporciona información sobre:",
+                  answers: [
+                    {
+                      text: "Los puestos de trabajo afines a la titulación por cuenta ajena",
+                      correct: false,
+                    },
+                    {
+                      text: "Los puestos de trabajo afines a la titulación por cuenta propia",
+                      correct: false,
+                    },
+                    {
+                      text: "Tendencias del mercado laboral para la titulación",
+                      correct: true,
+                    },
+                    {
+                      text: "Las profesiones reguladas asociadas al título",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 47,
+                  text: "¿Cuál de los siguientes no se considera un método activo de búsqueda de empleo?",
+                  answers: [
+                    { text: "Enviar una autocandidatura", correct: false },
+                    { text: "Estudiar las ofertas de trabajo", correct: false },
+                    { text: "Revisar diariamente Instagram", correct: true },
+                    {
+                      text: "Estar en contacto con una oficina de empleo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 48,
+                  text: "Para la Encuesta de Población Activa, un estudiante que no busca trabajo es considerado:",
+                  answers: [
+                    { text: "Activo ocupado", correct: false },
+                    { text: "Activo desempleado", correct: false },
+                    { text: "Inactivo", correct: true },
+                    { text: "Parado", correct: false },
+                  ],
+                },
+                {
+                  id: 49,
+                  text: "El principal objetivo de la Red EURAXESS es:",
+                  answers: [
+                    {
+                      text: "Proporcionar acceso a un listado de organizaciones sin ánimo de lucro acreditadas",
+                      correct: false,
+                    },
+                    {
+                      text: "Proporcionar información sobre vacantes y apoyo a investigadores profesionales",
+                      correct: true,
+                    },
+                    {
+                      text: "Proporcionar información sobre vacantes y apoyo a ciudadanos europeos para cualquier tipo de trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Facilitar el acceso a micro financiación a emprendedores con dificultades financieras",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 50,
+                  text: "Identifica la jornada laboral que no es legal:",
+                  answers: [
+                    {
+                      text: "María trabaja de 23:00 a 7:00 de martes a jueves",
+                      correct: false,
+                    },
+                    {
+                      text: "Mercedes trabaja de 10:00 a 15:00 de lunes a viernes",
+                      correct: false,
+                    },
+                    {
+                      text: "Juan trabaja a turnos y trabaja todo el mes de junio de noches",
+                      correct: true,
+                    },
+                    {
+                      text: "Pedro trabaja de 8:00 a 15:00 de lunes a viernes con veinte minutos de descanso al día",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 51,
+                  text: "El descanso mínimo entre jornadas es de:",
+                  answers: [
+                    { text: "12 horas en horario normal", correct: true },
+                    { text: "12 horas en horario de turnos", correct: false },
+                    { text: "9 horas en horario normal", correct: false },
+                    { text: "9 horas en horario de turnos", correct: false },
+                  ],
+                },
+                {
+                  id: 52,
+                  text: "¿Cuál de estos trabajadores puede realizar horas complementarias?",
+                  answers: [
+                    {
+                      text: "Un trabajador con un contrato a tiempo parcial de 9 horas semanales",
+                      correct: false,
+                    },
+                    {
+                      text: "Un trabajador con un contrato a tiempo parcial de 15 horas semanales",
+                      correct: true,
+                    },
+                    {
+                      text: "Un trabajador a jornada completa",
+                      correct: false,
+                    },
+                    {
+                      text: "Un trabajador cuya jornada laboral es de 1 hora diaria",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 53,
+                  text: "¿Cuál de estos trabajadores puede hacer horas extraordinarias?",
+                  answers: [
+                    { text: "Un trabajador en ERTE", correct: false },
+                    {
+                      text: "Un trabajador con un contrato indefinido a tiempo completo",
+                      correct: true,
+                    },
+                    {
+                      text: "Un trabajador con un contrato a media jornada",
+                      correct: false,
+                    },
+                    {
+                      text: "Un trabajador con un contrato formativo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 54,
+                  text: "El empresario debe notificar al trabajador las fechas de sus vacaciones con una anticipación de:",
+                  answers: [
+                    { text: "15 días", correct: false },
+                    { text: "2 meses", correct: true },
+                    { text: "6 meses", correct: false },
+                    { text: "El 1 de enero de cada año", correct: false },
+                  ],
+                },
+                {
+                  id: 55,
+                  text: "La duración mínima de vacaciones anuales de un trabajador es de:",
+                  answers: [
+                    { text: "30 días naturales", correct: true },
+                    { text: "15 días naturales", correct: false },
+                    { text: "30 días hábiles", correct: false },
+                    { text: "15 días hábiles", correct: false },
+                  ],
+                },
+                {
+                  id: 56,
+                  text: "La duración del permiso retribuido por cuidado del lactante es de:",
+                  answers: [
+                    { text: "Media hora diaria", correct: false },
+                    { text: "30 horas al mes", correct: false },
+                    { text: "1 hora diaria", correct: true },
+                    {
+                      text: "La ley no contempla permisos retribuidos por esta causa",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 57,
+                  text: "La protección jurídica de la Ley de Familias se refiere a:",
+                  answers: [
+                    {
+                      text: "La regulación de las nuevas situaciones familiares",
+                      correct: true,
+                    },
+                    {
+                      text: "Las ayudas económicas para familias con menores de tres años",
+                      correct: false,
+                    },
+                    {
+                      text: "Las medidas de apoyo para el uso de las TICs",
+                      correct: false,
+                    },
+                    {
+                      text: "Las medidas de apoyo al ocio de las familias",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 58,
+                  text: "La característica de “colectividad”, en la elaboración de un Plan de Igualdad, se refiere a que:",
+                  answers: [
+                    { text: "Es secuencial y admite cambios", correct: false },
+                    { text: "No es indefinido", correct: false },
+                    {
+                      text: "Comprende todas las áreas de la empresa a nivel horizontal",
+                      correct: false,
+                    },
+                    {
+                      text: "Afecta positivamente a todos los trabajadores de la empresa",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 59,
+                  text: "Para ser considerado teletrabajo, el trabajo realizado a distancia debe comprender, al menos:",
+                  answers: [
+                    { text: "El 50% de la jornada", correct: false },
+                    {
+                      text: "El 30% de la jornada en un período de referencia de 3 meses",
+                      correct: true,
+                    },
+                    {
+                      text: "El 100% de la jornada, ya que es un trabajo a distancia",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las respuestas es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 60,
+                  text: "Señale cuáles son los requisitos de una relación laboral:",
+                  answers: [
+                    {
+                      text: "Trabajo personal, voluntario, retribuido, independiente y por cuenta ajena",
+                      correct: false,
+                    },
+                    {
+                      text: "Trabajo personal, voluntario, retribuido, dependiente y por cuenta propia",
+                      correct: false,
+                    },
+                    {
+                      text: "Trabajo personal, voluntario, retribuido, dependiente y por cuenta ajena",
+                      correct: true,
+                    },
+                    {
+                      text: "Trabajo personal, forzoso, retribuido, dependiente y por cuenta ajena",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 61,
+                  text: "Identifique cuál de las siguientes actividades es una relación laboral especial:",
+                  answers: [
+                    {
+                      text: "Un hombre que presta servicios de limpieza en un hogar (retribuidos)",
+                      correct: true,
+                    },
+                    {
+                      text: "La profesora de una universidad privada",
+                      correct: false,
+                    },
+                    {
+                      text: "Un consultor de banca que cobra sólo a comisión",
+                      correct: false,
+                    },
+                    {
+                      text: "Un fontanero que trabaja por cuenta propia",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 62,
+                  text: "¿Cuál de las siguientes fuentes del derecho laboral es prioritaria?",
+                  answers: [
+                    { text: "El convenio colectivo", correct: false },
+                    { text: "Las leyes", correct: true },
+                    { text: "El contrato de trabajo", correct: false },
+                    { text: "Los usos y costumbres", correct: false },
+                  ],
+                },
+                {
+                  id: 63,
+                  text: "El principio de jerarquía normativa implica:",
+                  answers: [
+                    {
+                      text: "En caso de duda, la razón se le da al trabajador",
+                      correct: false,
+                    },
+                    {
+                      text: "Las normas superiores están por encima de las inferiores, y las inferiores no pueden contradecirlas",
+                      correct: true,
+                    },
+                    {
+                      text: "Ante dos normas del mismo rango, se aplicará la más beneficiosa para el trabajador",
+                      correct: false,
+                    },
+                    {
+                      text: "Las normas superiores marcan mínimos que las inferiores sólo pueden mejorar",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 64,
+                  text: "El derecho al descanso del trabajador:",
+                  answers: [
+                    { text: "Es un derecho colectivo", correct: false },
+                    { text: "Es un derecho individual", correct: true },
+                    { text: "Es una obligación colectiva", correct: false },
+                    { text: "Es una obligación individual", correct: false },
+                  ],
+                },
+                {
+                  id: 65,
+                  text: "El hecho de que un convenio colectivo sea aplicable al sector de oficinas y despachos es un ámbito de aplicación de tipo:",
+                  answers: [
+                    { text: "Funcional", correct: true },
+                    { text: "Territorial", correct: false },
+                    { text: "Temporal", correct: false },
+                    { text: "Personal", correct: false },
+                  ],
+                },
+                {
+                  id: 66,
+                  text: "Según la última actualización de los convenios colectivos:",
+                  answers: [
+                    {
+                      text: "Las empresas no pueden modificar el horario laboral",
+                      correct: false,
+                    },
+                    {
+                      text: "Las empresas pueden modificar el salario base, pero no los complementos salariales",
+                      correct: false,
+                    },
+                    {
+                      text: "El convenio se prorroga automáticamente si no hay nuevo acuerdo",
+                      correct: true,
+                    },
+                    {
+                      text: "Las empresas no pueden modificar los trabajos a turnos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 67,
+                  text: "La Inspección de Trabajo y Seguridad Social es:",
+                  answers: [
+                    {
+                      text: "Una institución pública de carácter estatal",
+                      correct: true,
+                    },
+                    {
+                      text: "Una institución pública de carácter local",
+                      correct: false,
+                    },
+                    {
+                      text: "Una empresa de alcance internacional",
+                      correct: false,
+                    },
+                    {
+                      text: "Una PYME que vela por el cumplimiento de las normas laborales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 68,
+                  text: "Los derechos y obligaciones asociadas a una relación laboral están contemplados, en España en:",
+                  answers: [
+                    {
+                      text: "La Constitución Española y en los reglamentos regionales",
+                      correct: false,
+                    },
+                    {
+                      text: "La Constitución Española y en los Tratados internacionales",
+                      correct: false,
+                    },
+                    {
+                      text: "Los Tratados internacionales y el Estatuto de los Trabajadores",
+                      correct: false,
+                    },
+                    {
+                      text: "La Constitución Española y el Estatuto de los Trabajadores",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 69,
+                  text: "El Tribunal Laboral es:",
+                  answers: [
+                    {
+                      text: "Un tribunal mercantil con jurisdicción especial",
+                      correct: false,
+                    },
+                    {
+                      text: "Un tribunal civil con jurisdicción especial",
+                      correct: true,
+                    },
+                    { text: "Un tribunal penal", correct: false },
+                    { text: "Un tribunal europeo", correct: false },
+                  ],
+                },
+                {
+                  id: 70,
+                  text: "La falta de correspondencia entre las competencias ofrecidas por la población activa y demandadas por los oferentes de empleo ocasiona:",
+                  answers: [
+                    { text: "Equilibrio laboral", correct: false },
+                    { text: "Desempleo no estructural", correct: false },
+                    { text: "Desempleo estructural", correct: true },
+                    { text: "Pleno empleo", correct: false },
+                  ],
+                },
+                {
+                  id: 71,
+                  text: "Es una característica de la evolución del mercado de trabajo actual en España:",
+                  answers: [
+                    { text: "Reducción de la temporalidad", correct: true },
+                    {
+                      text: "Reducción de los contratos fijos discontinuos",
+                      correct: false,
+                    },
+                    { text: "Reducción de la precariedad", correct: false },
+                    {
+                      text: "Reducción del número de personas ocupadas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 72,
+                  text: "Un ejemplo de área de actividad con gran potencial es:",
+                  answers: [
+                    { text: "Edición e imprenta", correct: false },
+                    { text: "Las energías renovables", correct: true },
+                    { text: "La minería", correct: false },
+                    { text: "Atención al público presencial", correct: false },
+                  ],
+                },
+                {
+                  id: 73,
+                  text: "Las actividades agrícolas pertenecen al sector (productivo):",
+                  answers: [
+                    { text: "Primario", correct: true },
+                    { text: "Secundario", correct: false },
+                    { text: "Terciario", correct: false },
+                    { text: "Cuaternario", correct: false },
+                  ],
+                },
+                {
+                  id: 74,
+                  text: "El trabajo de un abogado del Estado pertenece al sector(productivo):",
+                  answers: [
+                    { text: "Privado", correct: false },
+                    { text: "Público", correct: true },
+                    { text: "Primario", correct: false },
+                    { text: "Secundario", correct: false },
+                  ],
+                },
+                {
+                  id: 75,
+                  text: "Una física que trabaja en un laboratorio pertenece al sector profesional:",
+                  answers: [
+                    { text: "Ciencia e investigación", correct: true },
+                    { text: "Deporte", correct: false },
+                    { text: "Tecnológico", correct: false },
+                    { text: "Administración", correct: false },
+                  ],
+                },
+                {
+                  id: 76,
+                  text: "La prospectiva de un título de grado superior proporciona información sobre:",
+                  answers: [
+                    {
+                      text: "Los puestos de trabajo afines a la titulación por cuenta ajena",
+                      correct: false,
+                    },
+                    {
+                      text: "Los puestos de trabajo afines a la titulación por cuenta propia",
+                      correct: false,
+                    },
+                    {
+                      text: "Tendencias del mercado laboral para la titulación",
+                      correct: true,
+                    },
+                    {
+                      text: "Las profesiones reguladas asociadas al título",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 77,
+                  text: "¿Cuál de los siguientes no se considera un método activo de búsqueda de empleo?",
+                  answers: [
+                    { text: "Enviar una autocandidatura", correct: false },
+                    { text: "Estudiar las ofertas de trabajo", correct: false },
+                    { text: "Revisar diariamente Instagram", correct: true },
+                    {
+                      text: "Estar en contacto con una oficina de empleo",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 78,
+                  text: "Para la Encuesta de Población Activa, un estudiante que no busca trabajo es considerado:",
+                  answers: [
+                    { text: "Activo ocupado", correct: false },
+                    { text: "Activo desempleado", correct: false },
+                    { text: "Inactivo", correct: true },
+                    { text: "Parado", correct: false },
+                  ],
+                },
+                {
+                  id: 79,
+                  text: "El principal objetivo de la Red EURAXESS es:",
+                  answers: [
+                    {
+                      text: "Proporcionar acceso a un listado de organizaciones sin ánimo de lucro acreditadas",
+                      correct: false,
+                    },
+                    {
+                      text: "Proporcionar información sobre vacantes y apoyo a investigadores profesionales",
+                      correct: true,
+                    },
+                    {
+                      text: "Proporcionar información sobre vacantes y apoyo a ciudadanos europeos para cualquier tipo de trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Facilitar el acceso a micro financiación a emprendedores con dificultades financieras",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 80,
+                  text: "Señale la respuesta CORRECTA, respecto al plan de autoprotección:",
+                  answers: [
+                    {
+                      text: "Se encuentra incluido dentro del plan de emergencias",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un documento más específico que el plan de emergencias",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un documento más general que el plan de emergencias",
+                      correct: true,
+                    },
+                    { text: "Es voluntario para las empresas", correct: false },
+                  ],
+                },
+                {
+                  id: 81,
+                  text: "Señala la afirmación correcta en relación a las emergencias parciales:",
+                  answers: [
+                    {
+                      text: "Afectan a zonas muy amplias de la empresa",
+                      correct: true,
+                    },
+                    {
+                      text: "Intervienen equipos de primera intervención",
+                      correct: false,
+                    },
+                    {
+                      text: "Afectan a zonas muy concretas de la empresa",
+                      correct: false,
+                    },
+                    { text: "Suelen requerir una evacuación", correct: false },
+                  ],
+                },
+                {
+                  id: 82,
+                  text: "La actuación que consiste en dar el aviso de emergencia o la señal de evacuación al personal de la empresa y se transmite por medios técnicos o humanos se conoce como:",
+                  answers: [
+                    { text: "Mecanismos de alarma", correct: true },
+                    { text: "Mecanismos de respuesta", correct: false },
+                    { text: "Primeras ayudas", correct: false },
+                    { text: "Procedimientos de evacuación", correct: false },
+                  ],
+                },
+                {
+                  id: 83,
+                  text: "En el contexto de los primeros auxilios, el método PAS consiste en:",
+                  answers: [
+                    { text: "Proteger, Animar, Socorrer", correct: false },
+                    { text: "Proteger, Avisar, Socorrer", correct: true },
+                    { text: "Proponer, Animar, Socorrer", correct: false },
+                    { text: "Proteger, Avisar, Silenciar", correct: false },
+                  ],
+                },
+                {
+                  id: 84,
+                  text: "La reanimación respiratoria se realiza cuando el accidentado:",
+                  answers: [
+                    {
+                      text: "Está consciente, respira y tiene pulso",
+                      correct: false,
+                    },
+                    {
+                      text: "Está inconsciente, no respira, pero tiene pulso",
+                      correct: true,
+                    },
+                    {
+                      text: "Está inconsciente, no respira y no tiene pulso",
+                      correct: false,
+                    },
+                    {
+                      text: "Está inconsciente, respira y tiene pulso",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 85,
+                  text: "La primera fase de las técnicas de soporte vital básico es:",
+                  answers: [
+                    { text: "Comprobación de la consciencia", correct: true },
+                    {
+                      text: "Apertura de las vías respiratorias",
+                      correct: false,
+                    },
+                    { text: "Realizar un masaje cardiaco", correct: false },
+                    { text: "Chequear la respiración", correct: false },
+                  ],
+                },
+                {
+                  id: 86,
+                  text: "Según las técnicas de soporte vital básico, cuando el accidentado respira:",
+                  answers: [
+                    {
+                      text: "Debemos iniciar el masaje cardiaco",
+                      correct: false,
+                    },
+                    { text: "Debemos colocarle boca abajo", correct: false },
+                    { text: "Debemos usar un desfibrilador", correct: false },
+                    {
+                      text: "Hay que colocarlo en posición  PLS",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 87,
+                  text: "La maniobra de Heimlich se lleva a cabo en casos de:",
+                  answers: [
+                    { text: "Atragantamiento", correct: true },
+                    { text: "Fractura o esguince", correct: false },
+                    { text: "Hemorragia", correct: false },
+                    { text: "Quemadura", correct: false },
+                  ],
+                },
+                {
+                  id: 88,
+                  text: "El protocolo de actuación en el caso de quemaduras indica que lo primero que hay que hacer es:",
+                  answers: [
+                    { text: "Eliminar el agente que la causa", correct: true },
+                    {
+                      text: "Cubrir al accidentado con una manta",
+                      correct: false,
+                    },
+                    {
+                      text: "Echar abundante agua sobre la quemadura",
+                      correct: false,
+                    },
+                    {
+                      text: "Tumbar al accidentado con los pies en alto",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 89,
+                  text: "Además de disponer de un botiquín, deberán contar con local de primeros auxilios:",
+                  answers: [
+                    {
+                      text: "Las empresas con más de 10 trabajadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Las empresas con más de 50 trabajadores",
+                      correct: true,
+                    },
+                    {
+                      text: "Las empresas con más de 25 trabajadores",
+                      correct: false,
+                    },
+                    { text: "Cualquier empresa", correct: false },
+                  ],
+                },
+                {
+                  id: 90,
+                  text: "La lesión corporal que el trabajador sufre con ocasión o consecuencia del trabajo por cuenta ajena se conoce como:",
+                  answers: [
+                    { text: "Accidente de trabajo", correct: true },
+                    { text: "Causa de trabajo", correct: false },
+                    { text: "Enfermedad profesional", correct: false },
+                    { text: "Accidente ocasional", correct: false },
+                  ],
+                },
+                {
+                  id: 91,
+                  text: "¿Cuál de los siguientes no se considera un accidente de trabajo?",
+                  answers: [
+                    {
+                      text: "El accidente al ejercitar funciones de carácter sindical",
+                      correct: false,
+                    },
+                    {
+                      text: "Enfermedad no profesionales pero contraídas en el trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Agravamiento de enfermedades como consecuencia del trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Accidentes ocasionados por mala fe del trabajador",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 92,
+                  text: "¿Cuál de las siguientes no es un requisito exigido para estimar un accidente in itinere?",
+                  answers: [
+                    {
+                      text: "Que se produzca el trayecto habitual del trabajo al domicilio",
+                      correct: false,
+                    },
+                    {
+                      text: "Que se produzca dentro del tiempo normal del trayecto",
+                      correct: false,
+                    },
+                    {
+                      text: "Que el trabajador se encuentre solo en su vehículo",
+                      correct: true,
+                    },
+                    {
+                      text: "Que el medio de transporte elegido sea el habitual",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 93,
+                  text: "¿Cuál de las siguientes afirmaciones no es correcta?",
+                  answers: [
+                    {
+                      text: "La enfermedad profesional suele tener tratamiento médico",
+                      correct: false,
+                    },
+                    {
+                      text: "La enfermedad profesional se produce de manera súbita",
+                      correct: true,
+                    },
+                    {
+                      text: "El inicio de la enfermedad profesional suele ser lento y solapado",
+                      correct: false,
+                    },
+                    {
+                      text: "Las enfermedades profesionales se incluyen en un listado",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 94,
+                  text: "En relación con los costes de los accidentes laborales, el coste psicológico y el dolor físico ¿a qué parte está asociado?",
+                  answers: [
+                    { text: "Para la empresa", correct: false },
+                    { text: "Para las familias", correct: false },
+                    { text: "Para el trabajador", correct: true },
+                    { text: "Para la sociedad", correct: false },
+                  ],
+                },
+                {
+                  id: 95,
+                  text: "En relación con las medidas de prevención de riesgos, ¿cuál de ellas se fundamenta en la curación y rehabilitación de una enfermedad?",
+                  answers: [
+                    { text: "La seguridad en el trabajo", correct: false },
+                    { text: "La medicina del trabajo", correct: true },
+                    { text: "La higiene industrial", correct: false },
+                    {
+                      text: "Las técnicas basadas en ergonomía",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 96,
+                  text: "¿Cuál de los siguientes es una medida de protección colectiva?",
+                  answers: [
+                    { text: "Una mascarilla", correct: false },
+                    { text: "Unas manoplas", correct: false },
+                    {
+                      text: "Zapatos con suela antideslizante",
+                      correct: false,
+                    },
+                    {
+                      text: "Mejorar la barandilla de una escalera",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 97,
+                  text: "Señale la respuesta CORRECTA sobre los EPI:",
+                  answers: [
+                    {
+                      text: "Los EPI son equipos de protección colectivos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los EPI son equipos de protección individuales",
+                      correct: true,
+                    },
+                    {
+                      text: "Los EPI son equipos de prevención colectivos",
+                      correct: false,
+                    },
+                    {
+                      text: "Los EPI son equipos de prevención individuales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 98,
+                  text: "¿Cuál de las siguientes no es una norma relativa al uso de EPI?",
+                  answers: [
+                    {
+                      text: "El trabajador debe recibir información sobre su uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Se deben seguir las instrucciones del fabricante",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben estar homologados y marcados como CE",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben prestarse a los compañeros siempre que sea necesario",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 99,
+                  text: "¿Qué principio o criterio general de la Vigilancia de la Salud hace mención a la intimidad, igualdad y no discriminación?",
+                  answers: [
+                    { text: "Garantizada y gratuita", correct: false },
+                    { text: "Voluntaria", correct: false },
+                    { text: "Ética", correct: true },
+                    { text: "Documentada", correct: false },
+                  ],
+                },
+                {
+                  id: 100,
+                  text: "¿Cuál de los siguientes no es un elemento que deba incluir el plan de prevención de riesgos laborales?",
+                  answers: [
+                    { text: "La estructura organizativa", correct: false },
+                    { text: "La política de prevención", correct: false },
+                    { text: "Los salarios de los trabajadores", correct: true },
+                    { text: "Los datos de la empresa", correct: false },
+                  ],
+                },
+                {
+                  id: 101,
+                  text: "¿Cuál de las siguientes no es una situación en la que deba volver a realizarse una evaluación de riesgos tras la inicial?",
+                  answers: [
+                    {
+                      text: "Introducción de nuevas tecnologías",
+                      correct: false,
+                    },
+                    { text: "Cambio del dueño de la empresa", correct: true },
+                    {
+                      text: "Cambios en las condiciones de trabajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Nuevos trabajos con componentes químicos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 102,
+                  text: "En la etapa de estimación del riesgo laboral, según la severidad del daño, ¿Qué clasificación corresponde a los cortes, irritaciones o dolores de cabeza?",
+                  answers: [
+                    { text: "Dañinos", correct: false },
+                    { text: "Extremadamente dañinos", correct: false },
+                    { text: "Moderados", correct: false },
+                    { text: "Ligeramente dañinos", correct: true },
+                  ],
+                },
+                {
+                  id: 103,
+                  text: "¿A qué riesgo laboral se asocian los factores de riesgo tales como mala distribución, falta de orden, limpieza y mantenimiento?",
+                  answers: [
+                    { text: "Lugar de trabajo", correct: true },
+                    { text: "Utilización de equipo", correct: false },
+                    { text: "Trabajo con máquinas", correct: false },
+                    { text: "Riesgo eléctrico", correct: false },
+                  ],
+                },
+                {
+                  id: 104,
+                  text: "¿Qué tipos de daños se pueden producir generalmente por un mal uso de las maquinas o herramientas?",
+                  answers: [
+                    { text: "Caídas a distinto nivel", correct: false },
+                    { text: "Estrés social", correct: false },
+                    { text: "Fatiga", correct: false },
+                    { text: "Cortes o aplastamientos", correct: true },
+                  ],
+                },
+                {
+                  id: 105,
+                  text: "¿Qué medidas de prevención específicas podemos adoptar frente a los riesgos de incendio?",
+                  answers: [
+                    { text: "Revisiones del nivel de ruido", correct: false },
+                    { text: "Reducir la jornada laboral", correct: false },
+                    {
+                      text: "Mantener alejados los combustibles del calor",
+                      correct: true,
+                    },
+                    {
+                      text: "Vía de circulación de materiales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 106,
+                  text: "¿Qué puede ocasionar un contacto eléctrico de 30 a 80 mA?",
+                  answers: [
+                    { text: "Cosquilleo", correct: false },
+                    { text: "Tetanización muscular", correct: true },
+                    { text: "Quemaduras superficiales", correct: false },
+                    { text: "Contracción muscular", correct: false },
+                  ],
+                },
+                {
+                  id: 107,
+                  text: "¿Cuál de los siguientes no es uno de los riesgos físicos estudiados?",
+                  answers: [
+                    { text: "Ruido", correct: false },
+                    { text: "Temperatura", correct: false },
+                    { text: "Radiaciones", correct: false },
+                    { text: "Explosiones", correct: true },
+                  ],
+                },
+                {
+                  id: 108,
+                  text: "Riesgo que relaciona con transferencia de material genético y reproducción de microorganismos:",
+                  answers: [
+                    { text: "Riesgo eléctrico", correct: false },
+                    { text: "Riesgo ergonómico", correct: false },
+                    { text: "Riesgo biológico", correct: true },
+                    { text: "Riesgo químico", correct: false },
+                  ],
+                },
+                {
+                  id: 109,
+                  text: "¿Con qué nombre se conocen los actos de violencia psicológica extrema, sistemática y prolongada sobre un trabajador en su lugar de trabajo?",
+                  answers: [
+                    { text: "Burnout", correct: false },
+                    { text: "Estrés laboral", correct: false },
+                    { text: "Mobbing", correct: true },
+                    { text: "Ergonomía", correct: false },
+                  ],
+                },
+                {
+                  id: 110,
+                  text: "La aplicación de las capacidades físicas e intelectuales de una persona hacia un fin previamente fijado se conoce como…",
+                  answers: [
+                    { text: "Cultura preventiva", correct: false },
+                    { text: "Salud", correct: false },
+                    { text: "Trabajo", correct: true },
+                    { text: "Salud laboral", correct: false },
+                  ],
+                },
+                {
+                  id: 111,
+                  text: "Un estado completo de bienestar físico, psíquico y social, no meramente la ausencia de enfermedad se conoce como…",
+                  answers: [
+                    { text: "Cultura preventiva", correct: false },
+                    { text: "Salud", correct: true },
+                    { text: "Trabajo", correct: false },
+                    { text: "Salud laboral", correct: false },
+                  ],
+                },
+                {
+                  id: 112,
+                  text: "Según las disciplinas estudiadas en la práctica de la salud laboral, ¿cuál se encarga de evitar que los trabajadores enfermen a consecuencia de su actividad laboral?",
+                  answers: [
+                    { text: "Seguridad laboral", correct: false },
+                    { text: "Higiene industrial", correct: true },
+                    { text: "Medicina del trabajo", correct: false },
+                    { text: "Ergonomía", correct: false },
+                  ],
+                },
+                {
+                  id: 113,
+                  text: "¿En qué grupo de factores causantes de riesgos laborales debemos incluir a los virus, hongos y bacterias?",
+                  answers: [
+                    { text: "Equipos de trabajo", correct: false },
+                    { text: "Lugar de trabajo", correct: false },
+                    { text: "Agentes químicos", correct: false },
+                    { text: "Agentes biológicos", correct: true },
+                  ],
+                },
+                {
+                  id: 114,
+                  text: "En relación a los riesgos laborales, las condiciones psicosociales son aquellas…",
+                  answers: [
+                    {
+                      text: "Relacionadas con las condiciones fisiológicas",
+                      correct: false,
+                    },
+                    {
+                      text: "Relacionadas con el bienestar mental",
+                      correct: true,
+                    },
+                    {
+                      text: "Relacionadas con la calidad ambiental",
+                      correct: false,
+                    },
+                    {
+                      text: "Relacionadas con la salvaguarda del trabajador",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 115,
+                  text: "¿En qué artículo de la Ley de Prevención de Riesgos Laborales se indica que los trabajadores tienen derecho a una protección eficaz?",
+                  answers: [
+                    { text: "Artículo 40", correct: false },
+                    { text: "Artículo 4", correct: false },
+                    { text: "Artículo 19", correct: false },
+                    { text: "Artículo 14", correct: true },
+                  ],
+                },
+                {
+                  id: 116,
+                  text: "Señale cuál de los siguientes derechos NO es un derecho de los trabajadores en materia de salud laboral:",
+                  answers: [
+                    {
+                      text: "Derecho a recibir información en materia de prevención de riesgos laborales",
+                      correct: false,
+                    },
+                    {
+                      text: "Derecho a que haya ascensores en todas las plantas.",
+                      correct: true,
+                    },
+                    {
+                      text: "Derecho a vigilar regularmente su estado de salud",
+                      correct: false,
+                    },
+                    {
+                      text: "Derecho de disponer de equipos de protección individual",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 117,
+                  text: "¿Cuál de las siguientes no es una obligación del empresario en situaciones de riesgo grave e inminente?",
+                  answers: [
+                    {
+                      text: "Informar lo antes posible a todos los trabajadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Facilitar la formación de los trabajadores",
+                      correct: true,
+                    },
+                    {
+                      text: "Adoptar medidas y dar instrucciones oportunas",
+                      correct: false,
+                    },
+                    {
+                      text: "Disponer de lo necesario para evitar una situación de peligro",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 118,
+                  text: "En el caso de que un trabajador no cumpla con sus obligaciones y se origine un accidente o enfermedad laboral sin lesiones, ¿qué tipo de responsabilidad tendrá dicho trabajador?",
+                  answers: [
+                    { text: "Responsabilidad civil", correct: true },
+                    { text: "Responsabilidad penal", correct: false },
+                    { text: "Responsabilidad disciplinaria", correct: false },
+                    { text: "Responsabilidad accidental", correct: false },
+                  ],
+                },
+                {
+                  id: 119,
+                  text: "¿Qué modelo de prevención debe instaurar una empresa con 300 trabajadores que desarrolla una actividad peligrosa?",
+                  answers: [
+                    { text: "Personal", correct: false },
+                    { text: "Servicio de prevención externo", correct: false },
+                    { text: "Servicio de prevención propio", correct: true },
+                    { text: "Delegada", correct: false },
+                  ],
+                },
+                {
+                  id: 120,
+                  text: "Identifica cuál de las siguientes es una característica de las aptitudes.",
+                  answers: [
+                    { text: "Pueden ser innatas o aprendidas.", correct: true },
+                    { text: "Tienen un componente emocional.", correct: false },
+                    { text: "Son dinámicas.", correct: false },
+                  ],
+                },
+                {
+                  id: 121,
+                  text: "¿Qué tipo de currículum se centra en habilidades y competencias y es una buena opción si no se tiene mucha experiencia laboral?",
+                  answers: [
+                    { text: "Mixto.", correct: false },
+                    { text: "Organizacional.", correct: false },
+                    { text: "Funcional.", correct: true },
+                  ],
+                },
+                {
+                  id: 122,
+                  text: "El descanso mínimo en jornadas de más de 6 horas continuadas, en menores de edad, es de:",
+                  answers: [
+                    { text: "30 minutos.", correct: true },
+                    { text: "15 minutos.", correct: false },
+                    { text: "9 minutos.", correct: false },
+                  ],
+                },
+                {
+                  id: 123,
+                  text: "El permiso retribuido por matrimonio es de:",
+                  answers: [
+                    { text: "15 días.", correct: true },
+                    { text: "7 días.", correct: false },
+                    {
+                      text: "El matrimonio no es una causa de permiso retribuido.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 124,
+                  text: "De entre las siguientes fuentes del derecho laboral: la Constitución española, un contrato laboral y un tratado internacional, tiene prioridad:",
+                  answers: [
+                    { text: "La Constitución española.", correct: true },
+                    { text: "El contrato laboral.", correct: false },
+                    { text: "El tratado internacional.", correct: false },
+                  ],
+                },
+                {
+                  id: 125,
+                  text: "Un derecho laboral individual del trabajador es:",
+                  answers: [
+                    {
+                      text: "El derecho a formación profesional.",
+                      correct: true,
+                    },
+                    { text: "El derecho a huelga.", correct: false },
+                    {
+                      text: "El derecho a tener representación en la empresa.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 126,
+                  text: "Los elementos esenciales de un contrato de trabajo son:",
+                  answers: [
+                    {
+                      text: "El consentimiento, el objeto y la causa.",
+                      correct: true,
+                    },
+                    {
+                      text: "El consentimiento, el sujeto y la causa.",
+                      correct: false,
+                    },
+                    {
+                      text: "El consentimiento, el sujeto y la excusa.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 127,
+                  text: "Un contrato a tiempo parcial puede realizarse:",
+                  answers: [
+                    { text: "De forma indefinida o temporal.", correct: true },
+                    { text: "Solo a jornada continua.", correct: false },
+                    { text: "De forma verbal.", correct: false },
+                  ],
+                },
+                {
+                  id: 128,
+                  text: "Una ventaja de trabajar en el sector privado respecto del sector público es:",
+                  answers: [
+                    {
+                      text: "No hace falta preparar una oposición.",
+                      correct: true,
+                    },
+                    { text: "Los sueldos son más bajos.", correct: false },
+                    {
+                      text: "La rigidez a la hora de cambiar de trabajo.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 129,
+                  text: "En una ficha de trabajo, la descripción detallada de las responsabilidades a asumir por el trabajador se encuentra en:",
+                  answers: [
+                    {
+                      text: "La sección ‘Descripción del puesto de trabajo’.",
+                      correct: true,
+                    },
+                    { text: "La sección ‘Encabezado’.", correct: false },
+                    {
+                      text: "La sección ‘Información adicional’.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 130,
+                  text: "El mercado laboral está en equilibrio cuando:",
+                  answers: [
+                    {
+                      text: "Coinciden la oferta y la demanda laboral.",
+                      correct: true,
+                    },
+                    {
+                      text: "La oferta laboral supera a la demanda laboral.",
+                      correct: false,
+                    },
+                    {
+                      text: "La demanda laboral supera a la oferta laboral.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 131,
+                  text: "Un empleo de administrador de big data en una empresa tecnológica pertenece al sector productivo:",
+                  answers: [
+                    { text: "Cuaternario.", correct: true },
+                    { text: "Terciario.", correct: false },
+                    { text: "Primario.", correct: false },
+                  ],
+                },
+                {
+                  id: 132,
+                  text: "Con relación a los tipos de emergencia, ¿quién interviene cuando se detecta un conato de emergencia?",
+                  answers: [
+                    { text: "Equipos de primera intervención.", correct: true },
+                    {
+                      text: "Equipos de segunda intervención.",
+                      correct: false,
+                    },
+                    {
+                      text: "Todos los medios humanos y materiales disponibles.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 133,
+                  text: "Según el protocolo de soporte vital básico, cuando el accidentado está consciente y responde, hay que:",
+                  answers: [
+                    {
+                      text: "Tranquilizar a la persona accidentada y dejarla en la misma posición, si no hay peligro.",
+                      correct: true,
+                    },
+                    {
+                      text: "Zarandear a la persona accidentada por los hombros.",
+                      correct: false,
+                    },
+                    {
+                      text: "Colocar a la persona accidentada en PLS.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 134,
+                  text: "Según las causas estudiadas para los accidentes de trabajo, la organización del sistema de trabajo sería:",
+                  answers: [
+                    { text: "Una causa humana.", correct: false },
+                    { text: "Una causa técnica.", correct: true },
+                    { text: "Una causa legal.", correct: false },
+                  ],
+                },
+                {
+                  id: 135,
+                  text: "Indica cuál de las siguientes se considera una medida de protección individual de riesgos laborales.",
+                  answers: [
+                    {
+                      text: "Usar un casco de protección en una obra.",
+                      correct: true,
+                    },
+                    {
+                      text: "Cambiar una maquinaria contaminante por una más limpia.",
+                      correct: false,
+                    },
+                    {
+                      text: "Usar aspiradores de polvo en el lugar de trabajo.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 136,
+                  text: "La primera etapa en la gestión de la prevención de una empresa es:",
+                  answers: [
+                    {
+                      text: "Elaborar un plan de prevención de riesgos laborales.",
+                      correct: true,
+                    },
+                    { text: "Evaluar los riesgos laborales.", correct: false },
+                    {
+                      text: "Ejecutar las actividades preventivas.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 137,
+                  text: "La extinción de un incendio con agua es una medida de:",
+                  answers: [
+                    { text: "Enfriamiento", correct: true },
+                    { text: "Sofocación", correct: false },
+                    { text: "Dilución", correct: false },
+                  ],
+                },
+                {
+                  id: 138,
+                  text: "Una jornada laboral excesiva y con turnos nocturnos se entiende como un riesgo laboral de tipo:",
+                  answers: [
+                    {
+                      text: "Riesgo por la organización del trabajo.",
+                      correct: true,
+                    },
+                    { text: "Riesgo ergonómico.", correct: false },
+                    {
+                      text: "Riesgo del contenido del trabajo.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 139,
+                  text: "La mala iluminación es un factor de riesgo laboral asociado a:",
+                  answers: [
+                    { text: "Un agente físico.", correct: true },
+                    {
+                      text: "La carga psicológica del trabajo.",
+                      correct: false,
+                    },
+                    { text: "Las características personales.", correct: false },
+                  ],
+                },
+                {
+                  id: 140,
+                  text: "Identifique cuál no es un derecho del trabajador en materia de prevención de riesgos laborales.",
+                  answers: [
+                    {
+                      text: "Usar adecuadamente las máquinas con las que desarrolle su actividad.",
+                      correct: true,
+                    },
+                    {
+                      text: "Derecho a recibir formación teórica y práctica sobre prevención de riesgos laborales.",
+                      correct: false,
+                    },
+                    {
+                      text: "Derecho a la vigilancia regular de su estado de salud.",
+                      correct: false,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "ed",
+      name: "Entornos de desarrollo",
+      units: [
+        {
+          id: "tema1",
+          name: "1 Questions from tema1",
+          tests: [
+            {
+              id: "tema1-test",
+              title: "Tema 1 - Autoevaluación",
+              createdOn: "2026-01-12",
+              questions: [
+                {
+                  id: 141,
+                  text: "Un programa informático…",
+                  answers: [
+                    {
+                      text: "Siempre se realiza con lenguajes de bajo nivel",
+                      correct: false,
+                    },
+                    {
+                      text: "No puede utilizar instrucciones lógicas",
+                      correct: false,
+                    },
+                    {
+                      text: "Se puede considerar como una receta para resolver un problema determinado",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 142,
+                  text: "Un algoritmo…",
+                  answers: [
+                    {
+                      text: "Es lo mismo que un programa informático",
+                      correct: false,
+                    },
+                    {
+                      text: "No se utiliza en soluciones informáticas",
+                      correct: false,
+                    },
+                    {
+                      text: "Únicamente es un término matemático",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 143,
+                  text: "Para ejecutar un programa informático…",
+                  answers: [
+                    {
+                      text: "Es necesario disponer de un código que pueda entender el procesador",
+                      correct: true,
+                    },
+                    {
+                      text: "Se puede ejecutar un lenguaje de alto nivel",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario escribirlo en lenguaje de bajo nivel",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 144,
+                  text: "Para que un programa informático pueda ser ejecutado…",
+                  answers: [
+                    {
+                      text: "Es necesario que esté almacenado en el disco duro",
+                      correct: false,
+                    },
+                    { text: "Debe ser cargado en memoria ROM", correct: false },
+                    { text: "Debe ser cargado en la ALU", correct: false },
+                    {
+                      text: "Debe ser cargado en la memoria RAM",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 145,
+                  text: "La arquitectura típica de un computador…",
+                  answers: [
+                    {
+                      text: "Requiere de memoria RAM, registros, ALU, unidad de control y sistema de E/S.",
+                      correct: true,
+                    },
+                    { text: "Requiere únicamente de la CPU", correct: false },
+                    {
+                      text: "Requiere únicamente de los registros",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 146,
+                  text: "El nivel de abstracción de un lenguaje de programación…",
+                  answers: [
+                    { text: "No se suele utilizar", correct: false },
+                    {
+                      text: "Suele indicar lo cercano que está al lenguaje humano",
+                      correct: true,
+                    },
+                    {
+                      text: "Se suele relacionar con el rendimiento del lenguaje",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 147,
+                  text: "Los lenguajes de programación de alto nivel…",
+                  answers: [
+                    {
+                      text: "Tienen un nivel de atracción bajo",
+                      correct: false,
+                    },
+                    {
+                      text: "Pueden ser ejecutado directamente en la CPU",
+                      correct: false,
+                    },
+                    {
+                      text: "Se trata de lenguajes declarativos",
+                      correct: false,
+                    },
+                    {
+                      text: "Tienen un alto nivel de abstracción",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 148,
+                  text: "El paradigma de programación declarativo…",
+                  answers: [
+                    { text: "No existe", correct: false },
+                    {
+                      text: "Se utiliza más que lenguajes de alto nivel",
+                      correct: false,
+                    },
+                    {
+                      text: "Es más utilizado que el paradigma imperativo",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 149,
+                  text: "La programación funcional…",
+                  answers: [
+                    {
+                      text: "Pertenece al paradigma declarativo",
+                      correct: true,
+                    },
+                    {
+                      text: "Pertenece al paradigma imperativo",
+                      correct: false,
+                    },
+                    { text: "No se utiliza en la actualidad", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 150,
+                  text: "La programación orientada a objetos…",
+                  answers: [
+                    {
+                      text: "Pertenece al paradigma declarativo",
+                      correct: false,
+                    },
+                    {
+                      text: "Pertenece al paradigma procedimental",
+                      correct: false,
+                    },
+                    {
+                      text: "Se engloba dentro del paradigma imperativo",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 151,
+                  text: "La ingeniería del software…",
+                  answers: [
+                    {
+                      text: "No es necesaria en el desarrollo de un proyecto software",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite guiar el proceso de desarrollo más fácilmente",
+                      correct: true,
+                    },
+                    {
+                      text: "Sigue el modelo de la arquitectura tradicional",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 152,
+                  text: "La toma de requisitos…",
+                  answers: [
+                    {
+                      text: "No forma parte de la ingeniería del software",
+                      correct: false,
+                    },
+                    {
+                      text: "Es la etapa menos importante en un desarrollo",
+                      correct: false,
+                    },
+                    {
+                      text: "Es sumamente importante para ahorrar costes económicos innecesarios",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 153,
+                  text: "La fase de análisis en el desarrollo software…",
+                  answers: [
+                    {
+                      text: "Debe realizarse después de la toma de requisitos",
+                      correct: true,
+                    },
+                    {
+                      text: "Se realiza después de la etapa de diseño",
+                      correct: false,
+                    },
+                    { text: "Es altamente prescindible", correct: false },
+                    {
+                      text: "Se realiza después de la etapa de documentación",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 154,
+                  text: "La fase de implementación en el desarrollo software...",
+                  answers: [
+                    {
+                      text: "Debe ser la primera en realizarse",
+                      correct: false,
+                    },
+                    {
+                      text: "Se realiza justo después de la toma de requisitos",
+                      correct: false,
+                    },
+                    {
+                      text: "Se realiza después de la etapa de diseño",
+                      correct: true,
+                    },
+                    {
+                      text: "Puede comenzar en cualquier momento",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 155,
+                  text: "Las metodologías de desarrollo software…",
+                  answers: [
+                    {
+                      text: "Pueden tener diferentes enfoques que pueden afectar al resultado final",
+                      correct: true,
+                    },
+                    { text: "Es mejor no utilizar ninguna", correct: false },
+                    {
+                      text: "Suelen requerir mayores costes económicos",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 156,
+                  text: "El modelo de desarrollo en cascada…",
+                  answers: [
+                    {
+                      text: "Es el más utilizado en la actualidad",
+                      correct: false,
+                    },
+                    {
+                      text: "Requiere más tiempo para sacar un producto final",
+                      correct: true,
+                    },
+                    {
+                      text: "Es más rápido que el modelo en espiral",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 157,
+                  text: "El modelo de desarrollo en espiral…",
+                  answers: [
+                    {
+                      text: "El más utilizado que las metodologías ágiles",
+                      correct: false,
+                    },
+                    {
+                      text: "Es menos eficiente que el modelo de desarrollo en cascada",
+                      correct: false,
+                    },
+                    {
+                      text: "Completa una funcionalidad en cada ciclo de la espiral",
+                      correct: true,
+                    },
+                    { text: "No existe dicha metodología", correct: false },
+                  ],
+                },
+                {
+                  id: 158,
+                  text: "La programación extrema…",
+                  answers: [
+                    {
+                      text: "Es más lenta que el modelo de desarrollo en cascada",
+                      correct: false,
+                    },
+                    {
+                      text: "Es más lenta que el modelo de desarrollo en espiral",
+                      correct: false,
+                    },
+                    { text: "No se utiliza hoy en día", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 159,
+                  text: "El analista de sistemas…",
+                  answers: [
+                    {
+                      text: "Es el encargado de realizar la codificación del software",
+                      correct: false,
+                    },
+                    {
+                      text: "Se puede prescindir en desarrollo software",
+                      correct: false,
+                    },
+                    {
+                      text: "Es el encargado de realizar el estudio del sistema",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 160,
+                  text: "UML..",
+                  answers: [
+                    {
+                      text: "Es un tipo de rol en el desarrollo software",
+                      correct: false,
+                    },
+                    { text: "No se utiliza en la actualidad", correct: false },
+                    { text: "Es un lenguaje de modelado", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                // Compilación, código interpretado y depuración
+                {
+                  id: 161,
+                  text: "El proceso de compilación…",
+                  answers: [
+                    {
+                      text: "Transforma código ensamblador a código intermedio",
+                      correct: false,
+                    },
+                    {
+                      text: "Traduce código ensamblador a código de alto nivel",
+                      correct: false,
+                    },
+                    { text: "Necesita muchos recursos", correct: false },
+                    {
+                      text: "Traduce código de alto nivel a código ensamblador",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 162,
+                  text: "Un código interpretado…",
+                  answers: [
+                    {
+                      text: "Es más eficiente que un código compilado",
+                      correct: false,
+                    },
+                    {
+                      text: "No es compatible con un código compilado",
+                      correct: false,
+                    },
+                    {
+                      text: "Suele ser menos eficiente que un código compilado",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 163,
+                  text: "Un lenguaje de programación de alto nivel…",
+                  answers: [
+                    { text: "Se parece al lenguaje humano", correct: true },
+                    { text: "Depende de la CPU utilizada", correct: false },
+                    {
+                      text: "Depende de una máquina en concreto",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 164,
+                  text: "Una vez que un código fuente compila…",
+                  answers: [
+                    {
+                      text: "No es necesario realizar comprobaciones en su ejecución",
+                      correct: false,
+                    },
+                    {
+                      text: "No es posible que posea errores lógicos",
+                      correct: false,
+                    },
+                    { text: "Es necesario probar su ejecución", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 165,
+                  text: "El depurador de código...",
+                  answers: [
+                    {
+                      text: "Se puede utilizar en soluciones compiladas e interpretadas",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo es compatible con soluciones compiladas",
+                      correct: false,
+                    },
+                    {
+                      text: "No permite detectar errores lógicos",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 166,
+                  text: "Las soluciones interpretadas…",
+                  answers: [
+                    {
+                      text: "Suelen estar vinculadas a soluciones de tiempo real",
+                      correct: false,
+                    },
+                    {
+                      text: "Se suelen vincular con la inteligencia artificial",
+                      correct: true,
+                    },
+                    {
+                      text: "No tienen utilidad en la actualidad",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 167,
+                  text: "En el proceso de compilación…",
+                  answers: [
+                    {
+                      text: "Las dependencias se solucionan con las comprobaciones léxicas",
+                      correct: false,
+                    },
+                    {
+                      text: "La dependencia se solucionan con las comprobaciones sintácticas",
+                      correct: false,
+                    },
+                    {
+                      text: "Requiere la utilización de un enlazador para resolver las dependencias",
+                      correct: true,
+                    },
+                    {
+                      text: "No es posible resolver las dependencias",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 168,
+                  text: "Las comprobaciones léxicas en el proceso de compilación…",
+                  answers: [
+                    {
+                      text: "Hace referencia en el orden de los elementos",
+                      correct: false,
+                    },
+                    {
+                      text: "No existe estas comprobaciones en soluciones compiladas",
+                      correct: false,
+                    },
+                    { text: "Dependerá de la CPU utilizada", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 169,
+                  text: "Cuando nuestro programa posee un fallo…",
+                  answers: [
+                    {
+                      text: "Suele ser más costoso solucionarlo que encontrarlo",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario recompilar, pues de esta forma se arreglan los problemas lógicos",
+                      correct: false,
+                    },
+                    {
+                      text: "Suele ser más complicado encontrarlo que solucionarlo",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 170,
+                  text: "La reutilización de código…",
+                  answers: [
+                    {
+                      text: "No es una buena práctica en la actualidad",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo es posible en soluciones interpretadas",
+                      correct: false,
+                    },
+                    {
+                      text: "Nos permite desarrollar un software de una manera más veloz",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+
+                // IDE y entornos de desarrollo
+                {
+                  id: 171,
+                  text: "Un entorno de desarrollo integrado…",
+                  answers: [
+                    { text: "No es capaz de editar el código", correct: false },
+                    {
+                      text: "No es capaz de realizar la compilación",
+                      correct: false,
+                    },
+                    { text: "Ofrece herramienta de depuración", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 172,
+                  text: "Un IDE…",
+                  answers: [
+                    {
+                      text: "Es una herramienta destinada al público en general",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una herramienta orientada a desarrolladores",
+                      correct: true,
+                    },
+                    {
+                      text: "Es una herramienta orientada a diseñadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 173,
+                  text: "Los IDEs…",
+                  answers: [
+                    {
+                      text: "Integran múltiples funcionalidades",
+                      correct: true,
+                    },
+                    { text: "Siempre han existido", correct: false },
+                    {
+                      text: "No se recomienda su utilización en entornos profesionales",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 174,
+                  text: "Una característica necesaria en los entornos de desarrollo es…",
+                  answers: [
+                    {
+                      text: "Que sea rígido y no permita la personalización",
+                      correct: false,
+                    },
+                    {
+                      text: "Que sea un entorno cerrado y no permita la actualización",
+                      correct: false,
+                    },
+                    {
+                      text: "Que permite ampliarse mediante plugins",
+                      correct: true,
+                    },
+                    {
+                      text: "Que no tenga conexión a Internet",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 175,
+                  text: "A la hora de elegir un entorno desarrollo…",
+                  answers: [
+                    {
+                      text: "Hay que considerar diferentes dimensiones para realizar la elección correcta",
+                      correct: true,
+                    },
+                    {
+                      text: "Es mejor utilizar el IDE con más lenguajes",
+                      correct: false,
+                    },
+                    { text: "Es mejor elegir el IDE más caro", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 176,
+                  text: "El editor de texto en un entorno desarrollo...",
+                  answers: [
+                    {
+                      text: "Es un elemento que no hay que tener en cuenta",
+                      correct: false,
+                    },
+                    { text: "Es sumamente importante", correct: true },
+                    {
+                      text: "No debe permitir la personalización",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 177,
+                  text: "La utilización de plugins en los entornos de desarrollo...",
+                  answers: [
+                    { text: "No es recomendado", correct: false },
+                    {
+                      text: "Pone en riesgo la calidad del software desarrollado",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite personalizar y extender el entorno",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 178,
+                  text: "Para que un IDE sea efectivo debe…",
+                  answers: [
+                    { text: "No tener acceso a Internet", correct: false },
+                    {
+                      text: "Incluir al editor de forma externa",
+                      correct: false,
+                    },
+                    {
+                      text: "Utilizar línea de comandos únicamente",
+                      correct: false,
+                    },
+                    { text: "Disponer de interfaz gráfica", correct: true },
+                  ],
+                },
+                {
+                  id: 179,
+                  text: "El editor de texto de un entorno de desarrollo…",
+                  answers: [
+                    {
+                      text: "No tiene ninguna característica especial",
+                      correct: false,
+                    },
+                    {
+                      text: "Requiere muchos recursos hardware",
+                      correct: false,
+                    },
+                    { text: "Suele ser un editor inteligente", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 180,
+                  text: "Al utilizar un IDE en el desarrollo…",
+                  answers: [
+                    {
+                      text: "Es necesario disponer de herramientas externas para compilar",
+                      correct: false,
+                    },
+                    {
+                      text: "Los errores sintácticos aparecen durante la compilación",
+                      correct: false,
+                    },
+                    {
+                      text: "El programador puede ver los errores mientras teclea",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                // IDE y entornos de desarrollo avanzados
+                {
+                  id: 181,
+                  text: "La utilización de un IDE puede estar marcado por…",
+                  answers: [
+                    {
+                      text: "El soporte del sistema operativo",
+                      correct: false,
+                    },
+                    { text: "La capacidad de actualización", correct: false },
+                    { text: "La existencia de plugins", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 182,
+                  text: "La capacidad de documentación de IDE…",
+                  answers: [
+                    {
+                      text: "No es relevante pues solo se utiliza para desarrollar",
+                      correct: false,
+                    },
+                    {
+                      text: "No está contemplada en este tipo de herramientas",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una característica a tener en cuenta, pues el código tiene que estar documentado",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 183,
+                  text: "Cuando realizamos la instalación de un IDE...",
+                  answers: [
+                    {
+                      text: "Es recomendable realizar una fase de personalización",
+                      correct: true,
+                    },
+                    {
+                      text: "No es posible realizar ningún tipo de personalización",
+                      correct: false,
+                    },
+                    {
+                      text: "No se puede instalar ningún módulo adicional",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 184,
+                  text: "El IDE Eclipse…",
+                  answers: [
+                    { text: "Está desarrollado en C#", correct: false },
+                    {
+                      text: "No permite la instalación de plugins",
+                      correct: false,
+                    },
+                    { text: "Está desarrollado en Java", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 185,
+                  text: "En referencia Visual Studio Code",
+                  answers: [
+                    { text: "Es un IDE", correct: false },
+                    {
+                      text: "Es un editor de texto con funciones avanzadas",
+                      correct: true,
+                    },
+                    { text: "No permite instalar plugins", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 186,
+                  text: "A la hora de instalar un IDE",
+                  answers: [
+                    {
+                      text: "Hay que instalarlo independientemente de las características de la máquina",
+                      correct: false,
+                    },
+                    {
+                      text: "Tenemos que tener en cuenta los requisitos hardware que requiere el IDE",
+                      correct: true,
+                    },
+                    {
+                      text: "Tenemos que elegir el que sea más ligero",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 187,
+                  text: "Cuando instalamos un entorno de desarrollo…",
+                  answers: [
+                    {
+                      text: "Hay que tener en cuenta los requisitos necesarios",
+                      correct: false,
+                    },
+                    {
+                      text: "Tenemos consultar si existe documentación del mismo",
+                      correct: false,
+                    },
+                    {
+                      text: "Es importante observar la frecuencia de actualización",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 188,
+                  text: "Las herramientas CASE…",
+                  answers: [
+                    { text: "No pueden generar código", correct: false },
+                    { text: "Genera un código de alta calidad", correct: true },
+                    {
+                      text: "Ayudan únicamente en la fase de implementación",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 189,
+                  text: "En referencia a las herramientas CASE y los entornos de desarrollo…",
+                  answers: [
+                    { text: "Normalmente van por separado", correct: false },
+                    {
+                      text: "Las herramientas se pueden añadir a los entornos de desarrollo",
+                      correct: true,
+                    },
+                    {
+                      text: "Siempre hay que utilizar una herramienta CASE",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 190,
+                  text: "Cuando instalamos un entorno de desarrollo…",
+                  answers: [
+                    {
+                      text: "Debemos instalar los plugins necesarios para nuestra empresa",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario realizar una etapa de configuración previa",
+                      correct: false,
+                    },
+                    {
+                      text: "Hay que asegurarse que está actualizado",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+
+                // UML y metodologías orientadas a objetos
+                {
+                  id: 191,
+                  text: "El lenguaje UML…",
+                  answers: [
+                    { text: "No es estándar", correct: false },
+                    {
+                      text: "Está centrado en el modelado orientado objetos",
+                      correct: true,
+                    },
+                    { text: "No es seguro", correct: false },
+                    { text: "Ninguna es correcta", correct: false },
+                  ],
+                },
+                {
+                  id: 192,
+                  text: "Las metodologías orientadas a objetos…",
+                  answers: [
+                    { text: "No se utilizan en la actualidad", correct: false },
+                    { text: "Son poco eficientes", correct: false },
+                    {
+                      text: "No disponen de lenguaje de modelado",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 193,
+                  text: "En relación a OMT…",
+                  answers: [
+                    {
+                      text: "Es una de las primeras metodologías orientadas a objetos",
+                      correct: true,
+                    },
+                    {
+                      text: "Es posterior al proceso unificado",
+                      correct: false,
+                    },
+                    { text: "Utiliza UML", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 194,
+                  text: "Una de las características de UML…",
+                  answers: [
+                    {
+                      text: "No posee un gran conjunto de diagramas",
+                      correct: false,
+                    },
+                    {
+                      text: "No se puede utilizar en ningún entorno de desarrollo",
+                      correct: false,
+                    },
+                    {
+                      text: "Cada tipo de diagrama se centra en un punto de vista del software",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 195,
+                  text: "A la hora de crear el modelado de un sistema informático…",
+                  answers: [
+                    {
+                      text: "Es recomendable utilizar herramientas ofimáticas",
+                      correct: false,
+                    },
+                    {
+                      text: "Hay que realizar el modelado a mano",
+                      correct: false,
+                    },
+                    {
+                      text: "Es recomendable utilizar herramientas de modelado",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 196,
+                  text: "El diagrama de clases…",
+                  answers: [
+                    {
+                      text: "Es el diagrama menos importante en UML",
+                      correct: false,
+                    },
+                    {
+                      text: "Se representa junto con el diagrama de casos de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un tipo especial de diagrama de secuencia",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 197,
+                  text: "En relación con UML…",
+                  answers: [
+                    { text: "Solo tiene una versión", correct: false },
+                    {
+                      text: "Ha ido evolucionando a lo largo del tiempo",
+                      correct: true,
+                    },
+                    { text: "Es poco potente", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 198,
+                  text: "El diagrama de casos de uso…",
+                  answers: [
+                    { text: "No está contemplado en UML", correct: false },
+                    {
+                      text: "Permite determinar el comportamiento del sistema de el punto de vista del usuario",
+                      correct: true,
+                    },
+                    {
+                      text: "Permite representar interacciones de manera dinámica",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 199,
+                  text: "La metodología de proceso de objetos…",
+                  answers: [
+                    {
+                      text: "Es la metodología más utilizada en la actualidad",
+                      correct: false,
+                    },
+                    { text: "Utiliza el proceso unificado", correct: false },
+                    { text: "Es posterior a OMT", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 200,
+                  text: "¿Con qué herramienta no podremos elaborar diagramas?",
+                  answers: [
+                    { text: "Rationalic Roses", correct: true },
+                    { text: "StarUML", correct: false },
+                    { text: "Papyrus UML", correct: false },
+                    {
+                      text: "Con todas las anteriores se pueden elaborar diagramas",
+                      correct: false,
+                    },
+                  ],
+                },
+                // Diagramas de clases
+                {
+                  id: 201,
+                  text: "El diagrama de clases…",
+                  answers: [
+                    { text: "No pertenece a UML", correct: false },
+                    {
+                      text: "Permite establecer las relaciones entre las clases",
+                      correct: true,
+                    },
+                    { text: "Muestra un flujo de ejecución", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 202,
+                  text: "La ingeniería inversa…",
+                  answers: [
+                    {
+                      text: "No es posible con los lenguajes actuales",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo funciona con el lenguaje ensamblador",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite obtener el código fuente a partir de un código máquina.",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 203,
+                  text: "Un diagrama de clases...",
+                  answers: [
+                    {
+                      text: "Solo muestra el nombre de la clases",
+                      correct: false,
+                    },
+                    {
+                      text: "No posee información de los atributos",
+                      correct: false,
+                    },
+                    {
+                      text: "Muestra información de las clases, los métodos y los atributos.",
+                      correct: true,
+                    },
+                    {
+                      text: "No establece información sobre los métodos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 204,
+                  text: "La encapsulación en una clase…",
+                  answers: [
+                    {
+                      text: "No es necesario en la orientación objetos",
+                      correct: false,
+                    },
+                    { text: "Es una mala práctica", correct: false },
+                    {
+                      text: "Es una característica de la orientación objetos",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 205,
+                  text: "La visibilidad de una clase…",
+                  answers: [
+                    {
+                      text: "Puede afectar a la clase, los atributos y los métodos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Indica el ámbito de lo que puede ser visible en los métodos de una clase",
+                      correct: false,
+                    },
+                    { text: "Puede tener diferentes niveles", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 206,
+                  text: "A la hora de utilizar una clase…",
+                  answers: [
+                    { text: "Debemos crear un objeto", correct: false },
+                    {
+                      text: "Los métodos visibles son los protegidos y los públicos",
+                      correct: false,
+                    },
+                    {
+                      text: "Normalmente se utiliza la palabra reservada new",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 207,
+                  text: "La relación de asociación…",
+                  answers: [
+                    {
+                      text: "No es posible un diagrama de clases",
+                      correct: false,
+                    },
+                    {
+                      text: "No se representa en un diagrama de clases",
+                      correct: false,
+                    },
+                    {
+                      text: "Es la relación más sencilla en el diagrama de clases",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 208,
+                  text: "En referencia a la cardinalidad…",
+                  answers: [
+                    {
+                      text: "No se contempla en un diagrama de clase",
+                      correct: false,
+                    },
+                    {
+                      text: "Indica el número de veces que puede relacionarse una clase con otras",
+                      correct: false,
+                    },
+                    {
+                      text: "Indica el número de veces que puede relacionarse una instancia de una clase con instancias de otras.",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 209,
+                  text: "La ingeniería inversa…",
+                  answers: [
+                    {
+                      text: "Permite obtener el código fuente a partir de un código máquina.",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede generar un diagrama de clases a partir de un código fuente",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede ser mitigada con medidas de protección sobre el código",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 210,
+                  text: "Para la creación de diagramas de clases…",
+                  answers: [
+                    {
+                      text: "Es mejor utilizar herramientas de propósito general",
+                      correct: false,
+                    },
+                    {
+                      text: "No existen herramientas para soportar este tipo de diagramas",
+                      correct: false,
+                    },
+                    {
+                      text: "Existen herramientas específicamente para ello",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+
+                // Diagramas de comportamiento
+                {
+                  id: 211,
+                  text: "Los diagramas de comportamiento…",
+                  answers: [
+                    { text: "No están soportados en UML", correct: false },
+                    {
+                      text: "Permiten mostrar el flujo de ejecución de una aplicación",
+                      correct: true,
+                    },
+                    { text: "Son poco seguros", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 212,
+                  text: "Un diagrama de secuencia…",
+                  answers: [
+                    {
+                      text: "Muestra el aspecto de las clases",
+                      correct: false,
+                    },
+                    {
+                      text: "Es el mejor diagrama de comportamiento",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un tipo de diagrama de comportamiento",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 213,
+                  text: "Un diagrama de casos de uso…",
+                  answers: [
+                    {
+                      text: "Permite mostrar la interacción de las clases",
+                      correct: false,
+                    },
+                    {
+                      text: "Se centra en mostrar el flujo de ejecución",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite representar la funcionalidad del sistema",
+                      correct: true,
+                    },
+                    {
+                      text: "Muestra los detalles de cada clase",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 214,
+                  text: "Un diagrama de actividad…",
+                  answers: [
+                    {
+                      text: "Es un tipo especial de diagrama de casos de uso",
+                      correct: false,
+                    },
+                    { text: "No está contemplado en UML", correct: false },
+                    {
+                      text: "Es una especialización de los diagramas de estado",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 215,
+                  text: "Un diagrama de comportamiento…",
+                  answers: [
+                    {
+                      text: "Puede mostrar qué sucede al lanzarse un evento",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo muestra el flujo de ejecución al recibir una señal",
+                      correct: false,
+                    },
+                    { text: "Solo puede ser emergente", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 216,
+                  text: "Un diagrama de comportamiento emergente…",
+                  answers: [
+                    {
+                      text: "Es aquel que tienen lugar en la ejecución sin la interacción de objetos",
+                      correct: false,
+                    },
+                    {
+                      text: "Es aquel que tiene lugar por la interacción de objetos",
+                      correct: true,
+                    },
+                    { text: "No existe esta clasificación", correct: false },
+                    {
+                      text: "Es más potente que un diagrama de interacción",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 217,
+                  text: "Un diagrama de comportamiento de ejecución…",
+                  answers: [
+                    {
+                      text: "Siempre ha estado contemplado en UML",
+                      correct: false,
+                    },
+                    { text: "Surge en la versión 1.x de UML", correct: false },
+                    { text: "Surge en la versión 2.4.1 de UML", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 218,
+                  text: "Para generar diagramas de comportamiento…",
+                  answers: [
+                    {
+                      text: "Solo se pueden utilizar herramientas ofimáticas",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario realizarlo una vez esté diseñado el sistema e implementado",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario disponer del código fuente",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 219,
+                  text: "En relación con los diagramas de comportamiento, ¿cuál de las siguientes afirmaciones es cierta?",
+                  answers: [
+                    {
+                      text: "El diagrama de actividad no es un tipo de diagrama de comportamiento.",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo existen dos tipos de diagramas de comportamiento: el diagrama de casos de uso y el de estados.",
+                      correct: false,
+                    },
+                    {
+                      text: "No son muy útiles para representar el flujo del sistema.",
+                      correct: false,
+                    },
+                    { text: "Todas son incorrectas", correct: true },
+                  ],
+                },
+                {
+                  id: 220,
+                  text: "Un diagrama de estados…",
+                  answers: [
+                    {
+                      text: "Es un tipo especial de diagrama de casos de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un tipo especial de diagrama de secuencia",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite indicar los diferentes estados por los que pasa el software",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                // Diagramas de casos de uso
+                {
+                  id: 221,
+                  text: "Un diagrama de casos de uso…",
+                  answers: [
+                    {
+                      text: "Permite indicar la relación entre las clases del sistema",
+                      correct: false,
+                    },
+                    {
+                      text: "Nos sirve para entender los detalles de implementación",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite visualizar rápidamente la funcionalidad del sistema",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 222,
+                  text: "Las relaciones para los casos de uso pueden ser…",
+                  answers: [
+                    { text: "De inclusión", correct: false },
+                    { text: "De extensión", correct: false },
+                    { text: "De generalización", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 223,
+                  text: "El límite de un sistema…",
+                  answers: [
+                    {
+                      text: "Es un tipo de relación en los diagramas de caso de uso",
+                      correct: true,
+                    },
+                    { text: "No existe en UML", correct: false },
+                    {
+                      text: "No es necesario indicarlo si tenemos documentación",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 224,
+                  text: "La documentación de un caso de uso…",
+                  answers: [
+                    { text: "Es opcional", correct: false },
+                    {
+                      text: "No es necesario pues todo queda registrado en el caso de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Nos permite tener más información que el diagrama",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 225,
+                  text: "En un diagrama de casos de uso existe…",
+                  answers: [
+                    { text: "Actores", correct: false },
+                    { text: "Casos de uso", correct: false },
+                    { text: "Relaciones", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 226,
+                  text: "Gracias a los diagramas de casos de uso…",
+                  answers: [
+                    { text: "Tenemos sistemas monolíticos", correct: false },
+                    {
+                      text: "Podemos tener sistemas más modulares",
+                      correct: true,
+                    },
+                    { text: "Se dificulta la implementación", correct: false },
+                    {
+                      text: "No se capturan los requisitos funcionales",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 227,
+                  text: "Los requisitos no funcionales…",
+                  answers: [
+                    {
+                      text: "No son necesarios en el diseño software",
+                      correct: false,
+                    },
+                    {
+                      text: "No se pueden capturar en el diagrama de caso de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Requieren de la documentación para ser capturados",
+                      correct: false,
+                    },
+                    { text: "La B y C son correctas", correct: true },
+                  ],
+                },
+                {
+                  id: 228,
+                  text: "Los requisitos funcionales…",
+                  answers: [
+                    {
+                      text: "Se centran en definir la calidad del sistema",
+                      correct: false,
+                    },
+                    {
+                      text: "Se centran en aspectos temporales",
+                      correct: false,
+                    },
+                    {
+                      text: "No pueden relacionarse con actores",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 229,
+                  text: "A la hora de documentar un caso de uso…",
+                  answers: [
+                    {
+                      text: "Es necesario indicar el estado anterior a la ejecución",
+                      correct: false,
+                    },
+                    {
+                      text: "Es necesario indicar el estado posterior de la ejecución",
+                      correct: false,
+                    },
+                    {
+                      text: "Hay que indicar una descripción del caso de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 230,
+                  text: "Los requisitos no funcionales…",
+                  answers: [
+                    {
+                      text: "Pueden afectar a la calidad del sistema.",
+                      correct: false,
+                    },
+                    {
+                      text: "No quedan reflejados en los diagramas.",
+                      correct: false,
+                    },
+                    {
+                      text: "Normalmente son requisitos obligatorios",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+
+                // Diagramas de secuencia e interacción
+                {
+                  id: 231,
+                  text: "Los diagramas de secuencia…",
+                  answers: [
+                    { text: "Se utilizan en los casos de uso", correct: false },
+                    {
+                      text: "Permiten indicar el intercambio de mensajes asíncrono",
+                      correct: true,
+                    },
+                    {
+                      text: "Son menos potentes que los diagramas de colaboración",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 232,
+                  text: "Los diagramas de colaboración…",
+                  answers: [
+                    {
+                      text: "Son un tipo especial de diagrama de interacción",
+                      correct: false,
+                    },
+                    {
+                      text: "No requieren una representación lineal de los objetos",
+                      correct: false,
+                    },
+                    {
+                      text: "No están ampliamente soportados por las herramientas de modelado",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 233,
+                  text: "Los diagramas de interacción…",
+                  answers: [
+                    {
+                      text: "Permiten observar el intercambio de mensajes en un sistema",
+                      correct: true,
+                    },
+                    {
+                      text: "Ofrecen una vista estática del sistema",
+                      correct: false,
+                    },
+                    { text: "No están soportados en UML", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 234,
+                  text: "Los diagramas de secuencia…",
+                  answers: [
+                    {
+                      text: "Permiten mostrar el intercambio de mensajes de forma síncrona",
+                      correct: false,
+                    },
+                    {
+                      text: "Permiten mostrar el intercambio de mensajes de forma asíncrona",
+                      correct: false,
+                    },
+                    { text: "Están soportados por UML", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 235,
+                  text: "Las líneas de vida…",
+                  answers: [
+                    {
+                      text: "Se relacionan con los diagramas de secuencia",
+                      correct: true,
+                    },
+                    {
+                      text: "Se relacionan con los diagramas de interacción",
+                      correct: false,
+                    },
+                    {
+                      text: "Se relacionan con los diagramas de casos de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 236,
+                  text: "Los diagramas de colaboración…",
+                  answers: [
+                    {
+                      text: "Son adecuados para todo tipo de documentación",
+                      correct: false,
+                    },
+                    {
+                      text: "Se utilizan especialmente en equipos con metodologías ágiles",
+                      correct: true,
+                    },
+                    {
+                      text: "Permiten establecer la línea de vida de una manera clara",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 237,
+                  text: "Los diagramas de secuencia…",
+                  answers: [
+                    {
+                      text: "Representan el intercambio de mensajes sin una forma establecida",
+                      correct: false,
+                    },
+                    {
+                      text: "Permiten aprovechar mejor el espacio a la hora de crear el diagrama",
+                      correct: false,
+                    },
+                    {
+                      text: "Se utilizan siempre en metodologías ágiles",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 238,
+                  text: "En los diagramas de interacción…",
+                  answers: [
+                    {
+                      text: "Es posible establecer condiciones",
+                      correct: false,
+                    },
+                    {
+                      text: "Se pueden establecer mensaje síncronos y asíncronos",
+                      correct: false,
+                    },
+                    {
+                      text: "Se pueden adaptar a diferentes metodologías",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 239,
+                  text: "El modelado dinámico…",
+                  answers: [
+                    {
+                      text: "Se puede realizar mediante la creación de diagramas de casos de uso",
+                      correct: false,
+                    },
+                    {
+                      text: "Se puede realizar mediante la creación de diagramas de clase",
+                      correct: false,
+                    },
+                    {
+                      text: "Se introduce con la creación de diagramas de interacción",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 240,
+                  text: "En un diagrama de interacción una llamada síncrona se representa…",
+                  answers: [
+                    {
+                      text: "Con una flecha discontinua con la punta rellena",
+                      correct: false,
+                    },
+                    {
+                      text: "Con una flecha continua con la punta vacía",
+                      correct: false,
+                    },
+                    {
+                      text: "Con una flecha continua con la punta rellena",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 241,
+                  text: "¿Qué diferencia existe entre una clase y un objeto?",
+                  answers: [
+                    {
+                      text: "Una clase define la estructura que debe tener un objeto que puede ser instanciado.",
+                      correct: true,
+                    },
+                    {
+                      text: "Una clase es exactamente lo mismo que un objeto.",
+                      correct: false,
+                    },
+                    {
+                      text: "La clase es la extensión del objeto.",
+                      correct: false,
+                    },
+                    {
+                      text: "El objeto define la estructura y la clase el comportamiento.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 242,
+                  text: "¿Cómo podemos indicar el número de veces que se puede relacionar una clase con otra dentro de un diagrama de clases?",
+                  answers: [
+                    {
+                      text: "No es posible indicar esta información en un diagrama de clases.",
+                      correct: false,
+                    },
+                    {
+                      text: "A través del número máximo de ocurrencias.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es posible realizarlo a través de la cardinalidad de las clases que contempla UML.",
+                      correct: true,
+                    },
+                    {
+                      text: "Utilizando el concepto de encapsulación.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 243,
+                  text: "En relación con los diagramas de comportamiento, ¿cuál de las siguientes afirmaciones es cierta?",
+                  answers: [
+                    {
+                      text: "Podemos distinguir diferentes tipos de diagramas de comportamiento, entre los que destaca caso de usos, actividad, etc.",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo existe un diagrama de comportamiento, el diagrama de casos de uso.",
+                      correct: false,
+                    },
+                    {
+                      text: "No son útiles para representar el flujo del sistema.",
+                      correct: false,
+                    },
+                    {
+                      text: "No están contemplados en el estándar de UML.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 244,
+                  text: "¿Cómo podemos crear los diagramas de comportamiento?",
+                  answers: [
+                    {
+                      text: "A través de herramientas de ofimática.",
+                      correct: false,
+                    },
+                    { text: "Mediante herramientas CASE", correct: true },
+                    {
+                      text: "Con herramientas de ingeniería inversa.",
+                      correct: false,
+                    },
+                    {
+                      text: "Mediante la utilización del compilador.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 245,
+                  text: "¿Qué tipos de relaciones existen entre los casos de uso?",
+                  answers: [
+                    {
+                      text: "Solo existe un tipo de relación, asociación.",
+                      correct: false,
+                    },
+                    {
+                      text: "Existen, al menos, cuatro tipos de relaciones para poder crear los casos de uso.",
+                      correct: true,
+                    },
+                    {
+                      text: "Únicamente relación de extensión.",
+                      correct: false,
+                    },
+                    {
+                      text: "No existe este concepto en los diagramas de casos de uso.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 246,
+                  text: "¿Qué es necesario realizar en la toma de requisitos?",
+                  answers: [
+                    {
+                      text: "Únicamente, crear el diagrama de caso de usos.",
+                      correct: false,
+                    },
+                    { text: "Únicamente, la documentación.", correct: false },
+                    {
+                      text: "Solo los requisitos funcionales.",
+                      correct: false,
+                    },
+                    {
+                      text: "Crear el diagrama de casos de uso y una documentación que describa cada uno de ellos.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 247,
+                  text: "¿Qué tipos de diagramas de interacción existen?",
+                  answers: [
+                    {
+                      text: "Solo existe un diagrama de interacción, el de comunicación",
+                      correct: false,
+                    },
+                    {
+                      text: "Los diagramas de interacción se dividen en dos: diagramas de secuencia y diagramas de colaboración",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo existe un diagrama de interacción, el de secuencia",
+                      correct: false,
+                    },
+                    {
+                      text: "Los diagramas de interacción están formados por los diagramas de clase y casos de uso.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 248,
+                  text: "¿Qué son las líneas de vida?",
+                  answers: [
+                    {
+                      text: "Son las líneas que aparecen en los diagramas de colaboración.",
+                      correct: false,
+                    },
+                    {
+                      text: "Se utilizan en los diagramas de caso de uso únicamente.",
+                      correct: false,
+                    },
+                    {
+                      text: "Se utilizan en los diagramas de secuencia o colaboración indistintamente.",
+                      correct: false,
+                    },
+                    {
+                      text: "Son las líneas que aparecen en los diagramas de interacción para indicar cuando un objeto entra o sale de ejecución.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 249,
+                  text: "¿Qué permite realizar UML?",
+                  answers: [
+                    {
+                      text: "Crear el modelo de un sistema con una metodología no orientada objetos, pero estándar.",
+                      correct: false,
+                    },
+                    {
+                      text: "Desarrollar el modelo de un sistema orientado objetos bajo un conjunto de reglas que sean estándar.",
+                      correct: true,
+                    },
+                    {
+                      text: "Crear el código fuente para una solución determinada",
+                      correct: false,
+                    },
+                    {
+                      text: "Crear la documentación del sistema.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 250,
+                  text: "¿Cuál de las siguientes afirmaciones es cierta con respecto a UML?",
+                  answers: [
+                    {
+                      text: "Es una metodología de desarrollo software estándar",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un lenguaje de modelado software estándar que posee diferentes tipos de herramientas para facilitar el desarrollo.",
+                      correct: true,
+                    },
+                    {
+                      text: "Es un lenguaje de modelado no estándar",
+                      correct: false,
+                    },
+                    { text: "Solo posee una versión", correct: false },
                   ],
                 },
               ],

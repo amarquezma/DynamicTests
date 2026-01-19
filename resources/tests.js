@@ -14125,5 +14125,1582 @@ const TEST_DATA = {
         },
       ],
     },
+    {
+      id: "sistemas",
+      name: "sistemas informaticos",
+      units: [
+        {
+          id: "tema1",
+          name: "1 Questions from tema1",
+          tests: [
+            {
+              id: "tema1-test",
+              title: "Tema 1 - Autoevaluación",
+              createdOn: "2026-01-12",
+              questions: [
+                {
+                  id: 103,
+                  text: "¿Qué es una dirección IPv4?",
+                  answers: [
+                    {
+                      text: "Dirección de la interfaz de red para la capa 2, o nivel de enlace",
+                      correct: false,
+                    },
+                    {
+                      text: "Dirección que se utiliza para enviar datos a todos los equipos",
+                      correct: false,
+                    },
+                    {
+                      text: "Son secuencias de 48 bits en binario",
+                      correct: false,
+                    },
+                    {
+                      text: "Identifican a cada equipo conectado a la red en la capa 3, y permiten su comunicación con el resto de equipos.",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 104,
+                  text: "¿Qué es la dirección de broadcast?",
+                  answers: [
+                    {
+                      text: "Dirección de la interfaz de red para la capa 2, o nivel de enlace",
+                      correct: false,
+                    },
+                    {
+                      text: "Dirección que se utiliza para enviar datos a todos los equipos",
+                      correct: true,
+                    },
+                    {
+                      text: "Son secuencias de 48 bits en binario",
+                      correct: false,
+                    },
+                    {
+                      text: "Identifican a cada equipo conectado a la red en la capa 3, y permiten su comunicación con el resto de equipos.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 105,
+                  text: "El sistema binario:",
+                  answers: [
+                    {
+                      text: "Utiliza dos cifras para la codificación: 0 y 1",
+                      correct: false,
+                    },
+                    {
+                      text: "Se trata del sistema más utilizando por los ordenadores.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un sistema en base 2, este valor de base se indica en subíndice.",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 106,
+                  text: "El número binario 101010 corresponde al número decimal:",
+                  answers: [
+                    { text: "42", correct: true },
+                    { text: "24", correct: false },
+                    { text: "40", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 107,
+                  text: "La diferencia en IP pública e IP privada es:",
+                  answers: [
+                    {
+                      text: "La IP pública son las direcciones IP que se utilizan para acceder a internet e identificar toda la red local desde el exterior.",
+                      correct: true,
+                    },
+                    {
+                      text: "La IP pública es la dirección que identifica de manera unívoca a un dispositivo conectado a la red privada.",
+                      correct: false,
+                    },
+                    {
+                      text: "La IP pública permite conectar equipos dentro de una infraestructura de red privada.",
+                      correct: false,
+                    },
+                    {
+                      text: "La IP privada la proporciona el ISP e identifica toda la red local desde el exterior.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 108,
+                  text: "¿Qué clase de direcciones se utilizan para multicast y uso experimental?",
+                  answers: [
+                    { text: "Clase A", correct: false },
+                    { text: "Clase B", correct: false },
+                    { text: "Clase C", correct: false },
+                    { text: "Clase D y Clase E", correct: true },
+                  ],
+                },
+                {
+                  id: 109,
+                  text: "¿Qué indican los primeros bits de la dirección IP?",
+                  answers: [
+                    { text: "El número de equipos y hosts", correct: false },
+                    { text: "Identificador de red", correct: true },
+                    { text: "La dirección de la red", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 110,
+                  text: "¿Qué es la dirección MAC?",
+                  answers: [
+                    {
+                      text: "Dirección de la interfaz de red para la capa 2, o nivel de enlace",
+                      correct: true,
+                    },
+                    {
+                      text: "Dirección que se utiliza para enviar datos a todos los equipos",
+                      correct: false,
+                    },
+                    {
+                      text: "Son secuencias de 32 bits en binario",
+                      correct: false,
+                    },
+                    {
+                      text: "Identifican a cada equipo conectado a la red en la capa 3, y permiten su comunicación con el resto de equipos.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 111,
+                  text: "¿Qué tipo de dirección es la 00:1c:e2:5b:32:98?",
+                  answers: [
+                    { text: "Postal", correct: false },
+                    { text: "Dirección IP", correct: false },
+                    { text: "Dirección MAC", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 112,
+                  text: "¿Qué afirmación es cierta respecto a las direcciones IPv6?",
+                  answers: [
+                    {
+                      text: "Las direcciones IPv6 están formadas por 128bits",
+                      correct: true,
+                    },
+                    {
+                      text: "Se representan en código decimal",
+                      correct: false,
+                    },
+                    {
+                      text: "Se representan en código binario",
+                      correct: false,
+                    },
+                    {
+                      text: "Las direcciones IPv6 están formadas por 148bits",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 113,
+                  text: "Un switch es…",
+                  answers: [
+                    { text: "Un servicio de red", correct: false },
+                    {
+                      text: "Un dispositivo de transmisión intermedio",
+                      correct: true,
+                    },
+                    { text: "Tipo de cable UTP", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 114,
+                  text: "La fibra óptica…",
+                  answers: [
+                    { text: "Está compuesta por cobre", correct: false },
+                    { text: "Utiliza el conector RJ45", correct: false },
+                    {
+                      text: "Está compuesta por plástico o vidrio",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 115,
+                  text: "La comunicación en la que se pueden enviar y recibir en ambas direcciones, pero no simultáneamente se conoce como:",
+                  answers: [
+                    { text: "Simplex", correct: false },
+                    { text: "Half duplex", correct: true },
+                    { text: "Full duplex", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 116,
+                  text: "¿Qué topología utiliza una única pieza de red troncal?",
+                  answers: [
+                    { text: "Bus", correct: true },
+                    { text: "Anillo", correct: false },
+                    { text: "Estrella", correct: false },
+                    { text: "Malla", correct: false },
+                  ],
+                },
+                {
+                  id: 117,
+                  text: "La topología en la que cada host conecta con el siguiente, y el ultimo con el primero se conoce como…",
+                  answers: [
+                    { text: "Topología bus", correct: false },
+                    { text: "Topología en anillo", correct: true },
+                    { text: "Topología en estrella extendida", correct: false },
+                    { text: "Topología circular", correct: false },
+                  ],
+                },
+                {
+                  id: 118,
+                  text: "La red en la que los dispositivos se comunican de forma inalámbrica es conocida como…",
+                  answers: [
+                    { text: "WLAN", correct: true },
+                    { text: "WAN", correct: false },
+                    { text: "MAN", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 119,
+                  text: "¿Qué topología conecta a todos los equipos entre sí directamente?",
+                  answers: [
+                    { text: "Bus", correct: false },
+                    { text: "Anillo", correct: false },
+                    { text: "Estrella", correct: false },
+                    { text: "Malla", correct: true },
+                  ],
+                },
+                {
+                  id: 120,
+                  text: "En la topología estrella de una red…",
+                  answers: [
+                    {
+                      text: "Todos los hosts están conectados entre si",
+                      correct: false,
+                    },
+                    {
+                      text: "cada host con el siguiente, y el ultimo con el primero",
+                      correct: false,
+                    },
+                    {
+                      text: "Todos los hosts conectan a un mismo punto central",
+                      correct: true,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 121,
+                  text: "El conector RJ45 se utiliza…",
+                  answers: [
+                    { text: "En cables UTP y STP", correct: true },
+                    { text: "Únicamente para cables UTP", correct: false },
+                    { text: "Únicamente para cables STP", correct: false },
+                    { text: "En cables coaxiales", correct: false },
+                  ],
+                },
+                {
+                  id: 122,
+                  text: "Las redes dedicadas a la conexión de servidores, servicios de almacenamiento o recuperación son conocidas como…",
+                  answers: [
+                    { text: "SAN", correct: true },
+                    { text: "WAN", correct: false },
+                    { text: "MAN", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 123,
+                  text: "Las tablas de particiones MBR…",
+                  answers: [
+                    { text: "Admiten discos de hasta 4TB", correct: false },
+                    {
+                      text: "Permiten un máximo de 4 particiones",
+                      correct: true,
+                    },
+                    { text: "Permiten hasta 128 particiones", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 124,
+                  text: "Para instalar dos sistemas operativos en un mismo ordenador se necesita como mínimo…",
+                  answers: [
+                    { text: "Dos gestores de arranque", correct: false },
+                    { text: "Dos discos", correct: false },
+                    { text: "Dos particiones", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 125,
+                  text: "Grub es el gestor de arranque:",
+                  answers: [
+                    { text: "Windows", correct: false },
+                    { text: "De algunas distribuciones Linux", correct: true },
+                    { text: "Mac OS", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 126,
+                  text: "Cuando se instalan diferentes versiones de Windows en un ordenador…",
+                  answers: [
+                    {
+                      text: "Es indiferente el orden de instalación",
+                      correct: false,
+                    },
+                    {
+                      text: "Se instala primero la versión más reciente",
+                      correct: false,
+                    },
+                    {
+                      text: "Se instala primero la versión más antigua",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 127,
+                  text: "Cuando se instala Windows en un ordenador Mac, los controladores…",
+                  answers: [
+                    {
+                      text: "Seguramente no se puedan instalar al tratarse de otro sistema operativo",
+                      correct: false,
+                    },
+                    {
+                      text: "Se instalan automáticamente a través de la herramienta Apple Software Update",
+                      correct: true,
+                    },
+                    {
+                      text: "Se tienen que instalar desde la partición de Mac OS",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 128,
+                  text: "NTFS es el formato del sistema archivos de…",
+                  answers: [
+                    { text: "Linux", correct: false },
+                    { text: "Windows", correct: true },
+                    { text: "Mac OS", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 129,
+                  text: "La herramienta Bootcamp…",
+                  answers: [
+                    {
+                      text: "Permite instalar Windows en un ordenador Mac",
+                      correct: true,
+                    },
+                    {
+                      text: "Permite instalar Linux en un ordenador con Windows",
+                      correct: false,
+                    },
+                    {
+                      text: "Está integrada en los sistemas Windows",
+                      correct: false,
+                    },
+                    {
+                      text: "Está orientada a entornos educativos",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 130,
+                  text: "El formato de GPT de particiones…",
+                  answers: [
+                    {
+                      text: "Admite un máximo de 4 particiones",
+                      correct: false,
+                    },
+                    { text: "Admite discos de hasta 2TB", correct: false },
+                    { text: "Permite hasta 128 particiones", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 131,
+                  text: "El comando para reparar el gestor de arranque en Windows 10 es…",
+                  answers: [
+                    { text: "Bootrec /fixboot", correct: false },
+                    { text: "Bootrec /fixmbr", correct: false },
+                    { text: "Bootrec /rebuildbcd", correct: false },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 132,
+                  text: "¿Cuál de las siguientes afirmaciones es correcta sobre la automatización en la gestión de discos?",
+                  answers: [
+                    {
+                      text: "Los scripts de shell en Linux no pueden realizar tareas de mantenimiento del sistema de archivos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los AppleScripts en macOS solo se utilizan para la limpieza de discos y no para copias de seguridad.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los archivos batch en Windows son ejemplos de herramientas de automatización que pueden programarse para realizar tareas rutinarias.",
+                      correct: true,
+                    },
+                    {
+                      text: "La automatización en la gestión de discos solo es posible en sistemas operativos Linux.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 133,
+                  text: "¿Qué comando se utiliza para crear un nuevo usuario en Linux?",
+                  answers: [
+                    { text: "usermod", correct: false },
+                    { text: "adduser", correct: true },
+                    { text: "groupadd", correct: false },
+                    { text: "userdel", correct: false },
+                  ],
+                },
+                {
+                  id: 134,
+                  text: "¿Cuál es el comando para cambiar la contraseña de un usuario en Linux?",
+                  answers: [
+                    { text: "passwd", correct: true },
+                    { text: "usermod", correct: false },
+                    { text: "chgrp", correct: false },
+                    { text: "chmod", correct: false },
+                  ],
+                },
+                {
+                  id: 135,
+                  text: "¿Qué grupo predeterminado permite a los usuarios ejecutar comandos con permisos de superusuario utilizando el comando sudo?",
+                  answers: [
+                    { text: "wheel", correct: false },
+                    { text: "users", correct: false },
+                    { text: "daemon", correct: false },
+                    { text: "sudo", correct: true },
+                  ],
+                },
+                {
+                  id: 136,
+                  text: "¿Qué herramienta se utiliza para optimizar el consumo de energía en portátiles Linux?",
+                  answers: [
+                    { text: "rsnapshot", correct: false },
+                    { text: "rsync", correct: false },
+                    { text: "Deja Dup", correct: false },
+                    { text: "TLP", correct: true },
+                  ],
+                },
+                {
+                  id: 137,
+                  text: "¿Qué comando se utiliza para actualizar la lista de paquetes en una distribución basada en Debian?",
+                  answers: [
+                    { text: "dnf update", correct: false },
+                    { text: "zypper refresh", correct: false },
+                    { text: "apt-get update", correct: true },
+                    { text: "yum update", correct: false },
+                  ],
+                },
+                {
+                  id: 138,
+                  text: "¿Qué herramienta de auditoría en Linux permite buscar y analizar los registros de auditoría generados por auditd?",
+                  answers: [
+                    { text: "aureport", correct: false },
+                    { text: "ausearch", correct: true },
+                    { text: "systemd timers", correct: false },
+                    { text: "cron", correct: false },
+                  ],
+                },
+                {
+                  id: 139,
+                  text: "¿Cuál es el comando utilizado para eliminar un grupo en Linux?",
+                  answers: [
+                    { text: "groupdel", correct: true },
+                    { text: "groupadd", correct: false },
+                    { text: "usermod", correct: false },
+                    { text: "userdel", correct: false },
+                  ],
+                },
+                {
+                  id: 140,
+                  text: "¿Qué herramienta se utiliza para la sincronización bidireccional de archivos y directorios en Linux?",
+                  answers: [
+                    { text: "rsnapshot", correct: false },
+                    { text: "Deja Dup", correct: false },
+                    { text: "rsync", correct: false },
+                    { text: "Unison", correct: true },
+                  ],
+                },
+                {
+                  id: 141,
+                  text: "¿Cuál de las siguientes herramientas permite la gestión gráfica de particiones en Linux?",
+                  answers: [
+                    { text: "fdisk", correct: false },
+                    { text: "GParted", correct: true },
+                    { text: "lsblk", correct: false },
+                    { text: "eCryptfs", correct: false },
+                  ],
+                },
+                {
+                  id: 142,
+                  text: '¿Qué herramienta de automatización utiliza archivos de configuración YAML llamados "playbooks" para definir tareas?',
+                  answers: [
+                    { text: "Puppet", correct: false },
+                    { text: "Ansible", correct: true },
+                    { text: "cron", correct: false },
+                    { text: "systemd timers", correct: false },
+                  ],
+                },
+                {
+                  id: 143,
+                  text: "El componente que interpreta y procesa todas las instrucciones e información del sistema informático es…",
+                  answers: [
+                    { text: "La placa base", correct: false },
+                    { text: "La CPU", correct: true },
+                    { text: "La BIOS", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 144,
+                  text: "Las memorias RAM",
+                  answers: [
+                    {
+                      text: "Son utilizadas normalmente para almacenar el sistema operativo",
+                      correct: false,
+                    },
+                    {
+                      text: "Son capaces de transmitir a 600 GB/s",
+                      correct: false,
+                    },
+                    {
+                      text: "Almacena información para momentos determinados, perdiéndose la información si se reinicia o apaga el ordenador",
+                      correct: true,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 145,
+                  text: "Los conectores SATA se utilizan para:",
+                  answers: [
+                    { text: "Conectar módulos de memoria RAM", correct: false },
+                    {
+                      text: "Conectar dispositivos de almacenamiento",
+                      correct: true,
+                    },
+                    {
+                      text: "Conectar tarjetas gráficas adiccionales",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 146,
+                  text: "La arquitectura utilizada por los ordenadores modernos es…",
+                  answers: [
+                    { text: "Harvard", correct: false },
+                    { text: "La máquina de Turing", correct: false },
+                    { text: "Von Neumann.", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 147,
+                  text: "La placa base de un ordenador…",
+                  answers: [
+                    { text: "Almacena el sistema operativo", correct: false },
+                    {
+                      text: "También se conoce como motherboard",
+                      correct: true,
+                    },
+                    {
+                      text: "Almacena información e instrucciones.",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 148,
+                  text: "Un micrófono es…",
+                  answers: [
+                    { text: "Un dispositivo de entrada", correct: true },
+                    { text: "Un dispositivo de salida", correct: false },
+                    { text: "Un dispositivo de E/S.", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 149,
+                  text: "ATX es…",
+                  answers: [
+                    {
+                      text: "La interfaz para conectar SSD con la placa.",
+                      correct: false,
+                    },
+                    {
+                      text: "El modelo de placa base más habitual",
+                      correct: true,
+                    },
+                    {
+                      text: "Memoria flash que contiene un pequeño sistema de arranque",
+                      correct: false,
+                    },
+                    { text: "Un tipo de ranura de expansión", correct: false },
+                  ],
+                },
+                {
+                  id: 150,
+                  text: "La normativa sobre prevención de riesgos está recogida y constituida en…",
+                  answers: [
+                    {
+                      text: "Ley 31/1995 de 8 de noviembre, de Riesgos informáticos",
+                      correct: false,
+                    },
+                    {
+                      text: "Ley 30/2015 de 8 de noviembre, de Prevención de Riesgos Laborales",
+                      correct: false,
+                    },
+                    {
+                      text: "Ley 31/1995 de 8 de noviembre, de Prevención de Riesgos Laborales",
+                      correct: true,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 151,
+                  text: "SSD es…",
+                  answers: [
+                    {
+                      text: "Un dispositivo de almacenamiento más rápido que un disco duro",
+                      correct: true,
+                    },
+                    {
+                      text: "Un dispositivo de almacenamiento más lento que un disco duro",
+                      correct: false,
+                    },
+                    {
+                      text: "Un dispositivo de almacenamiento más rápido que un disco duro, pero con menor fiabilidad",
+                      correct: false,
+                    },
+                    {
+                      text: "Los criterios elevados de seguridad.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 152,
+                  text: "Cuando se produce un accidente laboral, hay que…",
+                  answers: [
+                    {
+                      text: "Se debe socorrer al accidentando, y posteriormente avisar a los servicios sanitarios",
+                      correct: false,
+                    },
+                    {
+                      text: "Actuar siempre siguiendo el sistema de emergencia SAP (Socorrer, avisar y proteger).",
+                      correct: false,
+                    },
+                    {
+                      text: "Actuar siempre siguiendo el sistema de emergencia PAS (Proteger, avisar y socorrer).",
+                      correct: true,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 153,
+                  text: "¿Qué tipo de software permite a los usuarios realizar tareas específicas o cumplir objetivos determinados?",
+                  answers: [
+                    { text: "Software de sistema", correct: false },
+                    { text: "Software de aplicación", correct: true },
+                    { text: "Software de programación", correct: false },
+                    { text: "Firmware", correct: false },
+                  ],
+                },
+                {
+                  id: 154,
+                  text: "¿Cuál es la extensión común para archivos de instalación en Windows?",
+                  answers: [
+                    { text: ".dmg", correct: false },
+                    { text: ".deb", correct: false },
+                    { text: ".exe", correct: true },
+                    { text: ".tar.gz", correct: false },
+                  ],
+                },
+                {
+                  id: 155,
+                  text: "¿Qué herramienta se utiliza para administrar actualizaciones automáticas en entornos corporativos de Windows?",
+                  answers: [
+                    { text: "VirtualBox", correct: false },
+                    { text: "WSUS", correct: true },
+                    { text: "Notepad++", correct: false },
+                    { text: "FileZilla", correct: false },
+                  ],
+                },
+                {
+                  id: 156,
+                  text: "¿Qué licencia permite modificar y redistribuir libremente el software?",
+                  answers: [
+                    { text: "Licencia propietaria", correct: false },
+                    { text: "Freeware", correct: false },
+                    { text: "Shareware", correct: false },
+                    { text: "Licencia Libre", correct: true },
+                  ],
+                },
+                {
+                  id: 157,
+                  text: "¿Cuál de las siguientes NO es una extensión de un archivo de instalación en Linux?",
+                  answers: [
+                    { text: ".msi", correct: true },
+                    { text: ".deb", correct: false },
+                    { text: ".rpm", correct: false },
+                    { text: ".sh", correct: false },
+                  ],
+                },
+                {
+                  id: 158,
+                  text: "¿Cuál de las siguientes es una herramienta de compresión y descompresión de archivos?",
+                  answers: [
+                    { text: "LibreOffice", correct: false },
+                    { text: "7-Zip", correct: true },
+                    { text: "Thunderbird", correct: false },
+                    { text: "Eclipse", correct: false },
+                  ],
+                },
+                {
+                  id: 159,
+                  text: "¿Cuál de los siguientes NO es un paquete de instalación desatendida?",
+                  answers: [
+                    { text: "Paquetes .msi", correct: false },
+                    { text: "Paquetes .mst", correct: false },
+                    { text: "Paquetes .rpm", correct: true },
+                    { text: "Paquetes .msp", correct: false },
+                  ],
+                },
+                {
+                  id: 160,
+                  text: "¿Qué herramienta se puede utilizar para la administración remota en sistemas Linux?",
+                  answers: [
+                    { text: "SSH", correct: true },
+                    { text: "RDP", correct: false },
+                    { text: "FTP", correct: false },
+                    { text: "SCP", correct: false },
+                  ],
+                },
+                {
+                  id: 161,
+                  text: "¿Cuál de las siguientes es una herramienta ofimática gratuita y de código abierto?",
+                  answers: [
+                    { text: "Microsoft Office", correct: false },
+                    { text: "Adobe Acrobat", correct: false },
+                    { text: "LibreOffice", correct: true },
+                    { text: "Google Drive", correct: false },
+                  ],
+                },
+                {
+                  id: 162,
+                  text: "¿Qué tipo de archivo se utiliza para realizar instalaciones desatendidas en Windows?",
+                  answers: [
+                    { text: ".rpm", correct: false },
+                    { text: ".msi", correct: true },
+                    { text: ".app", correct: false },
+                    { text: ".sh", correct: false },
+                  ],
+                },
+                {
+                  id: 163,
+                  text: "Una licencia retail…",
+                  answers: [
+                    { text: "Es un tipo de licencia libre", correct: false },
+                    {
+                      text: "Se distribuye asociada a un equipo",
+                      correct: false,
+                    },
+                    { text: "Se entrega con un serial", correct: true },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 164,
+                  text: "Los sistemas operativos ejecutables…",
+                  answers: [
+                    { text: "Son gratuitos", correct: false },
+                    { text: "No pueden trabajar en red", correct: false },
+                    {
+                      text: "Se ejecutan a través de un dispositivo de almacenamiento externo",
+                      correct: true,
+                    },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 165,
+                  text: "El sistema que se fundamenta en el uso de un programa llamado monitor es:",
+                  answers: [
+                    { text: "El sistema distribuido", correct: false },
+                    { text: "El sistema por lotes", correct: true },
+                    { text: "El sistema programado", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 166,
+                  text: "Las licencias de software libre…",
+                  answers: [
+                    {
+                      text: "Son aquellas que van unidas exclusivamente a un equipo",
+                      correct: false,
+                    },
+                    { text: "Son siempre gratuitas", correct: false },
+                    {
+                      text: "Son gratuitas o tienen un precio de coste muy bajo, normalmente solo el coste de la distribución.",
+                      correct: true,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 167,
+                  text: "Por la forma de ofrecer los servicios tenemos sistemas…",
+                  answers: [
+                    { text: "Uniprocesador o multiprocesador", correct: false },
+                    { text: "Centralizado o distribuido", correct: true },
+                    { text: "Instalable o ejecutable", correct: false },
+                    { text: "Monotarea o multitarea", correct: false },
+                  ],
+                },
+                {
+                  id: 168,
+                  text: "La herramienta en la que se pueden ver las tareas en ejecución en Windows es conocida como…",
+                  answers: [
+                    { text: "Administrador de tareas", correct: true },
+                    { text: "Administrador de procesos", correct: false },
+                    {
+                      text: "Administrador de software en ejecución",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 169,
+                  text: "Una máquina virtual…",
+                  answers: [
+                    {
+                      text: "Es el funcionamiento y estructura de los primeros sistemas operativos",
+                      correct: false,
+                    },
+                    {
+                      text: "Emula un sistema operativo que está instalado en otro ordenador",
+                      correct: true,
+                    },
+                    {
+                      text: "No puede tener conexión a Internet",
+                      correct: false,
+                    },
+                    {
+                      text: "Se utiliza para compartir ficheros",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 170,
+                  text: "La estructura que divide el sistema operativo en capas jerárquicas de forma concéntrica es…",
+                  answers: [
+                    { text: "La estructura monolítica", correct: false },
+                    { text: "La estructura jerárquica", correct: false },
+                    { text: "La estructura en anillos", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 171,
+                  text: "Hyper-V",
+                  answers: [
+                    {
+                      text: "En un software para instalar máquinas virtuales",
+                      correct: true,
+                    },
+                    {
+                      text: "Es un sistema operativo-cliente servidor",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un sistema operativo de 64 bits",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un sistema operativo de 32 bits",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 172,
+                  text: "Símbolo del sistema es…",
+                  answers: [
+                    { text: "La línea de comandos en Windows", correct: true },
+                    { text: "La línea de comandos en Mac OS", correct: false },
+                    { text: "La línea de comandos en Linux", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 173,
+                  text: "¿Cuál de las siguientes soluciones no es un sistema propietario?",
+                  answers: [
+                    { text: "VMware", correct: false },
+                    { text: "Hyper-V", correct: false },
+                    { text: "VirtualBox", correct: true },
+                    { text: "Citrix", correct: false },
+                  ],
+                },
+                {
+                  id: 174,
+                  text: "¿Qué tipo de virtualización se usa en entornos empresariales grandes?",
+                  answers: [
+                    {
+                      text: "Virtualización por hardware de servidor",
+                      correct: true,
+                    },
+                    { text: "Virtualización gráfica", correct: false },
+                    {
+                      text: "Virtualización por sistema operativo",
+                      correct: false,
+                    },
+                    { text: "Virtualización de aplicaciones", correct: false },
+                  ],
+                },
+                {
+                  id: 175,
+                  text: "¿Qué tipo de virtualización conecta un usuario de forma remota a un entorno corporativo?",
+                  answers: [
+                    { text: "Virtualización de servidor", correct: false },
+                    { text: "Virtualización de escritorio", correct: true },
+                    {
+                      text: "Virtualización de sistema operativo",
+                      correct: false,
+                    },
+                    {
+                      text: "Virtualización de almacenamiento",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 176,
+                  text: "¿Qué tipo de virtualización se usa desde un ordenador principal y sobre un sistema operativo real?",
+                  answers: [
+                    { text: "Virtualización de servidor", correct: false },
+                    { text: "Virtualización de escritorio", correct: false },
+                    {
+                      text: "Virtualización de sistema operativo",
+                      correct: true,
+                    },
+                    {
+                      text: "Virtualización de almacenamiento",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 177,
+                  text: "El disponer de servidores virtualizados frente a servidores físicos, no supone una ventaja en:",
+                  answers: [
+                    { text: "Reducción de costes de espacio", correct: false },
+                    {
+                      text: "Posibilidad de crecimiento más flexible",
+                      correct: false,
+                    },
+                    {
+                      text: "Centralización de tareas de mantenimiento",
+                      correct: false,
+                    },
+                    {
+                      text: "Ahorro en adquisición de licencias de Sistemas Operativos",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 178,
+                  text: "¿Cuál de las siguientes herramientas de sistemas libres de virtualización tiene una licencia GNU/GPL y es de Oracle?",
+                  answers: [
+                    { text: "QEMU", correct: false },
+                    { text: "KVM", correct: false },
+                    { text: "VirtualBox", correct: true },
+                    { text: "OpenVz", correct: false },
+                  ],
+                },
+                {
+                  id: 179,
+                  text: "Para habilitar Hyper-V en Windows 10, ¿de qué modo se puede realizar?",
+                  answers: [
+                    { text: "Con un comando en la powerShell", correct: false },
+                    { text: "Con un comando mediante CMD", correct: false },
+                    {
+                      text: "En la configuración de programas y características",
+                      correct: false,
+                    },
+                    {
+                      text: "Todas las anteriores son correctas",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 180,
+                  text: "¿Qué comando comprueba los requisitos de Hyper-V en la consola?",
+                  answers: [
+                    { text: "netinfo", correct: false },
+                    { text: "ipconfig /all", correct: false },
+                    { text: "properties", correct: false },
+                    { text: "systeminfo.exe", correct: true },
+                  ],
+                },
+                {
+                  id: 181,
+                  text: "Para la creación rápida de una máquina virtual con Hyper-V se llama",
+                  answers: [
+                    { text: "Hyper-V Quick create", correct: true },
+                    { text: "Rapid Hyper-V", correct: false },
+                    { text: "Direct Hyper-V", correct: false },
+                    { text: "Clúster Hyper-v", correct: false },
+                  ],
+                },
+                {
+                  id: 182,
+                  text: "Los puntos de control de Hyper-V…",
+                  answers: [
+                    {
+                      text: "Amplían el hardware a una máquina virtual",
+                      correct: false,
+                    },
+                    {
+                      text: "Guardan el estado de una maquina virtual en un momento concreto",
+                      correct: true,
+                    },
+                    {
+                      text: "Se utilizan para duplicar máquinas virtuales",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 183,
+                  text: "Después de instalar Mac OS en un ordenador Apple…",
+                  answers: [
+                    {
+                      text: "Hay que instalar los controladores de los dispositivos integrados en el ordenador",
+                      correct: false,
+                    },
+                    {
+                      text: "No hay que instalar los controladores de los dispositivos integrados en el ordenador",
+                      correct: true,
+                    },
+                    {
+                      text: "Hay que abrir la herramienta Boot Camp para actualizar los controladores",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 184,
+                  text: "Los sistemas operativos Windows 10 requieren como mínimo…",
+                  answers: [
+                    {
+                      text: "2 GB de memoria RAM para sistemas de 32 bits",
+                      correct: false,
+                    },
+                    {
+                      text: "4 GB de memoria RAM para sistemas de 64 bits",
+                      correct: false,
+                    },
+                    {
+                      text: "1 GB de memoria RAM para sistemas de 32 bits",
+                      correct: true,
+                    },
+                    {
+                      text: "Todas las respuestas son correctas",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 185,
+                  text: "Los controladores de los componentes de hardware en Windows 10…",
+                  answers: [
+                    {
+                      text: "Se obtienen a través de la herramienta ADK",
+                      correct: false,
+                    },
+                    {
+                      text: "Es recomendado descargarlos previamente a la instalación del sistema",
+                      correct: true,
+                    },
+                    {
+                      text: "Se instalan siempre todos automáticamente en Windows 10",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 186,
+                  text: "Pulsando las teclas Comando + R al arranque del ordenador…",
+                  answers: [
+                    { text: "Se accede a la herramienta PXE", correct: false },
+                    {
+                      text: "Se accede a la BIOS en todos los ordenadores",
+                      correct: false,
+                    },
+                    {
+                      text: "Se accede a la utilidad de Mac OS para reinstalar el sistema",
+                      correct: true,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 187,
+                  text: "Para modificar la secuencia de arranque de un ordenador hay que acceder a la BIOS pulsando la tecla…",
+                  answers: [
+                    { text: "Comando + R", correct: false },
+                    {
+                      text: "Depende del fabricante de la placa",
+                      correct: true,
+                    },
+                    { text: "F10", correct: false },
+                    { text: "F12", correct: false },
+                  ],
+                },
+                {
+                  id: 188,
+                  text: "La herramienta PXE…",
+                  answers: [
+                    {
+                      text: "Permite desplegar imágenes para instalaciones de sistemas operativos a través de la red",
+                      correct: true,
+                    },
+                    {
+                      text: "Despliega imágenes exclusivamente para ordenadores Apple",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una herramienta para descargar Windows 10 y copiarlo a un dispositivo externo",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 189,
+                  text: "La opción que hay que seleccionar en Sysprep cuando se prepara una imagen para ordenadores con distinto hardware es…",
+                  answers: [
+                    { text: "SCCM", correct: false },
+                    { text: "Generalizar", correct: true },
+                    { text: "OOBE", correct: false },
+                    {
+                      text: "Se utiliza para compartir ficheros",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 190,
+                  text: "Las BIOS actuales, como es UEFI…",
+                  answers: [
+                    {
+                      text: "No permiten la instalación de nuevos sistemas operativos",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo permiten instalar sistemas operativos de 64 bits",
+                      correct: false,
+                    },
+                    { text: "Incorporan la opción Secure Boot", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 191,
+                  text: "Los sistemas operativos Mac OS…",
+                  answers: [
+                    {
+                      text: "Solo se pueden instalar en ordenador Apple",
+                      correct: true,
+                    },
+                    {
+                      text: "Solo están disponibles en 32 bits",
+                      correct: false,
+                    },
+                    {
+                      text: "Se instalan a través de la herramienta ADK",
+                      correct: false,
+                    },
+                    {
+                      text: "Se instalan a través de la herramienta Media Creation",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 192,
+                  text: "La versión LTSC de Windows 10…",
+                  answers: [
+                    {
+                      text: "Es similar a la Enterprise, pero con algunas características no incorporadas para mejorar el rendimiento",
+                      correct: true,
+                    },
+                    {
+                      text: "Es la versión de Windows 10 dirigida a estudiantes",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una versión de prueba de Windows 10",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 193,
+                  text: "La mayoría de controladores de dispositivos en las distribuciones Linux…",
+                  answers: [
+                    { text: "Los debe instalar el usuario", correct: false },
+                    {
+                      text: "Son detectados e instalados de manera predeterminada y como genéricos",
+                      correct: true,
+                    },
+                    {
+                      text: "Son facilitados por su fabricante",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 194,
+                  text: "El software Clonezilla",
+                  answers: [
+                    {
+                      text: "Es un software para administrar los controladores del sistema",
+                      correct: false,
+                    },
+                    {
+                      text: "Es un software libre para clonar sistemas",
+                      correct: true,
+                    },
+                    {
+                      text: "Es un software propietario para clonar sistemas",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 195,
+                  text: "El último sistema de archivos de las distribuciones Linux es:",
+                  answers: [
+                    { text: "Ext3", correct: false },
+                    { text: "NTFS", correct: false },
+                    { text: "Ext5", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: true,
+                    },
+                  ],
+                },
+                {
+                  id: 196,
+                  text: "Cuál de los siguientes software NO permite realizar imágenes del sistema…",
+                  answers: [
+                    { text: "Clonezilla", correct: false },
+                    { text: "Redo Backup and Recovery", correct: false },
+                    { text: "Hardinfo", correct: true },
+                    { text: "Easeus", correct: false },
+                  ],
+                },
+                {
+                  id: 197,
+                  text: "El comando para actualizar el sistema en distribuciones Linux es…",
+                  answers: [
+                    { text: "sudo apt-update", correct: false },
+                    { text: "sudo apt-get update", correct: true },
+                    { text: "sudo apt-get install", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 198,
+                  text: "El comando hostname…",
+                  answers: [
+                    { text: "Muestra el nombre del ordenador", correct: true },
+                    {
+                      text: "Muestra la versión de Ubuntu instalada",
+                      correct: false,
+                    },
+                    {
+                      text: "Muestra toda la configuración del sistema",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 199,
+                  text: "Los controladores privativos…",
+                  answers: [
+                    {
+                      text: "Son instalados de manera predeterminada y genérica",
+                      correct: false,
+                    },
+                    {
+                      text: "Son aquellos que debe facilitar el propio fabricante",
+                      correct: true,
+                    },
+                    {
+                      text: "Son aquellos instalados a través de la línea de comandos",
+                      correct: false,
+                    },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 200,
+                  text: "Ubuntu recomienda para un rendimiento óptimo un mínimo de…",
+                  answers: [
+                    { text: "2 GB de memoria RAM", correct: false },
+                    { text: "4 GB de memoria RAM", correct: true },
+                    { text: "8 GB de memoria RAM", correct: false },
+                    {
+                      text: "Ninguna de las anteriores es correcta",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 201,
+                  text: "¿Cuál de estas distribuciones de Linux está orientada a la creación de contenido multimedia?",
+                  answers: [
+                    { text: "Linux Mint", correct: false },
+                    { text: "Ubuntu Studio", correct: true },
+                    { text: "Lubuntu", correct: false },
+                    { text: "Edubuntu", correct: false },
+                  ],
+                },
+                {
+                  id: 202,
+                  text: "El último sistema de archivos de las distribuciones Linux es…",
+                  answers: [
+                    { text: "Ext2", correct: false },
+                    { text: "Ext3", correct: false },
+                    { text: "Ext4", correct: true },
+                    { text: "Ninguna de las anteriores", correct: false },
+                  ],
+                },
+                {
+                  id: 203,
+                  text: "¿Cuál de los siguientes comandos se utiliza para crear un nuevo grupo en Linux?",
+                  answers: [
+                    { text: "useradd", correct: false },
+                    { text: "usermod", correct: false },
+                    { text: "groupadd", correct: true },
+                  ],
+                },
+                {
+                  id: 204,
+                  text: "¿Cuál de las siguientes herramientas se utiliza para optimizar el rendimiento de la batería en un portátil Linux?",
+                  answers: [
+                    { text: "GParted", correct: false },
+                    { text: "Rsync", correct: false },
+                    { text: "Powertop", correct: true },
+                  ],
+                },
+                {
+                  id: 205,
+                  text: "¿Cuál de las siguientes herramientas se utiliza para crear imágenes instantáneas del sistema de archivos en Linux?",
+                  answers: [
+                    { text: "Deja Dup", correct: false },
+                    { text: "apt-get", correct: false },
+                    { text: "Rsnapshot", correct: true },
+                  ],
+                },
+                {
+                  id: 206,
+                  text: "¿Cuál de los siguientes ficheros se utiliza en Windows modernos para almacenar la configuración de arranque?",
+                  answers: [
+                    { text: "/etc/fstab", correct: false },
+                    { text: "boot.ini", correct: false },
+                    { text: "BCD (Boot Configuration Data)", correct: true },
+                  ],
+                },
+                {
+                  id: 207,
+                  text: "Para instalar Ubuntu se requieren, como mínimo, de espacio en disco:",
+                  answers: [
+                    { text: "15 GB", correct: false },
+                    { text: "25 GB", correct: false },
+                    { text: "9 GB", correct: true },
+                  ],
+                },
+                {
+                  id: 208,
+                  text: "En Mac OS se incluye la utilidad para crear particiones llamada:",
+                  answers: [
+                    { text: "Launchpad", correct: false },
+                    { text: "Boot Camp", correct: false },
+                    { text: "Utilidad de Discos", correct: true },
+                  ],
+                },
+                {
+                  id: 209,
+                  text: "¿Qué elemento define el origen de la información en una comunicación?",
+                  answers: [
+                    { text: "El emisor", correct: false },
+                    { text: "El destino", correct: false },
+                    { text: "La fuente", correct: true },
+                  ],
+                },
+                {
+                  id: 210,
+                  text: "Según su extensión, ¿qué tipo de red es Internet?",
+                  answers: [
+                    { text: "WAN", correct: true },
+                    { text: "LAN", correct: false },
+                    { text: "MAN", correct: false },
+                  ],
+                },
+                {
+                  id: 211,
+                  text: "El protocolo encargado de la transferencia de archivos es ______.",
+                  answers: [
+                    { text: "FTP", correct: true },
+                    { text: "HTTP", correct: false },
+                    { text: "DHCP", correct: false },
+                  ],
+                },
+                {
+                  id: 212,
+                  text: "Las direcciones ______ se definen para identificar un grupo de interfaces.",
+                  answers: [
+                    { text: "Unicast", correct: false },
+                    { text: "Anycast", correct: false },
+                    { text: "Multicast", correct: true },
+                  ],
+                },
+                {
+                  id: 213,
+                  text: "Indica la dirección IPv4 válida:",
+                  answers: [
+                    { text: "200.210.0.1", correct: true },
+                    { text: "10.281.0.0", correct: false },
+                    { text: "198.200.129.", correct: false },
+                  ],
+                },
+                {
+                  id: 214,
+                  text: "¿Qué número en binario representa a 67 en decimal?",
+                  answers: [
+                    { text: "1001001", correct: false },
+                    { text: "1011011", correct: false },
+                    { text: "1000011", correct: true },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
 };

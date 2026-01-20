@@ -25,6 +25,18 @@
     background-color: #f8d7da;
     border-left: 5px solid #dc3545;
   }
+
+  .answer-correct {
+  background-color: #d1e7dd;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.answer-wrong {
+  background-color: #f8d7da;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
 </style>
 
   </style>
@@ -337,23 +349,25 @@ function gradeTest() {
     const inputs = document.querySelectorAll(`input[name="q${index}"]`);
     const checked = document.querySelector(`input[name="q${index}"]:checked`);
 
+    // Reset styles
     inputs.forEach(i => {
-      i.closest('.card').classList.remove('correct-answer', 'wrong-answer');
+      const label = i.nextElementSibling;
+      label.classList.remove('answer-correct', 'answer-wrong');
+    });
+
+    // Highlight correct answer always
+    inputs.forEach(i => {
+      if (i.value === "true") {
+        i.nextElementSibling.classList.add('answer-correct');
+      }
     });
 
     if (!checked) return;
 
     if (checked.value === "true") {
       correct++;
-      checked.closest('.card').classList.add('correct-answer');
     } else {
-      checked.closest('.card').classList.add('wrong-answer');
-
-      inputs.forEach(i => {
-        if (i.value === "true") {
-          i.closest('.card').classList.add('correct-answer');
-        }
-      });
+      checked.nextElementSibling.classList.add('answer-wrong');
     }
   });
 
@@ -363,17 +377,16 @@ function gradeTest() {
   saveResult(correct, total);
   showResults();
 
-  // Populate modal
   document.getElementById('modalScore').textContent = `${correct} / ${total}`;
   document.getElementById('modalCorrect').textContent = correct;
   document.getElementById('modalWrong').textContent = wrong;
 
-  // Show modal
   const modal = new bootstrap.Modal(
     document.getElementById('resultsModal')
   );
   modal.show();
 }
+
 
 
 function saveResult(score, total) {

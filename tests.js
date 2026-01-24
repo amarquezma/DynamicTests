@@ -7522,8 +7522,8 @@ const TEST_DATA = {
                   id: 283,
                   text: "¿Cuántas veces se ejecutan los bloques estáticos?",
                   answers: [
-                    { text: "Las veces que llamen al bloque.", correct: false },
-                    { text: "2.", correct: true },
+                    { text: "2", correct: false },
+                    { text: "1", correct: true },
                   ],
                 },
                 {

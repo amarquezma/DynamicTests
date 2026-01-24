@@ -6061,7 +6061,7 @@ const TEST_DATA = {
                 },
                 {
                   id: 46,
-                  text: "Desde el punto de vista de la eficiencia ________",
+                  text: "Desde el punto de vista de la eficiencia, las soluciones recursivas ________",
                   answers: [
                     { text: "Pueden ser muy ineficientes", correct: true },
                     { text: "Siempre son más eficientes", correct: false },

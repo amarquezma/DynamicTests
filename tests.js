@@ -5406,7 +5406,7 @@ const TEST_DATA = {
                       correct: false,
                     },
                     {
-                      text: "Tiene sus orígenes en las teorías de la información",
+                      text: "Tienes sus orígenes en las teorías de la información",
                       correct: false,
                     },
                     {
@@ -5529,7 +5529,7 @@ const TEST_DATA = {
                     },
                     { text: "Tiene que ser determinista", correct: true },
                     {
-                      text: "Puede generar resultados diferentes tras diferentes ejecuciones",
+                      text: "Puede genera resultados diferentes tras diferentes ejecuciones",
                       correct: false,
                     },
                   ],
@@ -5538,34 +5538,34 @@ const TEST_DATA = {
                   id: 10,
                   text: "¿Qué características debe tener un algoritmo?",
                   answers: [
-                    { text: "Debe ser infinito", correct: false },
+                    { text: "Debe ser infinito.", correct: false },
                     {
-                      text: "No debe depender del lenguaje de programación",
+                      text: "No debe depender del lenguaje de programación.",
                       correct: true,
                     },
-                    { text: "Debe ser indeterminado", correct: false },
+                    { text: "Debe ser indeterminado.", correct: false },
                     {
-                      text: "No dará los mismos resultados siempre bajo las mismas entradas",
+                      text: "No dará los mismos resultados siempre bajo las mismas entradas.",
                       correct: false,
                     },
                   ],
                 },
                 {
                   id: 11,
-                  text: "¿Cuál de las siguientes declaraciones de variables no es correcta?",
+                  text: "¿Cuál de las siguientes declaraciones de variables no es correcta?:",
                   answers: [
                     { text: "int numero = 9.3;", correct: true },
                     {
-                      text: 'String palabra = "Ha llovido en la calle";',
+                      text: "String palabra = “Ha llovido en la calle”;",
                       correct: false,
                     },
-                    { text: "char letra = '9';", correct: false },
-                    { text: 'String palabra2 = "perro";', correct: false },
+                    { text: "char letra = ‘9’;", correct: false },
+                    { text: "String palabra2 = “perro”;", correct: false },
                   ],
                 },
                 {
                   id: 12,
-                  text: "¿Cuál de los siguientes identificadores puedo utilizar para nombrar una variable?",
+                  text: "¿Cuál de los siguientes identificadores puedo utilizar para nombrar una variable?:",
                   answers: [
                     { text: "transient", correct: false },
                     { text: "1numero", correct: false },
@@ -5588,18 +5588,21 @@ const TEST_DATA = {
                   text: "Los castings:",
                   answers: [
                     {
-                      text: "Pueden hacerse entre cualquier tipo de dato",
+                      text: "Pueden hacerse entre cualquier tipo de dato.",
                       correct: false,
                     },
                     {
-                      text: "Entre un int y un char puedo hacer uno",
+                      text: "Entre un int y un char puedo hacer uno, ya que en un char puedo guardar ‘2’.",
                       correct: false,
                     },
                     {
-                      text: "Pueden hacerse entre tipos de datos compatibles, pero nos arriesgamos a perder información",
+                      text: "Pueden hacerse entre tipos de datos compatibles, pero nos arriesgamos a perder información.",
                       correct: true,
                     },
-                    { text: "Están totalmente prohibidos", correct: false },
+                    {
+                      text: "Están totalmente prohibidos, ya que solo se pueden realizar operaciones entre datos del mismo tipo.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
@@ -5607,19 +5610,19 @@ const TEST_DATA = {
                   text: "La palabra reservada final:",
                   answers: [
                     {
-                      text: "Solo se puede utilizar en datos numéricos",
+                      text: "Se utiliza para hacer constantes a las variables, pero solo se puede utilizar en datos de tipo numérico.",
                       correct: false,
                     },
                     {
-                      text: "Permite cambiar su valor una única vez",
+                      text: "Se utiliza para hacer constantes a las variables, pudiendo utilizarla en cualquier tipo de dato y pudiendo cambiar su valor una única vez.",
                       correct: false,
                     },
                     {
-                      text: "Debe colocarse después del tipo de la variable",
+                      text: "Se utiliza para hacer constantes a las variables y debe colocarse después del tipo de la variable.",
                       correct: false,
                     },
                     {
-                      text: "Se coloca antes del tipo y puede usarse con cualquier tipo de dato",
+                      text: "Se utiliza para hacer constantes a las variables, pudiendo utilizarla en cualquier tipo de dato y debiendo colocarla antes del tipo de la variable.",
                       correct: true,
                     },
                   ],
@@ -5639,29 +5642,38 @@ const TEST_DATA = {
                   text: "El operador lógico AND:",
                   answers: [
                     {
-                      text: "Devuelve verdadero solo si ambos son verdaderos",
+                      text: "Devolverá verdadero solo si los dos datos son verdaderos.",
                       correct: true,
                     },
                     {
-                      text: "No siempre devuelve falso si el segundo es falso",
+                      text: "No siempre devuelve falso si el segundo dato es falso.",
                       correct: false,
                     },
-                    { text: "Devuelve siempre verdadero", correct: false },
-                    { text: "Devuelve lo contrario que OR", correct: false },
+                    { text: "Devuelve siempre verdadero.", correct: false },
+                    {
+                      text: "Devuelve lo contrario que devolvería el operador OR.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 18,
                   text: "El operador lógico OR:",
                   answers: [
-                    { text: "Devuelve lo contrario que AND", correct: false },
                     {
-                      text: "Devuelve verdadero si el primero es falso",
+                      text: "Devolverá lo contrario que devolvería en el mismo caso el operador AND.",
                       correct: false,
                     },
-                    { text: "Devuelve siempre falso", correct: false },
                     {
-                      text: "Devuelve verdadero si uno es verdadero",
+                      text: "Devolverá verdadero siempre que el primer dato sea falso.",
+                      correct: false,
+                    },
+                    {
+                      text: "Devolverá siempre falso, tengan el valor que tengan las variables.",
+                      correct: false,
+                    },
+                    {
+                      text: "Devolverá siempre verdadero si uno de los datos es verdadero.",
                       correct: true,
                     },
                   ],
@@ -5710,7 +5722,7 @@ const TEST_DATA = {
                       correct: true,
                     },
                     {
-                      text: "Tanto en los if-else, switch, como en todos los bucles.",
+                      text: "Tanto en los if-else, swtich, como en todos los bucles.",
                       correct: false,
                     },
                   ],
@@ -5720,7 +5732,7 @@ const TEST_DATA = {
                   text: "Indica la afirmación correcta:",
                   answers: [
                     {
-                      text: "Para poder crear un bloque de código es indispensable delimitarlo entre llaves.",
+                      text: "Para poder crear un bloque de código, es indispensable delimitarlo entre llaves, haciendo que funcione como si se tratase de una única instrucción.",
                       correct: false,
                     },
                     {
@@ -5746,11 +5758,11 @@ const TEST_DATA = {
                       correct: true,
                     },
                     {
-                      text: "Se utilizará cuando no sepamos el número de iteraciones.",
+                      text: "Se utilizará cuando no sepamos el número de iteraciones que vamos a utilizar.",
                       correct: false,
                     },
                     {
-                      text: "Es obligatorio declarar la variable contador en la cabecera.",
+                      text: "Es obligatorio declarar la variable contador en la cabecera del for.",
                       correct: false,
                     },
                     {
@@ -5772,11 +5784,11 @@ const TEST_DATA = {
                       correct: false,
                     },
                     {
-                      text: "Es equivalente a una serie de if-else anidados con ==.",
+                      text: "Es equivalente a una serie de if-else anidados pero solo con la condición == en todas sus condiciones.",
                       correct: true,
                     },
                     {
-                      text: "Hace exactamente el mismo trabajo que if-else.",
+                      text: "Hace exactamente el mismo trabajo que la instrucción if-else.",
                       correct: false,
                     },
                   ],
@@ -5785,39 +5797,48 @@ const TEST_DATA = {
                   id: 26,
                   text: "Los delimitadores de bloque en Java son:",
                   answers: [
-                    { text: "Llaves ({ })", correct: true },
-                    { text: "Tabulaciones", correct: false },
-                    { text: "Guiones (-)", correct: false },
-                    { text: "Punto y coma (;)", correct: false },
+                    { text: "Llaves ( { } ).", correct: true },
+                    { text: "Tabulaciones.", correct: false },
+                    { text: "Guiones ( - ).", correct: false },
+                    { text: "Punto y coma ( ; ).", correct: false },
                   ],
                 },
                 {
                   id: 27,
                   text: "Sobre la instrucción if:",
                   answers: [
-                    { text: "Todos los if deben tener else.", correct: false },
                     {
-                      text: "Puede haber if sin else, pero los else deben tener if.",
+                      text: "Todos los if tienen que tener obligatoriamente un else y todos los else tienen que tener obligatoriamente un if.",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede haber if sin else, pero los else tienen que tener obligatoriamente un if.",
                       correct: true,
                     },
                     {
                       text: "Un if puede tener más de un else.",
                       correct: false,
                     },
-                    { text: "Ninguna es correcta.", correct: false },
+                    {
+                      text: "Ninguna de las afirmaciones es correctas.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 28,
                   text: "Sobre la instrucción while:",
                   answers: [
-                    { text: "Es equivalente a switch.", correct: false },
                     {
-                      text: "No puede contener condiciones múltiples.",
+                      text: "Es equivalente a la instrucción switch.",
                       correct: false,
                     },
                     {
-                      text: "Usa tabuladores como delimitadores.",
+                      text: "No puede contener condiciones múltiples, para eso deberemos usar obligatoriamente la instrucción do-while.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es el único caso en Java donde los delimitadores de su bloque son tabuladores.",
                       correct: false,
                     },
                     {
@@ -5828,7 +5849,7 @@ const TEST_DATA = {
                 },
                 {
                   id: 29,
-                  text: "¿Cuál de los siguientes operadores no puede usarse en una condición?",
+                  text: "¿Cuál de los siguientes operadores no puede usarse en la condición de una instrucción condicional o repetitiva?",
                   answers: [
                     { text: "=", correct: true },
                     { text: "!=", correct: false },
@@ -5841,16 +5862,19 @@ const TEST_DATA = {
                   text: "El operador lógico OR:",
                   answers: [
                     {
-                      text: "Devuelve verdadero solo si todas son verdaderas.",
+                      text: "Devolverá verdadero solo si todas las condiciones implicadas son verdaderas.",
                       correct: false,
                     },
-                    { text: "Devuelve falso si una es falsa.", correct: false },
                     {
-                      text: "Devuelve verdadero si al menos una es verdadera.",
+                      text: "Devolverá falso solo si una de las condiciones implicadas es falsa",
+                      correct: false,
+                    },
+                    {
+                      text: "Devolverá verdadero si al menos una de las condiciones implicadas es verdadera.",
                       correct: true,
                     },
                     {
-                      text: "Devuelve falso si al menos una es falsa.",
+                      text: "Devolverá falso si al menos una de las condiciones implicadas es falsa.",
                       correct: false,
                     },
                   ],
@@ -5863,7 +5887,7 @@ const TEST_DATA = {
                     { text: "Mejora la reutilización", correct: true },
                     { text: "Es poco recomendable", correct: false },
                     {
-                      text: "Es incompatible con lenguajes modernos",
+                      text: "Es incompatible con los lenguajes de programación modernos",
                       correct: false,
                     },
                   ],
@@ -5895,7 +5919,7 @@ const TEST_DATA = {
                   text: "Un procedimiento ________",
                   answers: [
                     {
-                      text: "Puede tener únicamente un parámetro",
+                      text: "Puede tener únicamente un parámetro de entrada",
                       correct: false,
                     },
                     {
@@ -5903,20 +5927,23 @@ const TEST_DATA = {
                       correct: true,
                     },
                     { text: "Carece de parámetros de salida", correct: false },
-                    { text: "Solo puede tener uno de salida", correct: false },
+                    {
+                      text: "Solo puede tener un parámetro de salida",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 34,
-                  text: "Una variable local puede usarse:",
+                  text: "Una variable local (declarada dentro de una función) puede usarse",
                   answers: [
                     { text: "En cualquier lugar del código", correct: false },
                     {
-                      text: "Solo en la función donde se declaró",
+                      text: "Solo en la función donde se ha declarado",
                       correct: true,
                     },
                     { text: "Solo dentro del main", correct: false },
-                    { text: "Ninguna es correcta", correct: false },
+                    { text: "Ninguna opción es correcta", correct: false },
                   ],
                 },
                 {
@@ -5924,15 +5951,18 @@ const TEST_DATA = {
                   text: "La visibilidad de las variables ________",
                   answers: [
                     {
-                      text: "También se aplica con programación modular",
+                      text: "También se aplica con la programación modular",
                       correct: true,
                     },
                     {
-                      text: "Deja de tener sentido con procedimientos",
+                      text: "Deja de tener sentido con la utilización de procedimientos",
                       correct: false,
                     },
                     { text: "Es igual en todas las funciones", correct: false },
-                    { text: "Ninguna es correcta", correct: false },
+                    {
+                      text: "Ninguna de las demás son correctas",
+                      correct: false,
+                    },
                   ],
                 },
                 {
@@ -5940,19 +5970,19 @@ const TEST_DATA = {
                   text: "Señala la opción correcta:",
                   answers: [
                     {
-                      text: "Las variables locales tienen alcance limitado al bloque.",
+                      text: "Las variables locales son declaradas dentro de un método, constructor o bloque, y tienen un alcance limitado a ese bloque.",
                       correct: true,
                     },
                     {
-                      text: "Las variables globales tienen alcance limitado.",
+                      text: "Las variables globales son declaradas dentro de un método, constructor o bloque, y tienen un alcance limitado a ese bloque.",
                       correct: false,
                     },
                     {
-                      text: "Las locales son accesibles desde todo el programa.",
+                      text: "Las variables locales son accesibles desde cualquier punto del programa y se pueden usar desde cualquier módulo o subprograma, ya que son declaradas desde el programa principal.",
                       correct: false,
                     },
                     {
-                      text: "Las globales solo existen en subprogramas.",
+                      text: "Las variables globales sólo existen en un ámbito determinado del programa, por ejemplo en un subprograma o en un bloque de sentencias.",
                       correct: false,
                     },
                   ],
@@ -5962,10 +5992,13 @@ const TEST_DATA = {
                   text: "Las variables globales ________",
                   answers: [
                     {
-                      text: "Solo son accedidas por funciones",
+                      text: "Solo son accedidas por las funciones",
                       correct: false,
                     },
-                    { text: "Solo por procedimientos", correct: false },
+                    {
+                      text: "Solo son accedidas por los procedimientos",
+                      correct: false,
+                    },
                     { text: "Son altamente recomendables", correct: false },
                     { text: "Dificultan el diseño del código", correct: true },
                   ],
@@ -5980,15 +6013,15 @@ const TEST_DATA = {
                     },
                     { text: "Carecen de salida de datos", correct: false },
                     {
-                      text: "Son menos potentes que procedimientos",
+                      text: "Son menos potentes que los procedimientos",
                       correct: false,
                     },
-                    { text: "Solo reciben enteros", correct: false },
+                    { text: "Solo reciben parámetros enteros", correct: false },
                   ],
                 },
                 {
                   id: 39,
-                  text: "Paso de parámetros en Java al pasar un objeto:",
+                  text: "¿Qué tipo de paso de parámetros se utiliza en Java cuando se pasa un objeto como argumento a un método?",
                   answers: [
                     { text: "Por valor", correct: false },
                     { text: "Por referencia", correct: true },
@@ -6000,51 +6033,84 @@ const TEST_DATA = {
                   id: 40,
                   text: "Los procedimientos ________",
                   answers: [
-                    { text: "Carecen de sentencias", correct: false },
+                    {
+                      text: "Carecen de sentencias en su interior",
+                      correct: false,
+                    },
                     { text: "Solo pueden declarar variables", correct: false },
                     { text: "Permiten reutilizar código", correct: true },
-                    { text: "Están limitados por el lenguaje", correct: false },
+                    {
+                      text: "Están limitados por los lenguajes de programación",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 41,
                   text: "La recursividad ________",
                   answers: [
-                    { text: "Permite la sobrecarga", correct: false },
-                    { text: "Se invoca desde su propio bloque", correct: true },
-                    { text: "Solo usa if", correct: false },
-                    { text: "Genera bucle infinito", correct: false },
+                    {
+                      text: "Es aquella cuyo nombre permite la sobrecarga y además realiza alguna comprobación mediante if",
+                      correct: false,
+                    },
+                    {
+                      text: "Es aquella que se invoca desde dentro de su propio bloque de instrucciones",
+                      correct: true,
+                    },
+                    {
+                      text: "Es aquella cuyo bloque de instrucciones utiliza alguna sentencia if (lo que llamamos caso base)",
+                      correct: false,
+                    },
+                    {
+                      text: "Es aquella que genera un bucle infinito",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 42,
                   text: "En la recursividad, el caso base ________",
                   answers: [
-                    { text: "Permite continuar", correct: false },
+                    {
+                      text: "Permite continuar con el proceso recursivo",
+                      correct: false,
+                    },
                     { text: "Es opcional", correct: false },
                     { text: "Siempre es único", correct: false },
-                    { text: "Permite parar el proceso", correct: true },
+                    {
+                      text: "Permite parar el proceso recursivo",
+                      correct: true,
+                    },
                   ],
                 },
                 {
                   id: 43,
                   text: "El proceso de recursión ________",
                   answers: [
-                    { text: "Tiene un único nivel", correct: false },
-                    { text: "Permite parar el flujo", correct: false },
+                    { text: "Siempre posee un único nivel", correct: false },
+                    {
+                      text: "Permite parar el flujo de ejecución",
+                      correct: false,
+                    },
                     { text: "Puede incluir diferentes niveles", correct: true },
-                    { text: "Ninguna es correcta", correct: false },
+                    { text: "Ninguna de las anteriores", correct: false },
                   ],
                 },
                 {
                   id: 44,
                   text: "Al utilizar la recursividad ________",
                   answers: [
-                    { text: "Siempre hay bucle infinito", correct: false },
-                    { text: "Se puede omitir el caso base", correct: false },
-                    { text: "Siempre mejora el rendimiento", correct: false },
                     {
-                      text: "Puede producir desbordamiento de pila",
+                      text: "Siempre se produce un bucle infinito",
+                      correct: false,
+                    },
+                    { text: "Se puede omitir el caso base", correct: false },
+                    {
+                      text: "Siempre se mejora el rendimiento",
+                      correct: false,
+                    },
+                    {
+                      text: "Se puede producir un desbordamiento de pila",
                       correct: true,
                     },
                   ],
@@ -6053,9 +6119,15 @@ const TEST_DATA = {
                   id: 45,
                   text: "Las soluciones recursivas ________",
                   answers: [
-                    { text: "Usan estructuras iterativas", correct: false },
+                    {
+                      text: "Suelen utilizar estructuras iterativas",
+                      correct: false,
+                    },
                     { text: "Suelen ser más elegantes", correct: true },
-                    { text: "Siempre son más sencillas", correct: false },
+                    {
+                      text: "Siempre son más sencillas que las iterativas",
+                      correct: false,
+                    },
                     { text: "Nunca producen errores", correct: false },
                   ],
                 },
@@ -6063,34 +6135,61 @@ const TEST_DATA = {
                   id: 46,
                   text: "Desde el punto de vista de la eficiencia ________",
                   answers: [
-                    { text: "Pueden ser muy ineficientes", correct: true },
-                    { text: "Siempre son más eficientes", correct: false },
-                    { text: "Carecen de este criterio", correct: false },
-                    { text: "Ninguna es correcta", correct: false },
+                    {
+                      text: "Las soluciones recursivas pueden ser muy ineficientes",
+                      correct: true,
+                    },
+                    {
+                      text: "Las soluciones recursivas siempre son más eficientes que las iterativas",
+                      correct: false,
+                    },
+                    {
+                      text: "Las soluciones recursivas carecen de este criterio",
+                      correct: false,
+                    },
+                    { text: "Ninguna de las anteriores", correct: false },
                   ],
                 },
                 {
                   id: 47,
-                  text: "Para desarrollar soluciones recursivas ________",
+                  text: "Para el desarrollo de soluciones recursivas ________",
                   answers: [
-                    { text: "No depende del lenguaje", correct: false },
                     {
-                      text: "Cada lenguaje puede requerir características distintas",
+                      text: "Se pueden realizar independientemente del lenguaje de programación",
+                      correct: false,
+                    },
+                    {
+                      text: "Cada lenguaje de programación puede requerir unas características determinadas",
                       correct: true,
                     },
-                    { text: "Solo detectar el caso base", correct: false },
-                    { text: "Solo detectar el caso general", correct: false },
+                    {
+                      text: "Solo es necesario detectar el caso base",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo es necesario detectar el caso general",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 48,
                   text: "El cálculo del factorial ________",
                   answers: [
-                    { text: "Siempre es iterativo", correct: false },
-                    { text: "Siempre es recursivo", correct: false },
-                    { text: "Solo puede ser recursivo", correct: false },
                     {
-                      text: "Puede resolverse de forma más sencilla con recursividad",
+                      text: "Es una función siempre iterativa",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una función siempre recursiva",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una función que solo puede calcularse con recursividad",
+                      correct: false,
+                    },
+                    {
+                      text: "Es una función que se puede resolver con recursividad de una forma más sencilla",
                       correct: true,
                     },
                   ],
@@ -6100,13 +6199,19 @@ const TEST_DATA = {
                   text: "El desbordamiento de pila ________",
                   answers: [
                     {
-                      text: "Es un error típico de soluciones recursivas",
+                      text: "Es un error típico de las soluciones recursivas",
                       correct: true,
                     },
-                    { text: "Es típico de iterativas", correct: false },
-                    { text: "Depende del caso base", correct: false },
                     {
-                      text: "Es independiente de la recursión",
+                      text: "Es un error típico de las soluciones iterativas",
+                      correct: false,
+                    },
+                    {
+                      text: "Están relacionadas con el caso de recursión",
+                      correct: false,
+                    },
+                    {
+                      text: "Es independiente del tipo de recursión",
                       correct: false,
                     },
                   ],
@@ -6119,12 +6224,18 @@ const TEST_DATA = {
                       text: "Es incompatible con la iteración",
                       correct: false,
                     },
-                    { text: "Solo se usa con funciones", correct: false },
                     {
-                      text: "Se puede usar con funciones y procedimientos",
+                      text: "Solo se puede utilizar con funciones",
+                      correct: false,
+                    },
+                    {
+                      text: "Se puede utilizar con funciones y procedimientos",
                       correct: true,
                     },
-                    { text: "Solo se usa con procedimientos", correct: false },
+                    {
+                      text: "Solo se puede utilizar con procedimientos",
+                      correct: false,
+                    },
                   ],
                 },
                 {
@@ -6161,10 +6272,22 @@ const TEST_DATA = {
                   id: 54,
                   text: "¿Cuántos bucles for necesito para recorrer una matriz?",
                   answers: [
-                    { text: "Solo 1.", correct: false },
-                    { text: "2, filas y columnas.", correct: true },
-                    { text: "2, columnas y filas.", correct: false },
-                    { text: "3 bucles.", correct: false },
+                    {
+                      text: "Solo 1, ya que una matriz es como un array.",
+                      correct: false,
+                    },
+                    {
+                      text: "Necesitaremos 2, uno para recorrer las filas y otro para recorrer las columnas, en ese orden.",
+                      correct: true,
+                    },
+                    {
+                      text: "Necesitaremos 2, uno para recorrer las columnas y otro para recorrer las filas, en ese orden.",
+                      correct: false,
+                    },
+                    {
+                      text: "Necesitaremos 3, uno para recorrer las filas, otro para recorrer las columnas y otro para operar con los elementos.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
@@ -6181,15 +6304,24 @@ const TEST_DATA = {
                   id: 56,
                   text: "¿De qué tipo de datos se pueden declarar matrices?",
                   answers: [
-                    { text: "Solo numéricos.", correct: false },
-                    { text: "Solo primitivos.", correct: false },
-                    { text: "De cualquier tipo de dato.", correct: true },
-                    { text: "Solo objetos.", correct: false },
+                    {
+                      text: "Solo de datos de tipo numérico, enteros y reales, no tiene sentido declarar una matriz de otro tipo de datos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo de datos de tipo primitivo.",
+                      correct: false,
+                    },
+                    {
+                      text: "De cualquier tipo de dato, tanto primitivos como objetos.",
+                      correct: true,
+                    },
+                    { text: "Solo de objetos.", correct: false },
                   ],
                 },
                 {
                   id: 57,
-                  text: "¿Qué orden de eficiencia tiene la ordenación por burbuja?",
+                  text: "¿Qué orden de eficiencia tiene la ordenación por el método de la burbuja?",
                   answers: [
                     { text: "O(n)", correct: false },
                     { text: "O(n²)", correct: true },
@@ -6199,12 +6331,12 @@ const TEST_DATA = {
                 },
                 {
                   id: 58,
-                  text: "¿Qué operador se utiliza para acceder a un elemento de un array?",
+                  text: "¿Qué operador se utiliza para acceder a un elemento de una posición concreta en un array?",
                   answers: [
                     { text: "[ ]", correct: true },
                     { text: "( )", correct: false },
                     { text: "{ }", correct: false },
-                    { text: '" "', correct: false },
+                    { text: "“ ”", correct: false },
                   ],
                 },
                 {
@@ -6221,58 +6353,67 @@ const TEST_DATA = {
                   id: 60,
                   text: "¿Cómo puedo saber si dos String son iguales?",
                   answers: [
-                    { text: "Con equals()", correct: true },
-                    { text: "Con ==", correct: false },
-                    { text: "A y B son correctas.", correct: false },
-                    { text: "A y B son incorrectas.", correct: false },
+                    { text: "Con la función equals.", correct: true },
+                    { text: "Utilizando el operador ==.", correct: false },
+                    { text: "A y b son correctas.", correct: false },
+                    { text: "A y b son incorrectas.", correct: false },
                   ],
                 },
                 {
                   id: 61,
                   text: "POO significa:",
                   answers: [
-                    { text: "Programación de Objetos", correct: false },
+                    { text: "Programación De Objetos.", correct: false },
                     {
-                      text: "Programación de Distintos Objetos",
+                      text: "Programación de Distintos Objetos.",
                       correct: false,
                     },
-                    { text: "Programando Diferentes Objetos", correct: false },
-                    { text: "Programación Dirigida a Objetos", correct: true },
+                    { text: "Programando Diferentes Objetos.", correct: false },
+                    { text: "Programación Dirigida a Objetos.", correct: true },
                   ],
                 },
                 {
                   id: 62,
                   text: "En la programación dirigida a objetos el programa está compuesto por:",
                   answers: [
-                    { text: "Objetos", correct: true },
-                    { text: "Variables primitivas", correct: false },
-                    { text: "Objetos primitivos", correct: false },
-                    { text: "Variables constantes", correct: false },
+                    { text: "Objetos.", correct: true },
+                    { text: "Variables primitivas.", correct: false },
+                    { text: "Objetos primitivos.", correct: false },
+                    { text: "Variables constantes.", correct: false },
                   ],
                 },
                 {
                   id: 63,
                   text: "¿Cuántos atributos podemos definir en una clase?",
                   answers: [
-                    { text: "Todos los que necesitemos", correct: true },
-                    { text: "Solo 3 por tipo", correct: false },
-                    { text: "No pueden ser objetos", correct: false },
-                    { text: "Solo 3 objetos", correct: false },
+                    {
+                      text: "Todos los que necesitemos, independientemente del tipo de ellos.",
+                      correct: true,
+                    },
+                    { text: "Solo 3 por tipo.", correct: false },
+                    {
+                      text: "Todos los que necesitemos, pero no podrán ser otros objetos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Podremos definir todos los que queramos de tipos primitivos, pero solo 3 podrán ser de otros objetos.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 64,
                   text: "Una clase se compone de:",
                   answers: [
-                    { text: "Atributos y métodos", correct: true },
-                    { text: "Atributos constantes y métodos", correct: false },
-                    { text: "Atributos y objetos", correct: false },
-                    { text: "Bucles y métodos", correct: false },
+                    { text: "Atributos y métodos.", correct: true },
+                    { text: "Atributos constantes y métodos.", correct: false },
+                    { text: "Atributos y objetos.", correct: false },
+                    { text: "Bucles y métodos.", correct: false },
                   ],
                 },
                 {
                   id: 65,
-                  text: "La relación “tiene-un” o “parte-de” es:",
+                  text: "¿La relación cuyo predicado es: “tiene-un” o “parte-de” es del tipo?",
                   answers: [
                     { text: "Herencia", correct: false },
                     { text: "Dependencia", correct: false },
@@ -6284,10 +6425,19 @@ const TEST_DATA = {
                   id: 66,
                   text: "¿Para qué utilizamos Doxygen?",
                   answers: [
-                    { text: "Colorear código", correct: false },
-                    { text: "Compilar programas", correct: false },
-                    { text: "Mostrar errores", correct: false },
-                    { text: "Documentar código", correct: true },
+                    {
+                      text: "Para colorear el código de nuestro programa y poder entenderlo mejor.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es el encargado de compilar nuestros programas.",
+                      correct: false,
+                    },
+                    {
+                      text: "Es el encargado de mostrar en qué línea está los errores cuando estos ocurren.",
+                      correct: false,
+                    },
+                    { text: "Para documentar nuestro código.", correct: true },
                   ],
                 },
                 {
@@ -6295,45 +6445,66 @@ const TEST_DATA = {
                   text: "La programación dirigida a objetos mejora:",
                   answers: [
                     {
-                      text: "Programación orientada a eventos",
+                      text: "La programación orientada a eventos.",
                       correct: false,
                     },
-                    { text: "Programación estructural", correct: false },
-                    { text: "Programación estructurada", correct: true },
-                    { text: "Divide y vencerás", correct: false },
+                    { text: "La programación estructural.", correct: false },
+                    { text: "La programación estructurada.", correct: true },
+                    {
+                      text: "La técnica de divide y vencerás.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 68,
-                  text: "Diferencia entre variable y objeto:",
+                  text: "¿Cuál es la diferencia entre variable y objeto?",
                   answers: [
-                    { text: "Son lo mismo", correct: false },
-                    { text: "Variables instancian clases", correct: false },
+                    { text: "Son exactamente lo mismo.", correct: false },
                     {
-                      text: "Variables son primitivas, objetos instancian clases",
+                      text: "Las variables instancian una clase y los objetos son de tipo primitivo.",
+                      correct: false,
+                    },
+                    {
+                      text: "Las variables son de tipo primitivo y los objetos instancian una clase.",
                       correct: true,
                     },
-                    { text: "Variables siempre constantes", correct: false },
+                    {
+                      text: "Las variables siempre han de ser constantes y los objetos pueden ser tanto de tipo primitivo como instanciar una clase.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 69,
                   text: "¿Cómo debemos nombrar una clase?",
                   answers: [
-                    { text: "Siempre minúscula", correct: false },
-                    { text: "Empieza por número", correct: false },
-                    { text: "CamelCase con inicial mayúscula", correct: true },
-                    { text: "Todo mayúscula", correct: false },
+                    {
+                      text: "Todos los elementos que vayamos a usar, dando igual cuáles sean, se deben nombrar en minúscula obligatoriamente.",
+                      correct: false,
+                    },
+                    {
+                      text: "Deben empezar por un número obligatoriamente.",
+                      correct: false,
+                    },
+                    {
+                      text: "Se nombran igual que las variables, pero, como norma no obligatoria, deberían de empezar por una letra mayúscula.",
+                      correct: true,
+                    },
+                    {
+                      text: "Con todas las letras en mayúscula.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 70,
-                  text: "¿En cuántos tipos se clasifican las relaciones entre clases?",
+                  text: "¿En cuantos tipos podemos clasificar las relaciones entre clases?",
                   answers: [
                     { text: "1", correct: false },
                     { text: "2", correct: false },
-                    { text: "3", correct: true },
-                    { text: "4", correct: false },
+                    { text: "3", correct: false },
+                    { text: "4", correct: true },
                   ],
                 },
                 {
@@ -6343,7 +6514,7 @@ const TEST_DATA = {
                     { text: "1", correct: false },
                     { text: "2", correct: false },
                     { text: "3", correct: false },
-                    { text: "Todos los necesarios", correct: true },
+                    { text: "Todos los que necesitemos.", correct: true },
                   ],
                 },
                 {
@@ -6358,7 +6529,7 @@ const TEST_DATA = {
                 },
                 {
                   id: 73,
-                  text: "¿Qué etiqueta no pertenece a Doxygen en Java?",
+                  text: "¿Cuál de las siguientes etiquetas no pertenece a Doxygen en Java?",
                   answers: [
                     { text: "see", correct: false },
                     { text: "return", correct: false },
@@ -6368,71 +6539,110 @@ const TEST_DATA = {
                 },
                 {
                   id: 74,
-                  text: "¿Dónde se almacenan los programas para ejecutarse?",
+                  text: "¿Dónde se tienen que almacenar los programas para poder ejecutarse?",
                   answers: [
-                    { text: "En ningún sitio", correct: false },
-                    { text: "Disco duro", correct: false },
-                    { text: "Memoria RAM", correct: true },
-                    { text: "Tarjeta gráfica", correct: false },
+                    {
+                      text: "En ningún sitio, los programas simplemente se ejecutan.",
+                      correct: false,
+                    },
+                    { text: "En el disco duro.", correct: false },
+                    { text: "En memoria RAM.", correct: true },
+                    {
+                      text: "En la tarjeta gráfica para que se puedan mostrar por pantalla.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 75,
-                  text: "Según CamelCase, los métodos se nombran:",
+                  text: "Según la notación CamelCase, ¿cómo se han de nombrar los métodos?",
                   answers: [
-                    { text: "Todo minúscula", correct: false },
-                    { text: "Todo mayúscula", correct: false },
-                    { text: "Primera mayúscula", correct: false },
+                    { text: "Todo en minúscula.", correct: false },
+                    { text: "Todo en mayúscula.", correct: false },
                     {
-                      text: "Primera palabra minúscula, resto mayúscula",
+                      text: "La primera letra en mayúscula y las demás en minúscula de todas las palabras.",
+                      correct: false,
+                    },
+                    {
+                      text: "La primera palabra en minúscula y las demás con la primera letra en mayúscula y las demás en minúscula.",
                       correct: true,
                     },
                   ],
                 },
                 {
                   id: 76,
-                  text: "¿Cómo gestiona Java el paso de parámetros?",
+                  text: "¿Cómo gestiona Java el paso por valor y por referencia?",
                   answers: [
-                    { text: "Siempre por valor", correct: false },
+                    { text: "Siempre utiliza paso por valor.", correct: false },
                     {
-                      text: "Variables por valor, objetos por referencia",
+                      text: "Con las variables utiliza paso por valor y con los objetos paso por referencia.",
                       correct: true,
                     },
-                    { text: "Variables por referencia", correct: false },
-                    { text: "Siempre por referencia", correct: false },
+                    {
+                      text: "Con las variables utiliza paso por referencia y con los objetos paso por valor.",
+                      correct: false,
+                    },
+                    {
+                      text: "Siempre utiliza paso por referencia.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 77,
-                  text: "¿Podemos llamar métodos dentro de otros métodos?",
+                  text: "Cuando estamos haciendo un método, ¿podemos llamar a otro método dentro de él?",
                   answers: [
-                    { text: "Solo funciones", correct: false },
-                    { text: "Sí, todos los necesarios", correct: true },
-                    { text: "No", correct: false },
-                    { text: "Solo toString", correct: false },
+                    {
+                      text: "Si, pero solo cuando se trata de funciones, ya que al devolver un valor nos permiten llamar a otro método.",
+                      correct: false,
+                    },
+                    {
+                      text: "Si, podemos llamar a todos los métodos que necesitemos en la realización de otro método.",
+                      correct: true,
+                    },
+                    { text: "No.", correct: false },
+                    {
+                      text: "Si, pero solo cuando estamos haciendo el método toString de una clase.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 78,
                   text: "En Doxygen @param sirve para:",
                   answers: [
-                    { text: "Documentar autor", correct: false },
-                    { text: "Documentar parámetro", correct: true },
-                    { text: "Documentar retorno", correct: false },
-                    { text: "Documentar método", correct: false },
+                    {
+                      text: "Documentar el autor de una clase.",
+                      correct: false,
+                    },
+                    {
+                      text: "Documentar un parámetro de un método.",
+                      correct: true,
+                    },
+                    {
+                      text: "Documentar el dato que devuelve un método.",
+                      correct: false,
+                    },
+                    { text: "Documentar qué hace un método.", correct: false },
                   ],
                 },
                 {
                   id: 79,
-                  text: "¿Qué se guarda en la memoria de un objeto?",
+                  text: "¿Qué se guarda en la zona de memoria de un objeto?",
                   answers: [
-                    { text: "Variables y código", correct: true },
-                    { text: "Variables, código y llamadas", correct: false },
+                    { text: "Las variables y el código.", correct: true },
                     {
-                      text: "Variables, llamadas, código y globales",
+                      text: "Las variables, el código y las llamadas.",
                       correct: false,
                     },
-                    { text: "Variables, código y globales", correct: false },
+                    {
+                      text: "Las variables, las llamadas, el código y los datos globales.",
+                      correct: false,
+                    },
+                    {
+                      text: "Las variables, el código y los datos globales.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
@@ -6440,226 +6650,427 @@ const TEST_DATA = {
                   text: "Indica la frase incorrecta:",
                   answers: [
                     {
-                      text: "Organizamos el código en objetos",
+                      text: "Al programar, organizamos el código en torno a objetos, que son representaciones de cosas del mundo real",
                       correct: false,
                     },
                     {
-                      text: "Cambios en objetos afectan a funciones",
+                      text: "Los cambios efectuados a un objeto afectan a las funciones definidas en la clase.",
                       correct: true,
                     },
-                    { text: "Java es multiplataforma", correct: false },
                     {
-                      text: "Datos y funciones están en objetos",
+                      text: "Java es un lenguaje multiplataforma.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los datos junto a las funciones son parte interna de los objetos.",
                       correct: false,
                     },
                   ],
                 },
                 {
                   id: 81,
-                  text: "Los objetos se comunican mediante:",
+                  text: "Los objetos se comunican entre si mediante:",
                   answers: [
-                    { text: "Mensajes", correct: true },
-                    { text: "Señales de humo", correct: false },
-                    { text: "Código binario", correct: false },
-                    { text: "Hexadecimal", correct: false },
+                    { text: "Mensajes.", correct: true },
+                    { text: "Señales de humo.", correct: false },
+                    { text: "Código binario.", correct: false },
+                    {
+                      text: "Mensajes cifrados en hexadecimal.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 82,
-                  text: "Para mostrar un objeto por pantalla:",
+                  text: "Para mostrar la información de un objeto por pantalla:",
                   answers: [
-                    { text: "get o toString", correct: true },
-                    { text: "Solo toString", correct: false },
-                    { text: "Solo get", correct: false },
-                    { text: "No se puede", correct: false },
+                    {
+                      text: "Puedo utilizar los métodos get o escribir su método toString para mostrarlo directamente.",
+                      correct: true,
+                    },
+                    {
+                      text: "Si no se escribe el método toString no se puede mostrar la información del objeto.",
+                      correct: false,
+                    },
+                    {
+                      text: "Solo se podrá mostrar su información mediante los métodos get.",
+                      correct: false,
+                    },
+                    {
+                      text: "No se puede mostrar la información de un objeto por pantalla.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 83,
                   text: "Desde un método estático puedo llamar:",
                   answers: [
-                    { text: "Métodos de objeto", correct: false },
-                    { text: "Otros métodos estáticos", correct: true },
-                    { text: "A ninguno", correct: false },
-                    { text: "A ambos", correct: false },
+                    { text: "A un método de un objeto.", correct: false },
+                    { text: "A otros métodos estáticos.", correct: true },
+                    {
+                      text: "Los métodos estáticos no permiten llamar a otros métodos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Tanto a otros métodos estáticos como a métodos de objetos.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 84,
-                  text: "Método para modificar un atributo:",
+                  text: "¿Cuál es el método que permite modificar el valor de un atributo de una clase?",
                   answers: [
-                    { text: "set", correct: true },
-                    { text: "get", correct: false },
-                    { text: "Constructor", correct: false },
-                    { text: "toString", correct: false },
+                    { text: "Método set.", correct: true },
+                    { text: "Método get.", correct: false },
+                    { text: "Constructor con parámetros.", correct: false },
+                    { text: "Método toString.", correct: false },
                   ],
                 },
                 {
                   id: 85,
                   text: "El constructor de copia:",
                   answers: [
-                    { text: "Inicializa por defecto", correct: false },
-                    { text: "Inicializa por parámetro", correct: false },
-                    { text: "Copia valores de otro objeto", correct: true },
-                    { text: "Es híbrido", correct: false },
+                    {
+                      text: "Permite inicializar las variables de un objeto a un valor por defecto.",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite inicializar las variables de un objeto a un valor pasado por parámetro.",
+                      correct: false,
+                    },
+                    {
+                      text: "Permite inicializar las variables de un objeto al mismo valor que las de otro objeto de su mismo tipo.",
+                      correct: true,
+                    },
+                    {
+                      text: "Es un híbrido entre el constructor por defecto y el constructor de copia.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 86,
-                  text: "¿Puedo definir constructor de copia?",
+                  text: "¿Si defino en una clase dos constructores con parámetros, puedo definir además un constructor de copia?",
                   answers: [
-                    { text: "Sí", correct: true },
-                    { text: "No", correct: false },
+                    { text: "Si, no hay problema.", correct: true },
                     {
-                      text: "Solo con constructor por defecto",
+                      text: "No, ya que no se pueden definir más de un constructor con parámetros.",
                       correct: false,
                     },
-                    { text: "Con nombre distinto", correct: false },
+                    {
+                      text: "Si, siempre y cuando se defina también el constructor por defecto.",
+                      correct: false,
+                    },
+                    {
+                      text: "Si, siempre y cuando el constructor de copia no se llame igual que los constructores con parámetros.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 87,
                   text: "Los paquetes sirven para:",
                   answers: [
-                    { text: "Organizar código", correct: true },
-                    { text: "Guardar imágenes", correct: false },
-                    { text: "No se usan", correct: false },
-                    { text: "Limitar herencia", correct: false },
+                    {
+                      text: "Ordenar nuestro código en “carpetas” que contengan clases con la misma funcionalidad.",
+                      correct: true,
+                    },
+                    {
+                      text: "Su única funcionalidad es la de almacenar imágenes.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los paquetes no suelen utilizarse, ya que contribuyen a que él código resultante sea mucho más complejo.",
+                      correct: false,
+                    },
+                    {
+                      text: "Una clase solo podrá heredar de otra siempre que estén en el mismo paquete.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 88,
                   text: "Para crear una biblioteca en NetBeans:",
                   answers: [
-                    { text: "Instalar plugin", correct: false },
-                    { text: "Automático al compilar", correct: false },
-                    { text: "No se puede", correct: false },
-                    { text: "Proyecto Java Class Library", correct: true },
+                    {
+                      text: "Hay que instalarle el plugin MasterOfLibraries.",
+                      correct: false,
+                    },
+                    {
+                      text: "Cada vez que compilemos nuestro proyecto, si NetBeans detecta que hay un paquete, creará automáticamente una biblioteca con las clases de dicho paquete.",
+                      correct: false,
+                    },
+                    {
+                      text: "Las bibliotecas no se pueden crean en NetBeans, necesitamos hacerlo en consola mediante comandos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Hay que crear un nuevo proyecto del tipo Java Class Library.",
+                      correct: true,
+                    },
                   ],
                 },
                 {
                   id: 89,
-                  text: "¿Cuál NO es un pilar de la POO?",
+                  text: "¿Cuál de los siguientes no es un pilar de la programación dirigida a objetos?",
                   answers: [
-                    { text: "Herencia", correct: false },
-                    { text: "Encapsulación", correct: false },
-                    { text: "Ámbito de visibilidad", correct: true },
-                    { text: "Polimorfismo", correct: false },
+                    { text: "Herencia.", correct: false },
+                    { text: "Encapsulación.", correct: false },
+                    { text: "Ámbito de visibilidad.", correct: true },
+                    { text: "Polimorfismo.", correct: false },
                   ],
                 },
                 {
                   id: 90,
                   text: "Los métodos get y set:",
                   answers: [
-                    { text: "Son obligatorios", correct: false },
                     {
-                      text: "No obligatorios pero recomendables",
+                      text: "Son obligatorios en todas las clases que hagamos.",
+                      correct: false,
+                    },
+                    {
+                      text: "No son obligatorios, pero son recomendables si queremos poder acceder y modificar el valor de los atributos de nuestros objetos.",
                       correct: true,
                     },
-                    { text: "Solo con constructor", correct: false },
-                    { text: "Solo get obligatorio", correct: false },
+                    {
+                      text: "Hay que hacerlos solo cuando hacemos el constructor con parámetros.",
+                      correct: false,
+                    },
+                    {
+                      text: "Los métodos get son obligatorios, pero son los métodos set no.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 91,
-                  text: "¿Qué tipo de herencia se usa en Java?",
+                  text: "La herencia permite:",
                   answers: [
-                    { text: "Herencia simple", correct: true },
-                    { text: "Herencia múltiple", correct: false },
-                    { text: "Composición", correct: false },
-                    { text: "Agregación", correct: false },
+                    {
+                      text: "Reutilizar código creando nuevas clases a partir de otras existentes.",
+                      correct: true,
+                    },
+                    {
+                      text: "Eliminar completamente el código de la clase padre.",
+                      correct: false,
+                    },
+                    { text: "Evitar el uso de métodos.", correct: false },
+                    {
+                      text: "Crear únicamente objetos estáticos.",
+                      correct: false,
+                    },
                   ],
                 },
                 {
                   id: 92,
-                  text: "Al heredar, ¿puedo acceder a la parte privada?",
+                  text: "En Java, la palabra clave utilizada para heredar de otra clase es:",
                   answers: [
-                    { text: "Sí", correct: false },
-                    { text: "No", correct: false },
-                    { text: "Indicando al compilador", correct: false },
-                    { text: "Con método puente", correct: true },
+                    { text: "implements", correct: false },
+                    { text: "inherits", correct: false },
+                    { text: "extends", correct: true },
+                    { text: "super", correct: false },
                   ],
                 },
                 {
                   id: 93,
-                  text: "Palabra reservada para herencia:",
+                  text: "Una subclase:",
                   answers: [
-                    { text: "Herency", correct: false },
-                    { text: "extends", correct: true },
-                    { text: "implements", correct: false },
-                    { text: ":", correct: false },
+                    {
+                      text: "No puede acceder a ningún atributo de la superclase.",
+                      correct: false,
+                    },
+                    {
+                      text: "Puede heredar atributos y métodos de la superclase.",
+                      correct: true,
+                    },
+                    {
+                      text: "Debe redefinir todos los métodos obligatoriamente.",
+                      correct: false,
+                    },
+                    { text: "No puede añadir nuevos métodos.", correct: false },
                   ],
                 },
                 {
                   id: 94,
-                  text: "¿Cuándo usar super en constructores?",
+                  text: "El polimorfismo permite:",
                   answers: [
-                    { text: "Después de inicializar", correct: false },
-                    { text: "Primera línea obligatoria", correct: true },
-                    { text: "Solo con parámetros", correct: false },
-                    { text: "No es necesario", correct: false },
+                    {
+                      text: "Que un objeto tenga varios constructores.",
+                      correct: false,
+                    },
+                    {
+                      text: "Que diferentes objetos respondan de distinta forma al mismo método.",
+                      correct: true,
+                    },
+                    {
+                      text: "Que una clase tenga muchos atributos.",
+                      correct: false,
+                    },
+                    { text: "Evitar la herencia.", correct: false },
                   ],
                 },
                 {
                   id: 95,
-                  text: "¿Se puede heredar de una clase heredada?",
+                  text: "¿Qué palabra clave se utiliza para acceder a la clase padre?",
                   answers: [
-                    { text: "Sí", correct: true },
-                    { text: "No", correct: false },
-                    { text: "Solo sin atributos", correct: false },
-                    { text: "No se permite herencia", correct: false },
+                    { text: "this", correct: false },
+                    { text: "extends", correct: false },
+                    { text: "parent", correct: false },
+                    { text: "super", correct: true },
                   ],
                 },
                 {
                   id: 96,
-                  text: "Notación para sobreescribir métodos:",
+                  text: "La sobrecarga de métodos (overloading) ocurre cuando:",
                   answers: [
-                    { text: "Ninguna", correct: false },
-                    { text: "@overrided", correct: false },
-                    { text: "@sobreescrito", correct: false },
-                    { text: "@Override", correct: true },
+                    {
+                      text: "Dos métodos tienen el mismo nombre y distintos parámetros.",
+                      correct: true,
+                    },
+                    {
+                      text: "Dos métodos tienen distinto nombre y mismo código.",
+                      correct: false,
+                    },
+                    {
+                      text: "Un método se ejecuta más de una vez.",
+                      correct: false,
+                    },
+                    { text: "Un método es privado.", correct: false },
                   ],
                 },
                 {
                   id: 97,
-                  text: "La herencia múltiple:",
+                  text: "La sobrescritura de métodos (overriding) requiere:",
                   answers: [
-                    { text: "Está en todos los lenguajes", correct: false },
-                    { text: "Puede causar ambigüedades", correct: true },
-                    { text: "Solo Python", correct: false },
-                    { text: "No existe", correct: false },
+                    {
+                      text: "Mismo nombre y mismos parámetros que el método de la superclase.",
+                      correct: true,
+                    },
+                    {
+                      text: "Distinto nombre y distintos parámetros.",
+                      correct: false,
+                    },
+                    { text: "Que el método sea estático.", correct: false },
+                    { text: "Que el método sea privado.", correct: false },
                   ],
                 },
                 {
                   id: 98,
-                  text: "Todas las clases heredan de:",
+                  text: "Si un método se declara como final:",
                   answers: [
-                    { text: "Object", correct: true },
-                    { text: "String", correct: false },
-                    { text: "Ninguna", correct: false },
-                    { text: "Integer", correct: false },
+                    {
+                      text: "Puede ser sobrescrito por las subclases.",
+                      correct: false,
+                    },
+                    { text: "No puede ser sobrescrito.", correct: true },
+                    { text: "Debe ser estático.", correct: false },
+                    { text: "Debe ser público.", correct: false },
                   ],
                 },
                 {
                   id: 99,
-                  text: "Clase de la que se hereda:",
+                  text: "Una clase abstracta:",
                   answers: [
-                    { text: "Hermana", correct: false },
-                    { text: "Abuelo", correct: false },
-                    { text: "Padre", correct: true },
-                    { text: "Hija", correct: false },
+                    { text: "No puede tener métodos.", correct: false },
+                    {
+                      text: "No puede instanciarse directamente.",
+                      correct: true,
+                    },
+                    {
+                      text: "Debe contener solo métodos abstractos.",
+                      correct: false,
+                    },
+                    { text: "Es lo mismo que una interfaz.", correct: false },
                   ],
                 },
                 {
                   id: 100,
-                  text: "El polimorfismo en Java:",
+                  text: "Un método abstracto:",
                   answers: [
-                    { text: "Tres clases", correct: false },
-                    { text: "Estático con cualquier tipo", correct: false },
-                    { text: "Dinámico define tipo antes", correct: false },
-                    { text: "Objetos con raíz común", correct: true },
+                    {
+                      text: "Tiene implementación obligatoria.",
+                      correct: false,
+                    },
+                    {
+                      text: "No tiene implementación y debe definirse en la subclase.",
+                      correct: true,
+                    },
+                    { text: "Debe ser privado.", correct: false },
+                    { text: "Debe ser estático.", correct: false },
                   ],
                 },
+                {
+                  id: 101,
+                  text: "Una interfaz en Java:",
+                  answers: [
+                    {
+                      text: "Puede contener únicamente atributos privados.",
+                      correct: false,
+                    },
+                    {
+                      text: "Define un conjunto de métodos que una clase debe implementar.",
+                      correct: true,
+                    },
+                    { text: "Es igual que una clase normal.", correct: false },
+                    { text: "No puede contener métodos.", correct: false },
+                  ],
+                },
+                {
+                  id: 102,
+                  text: "Para implementar una interfaz se utiliza la palabra clave:",
+                  answers: [
+                    { text: "extends", correct: false },
+                    { text: "inherits", correct: false },
+                    { text: "implements", correct: true },
+                    { text: "super", correct: false },
+                  ],
+                },
+                {
+                  id: 103,
+                  text: "Java permite herencia múltiple de:",
+                  answers: [
+                    { text: "Clases.", correct: false },
+                    { text: "Interfaces.", correct: true },
+                    { text: "Clases abstractas únicamente.", correct: false },
+                    { text: "Constructores.", correct: false },
+                  ],
+                },
+                {
+                  id: 104,
+                  text: "El encapsulamiento consiste en:",
+                  answers: [
+                    {
+                      text: "Hacer todos los atributos públicos.",
+                      correct: false,
+                    },
+                    {
+                      text: "Proteger los datos restringiendo el acceso directo mediante modificadores y métodos.",
+                      correct: true,
+                    },
+                    {
+                      text: "Eliminar los métodos de una clase.",
+                      correct: false,
+                    },
+                    {
+                      text: "Permitir acceso global a todo el programa.",
+                      correct: false,
+                    },
+                  ],
+                },
+                {
+                  id: 105,
+                  text: "¿Qué modificador de acceso impide el acceso desde otras clases?",
+                  answers: [
+                    { text: "public", correct: false },
+                    { text: "protected", correct: false },
+                    { text: "private", correct: true },
+                    { text: "static", correct: false },
+                  ],
+                },
+
                 {
                   id: 251,
                   text: "Al hablar de hardware y software, ¿cuál de ellos ha tenido tradicionalmente más importancia?",

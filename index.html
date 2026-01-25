@@ -373,8 +373,8 @@ function gradeTest() {
 
   const total = selected.length;
   const wrong = total - correct;
-
-  saveResult(correct, total);
+  const sid= document.getElementById("subjectChosen")
+  saveResult(correct, total, sid.value);
   showResults();
 
   document.getElementById('modalScore').textContent = `${correct} / ${total}`;
@@ -389,13 +389,14 @@ function gradeTest() {
 
 
 
-function saveResult(score, total) {
+function saveResult(score, total, subjectId) {
   const results = JSON.parse(localStorage.getItem('testResults')) || [];
 
   results.push({
     date: new Date().toLocaleString(),
     score,
-    total
+    total,
+    subjectId
   });
 
   localStorage.setItem('testResults', JSON.stringify(results));
@@ -408,7 +409,7 @@ function showResults() {
   results.forEach(r => {
     const li = document.createElement('li');
     li.className = 'list-group-item';
-    li.textContent = `${r.date} — ${r.score}/${r.total}`;
+    li.textContent = `${r.date} — ${r.score}/${r.total} — ${r.subjectId} `;
     list.appendChild(li);
   });
 }

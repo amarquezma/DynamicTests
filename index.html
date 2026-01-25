@@ -37,6 +37,11 @@
   border-radius: 0.25rem;
   padding: 0.25rem 0.5rem;
 }
+.results-scroll {
+  max-height: 300px;   /* change to whatever height you want */
+  overflow-y: auto;
+}
+
 </style>
 
   </style>
@@ -105,8 +110,9 @@
 
           <div class="mt-5">
             <h4>Past Results</h4>
-            <ul id="resultsList" class="list-group"></ul>
+            <ul id="resultsList" class="list-group results-scroll"></ul>
           </div>
+
 
 
           <!-- Create Test Tab -->
